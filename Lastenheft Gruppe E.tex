@@ -1,0 +1,197 @@
+\documentclass[a4paper,12pt,oneside]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+
+\title{Gruppe E Lastenheft}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Auftraggeber}
+Eine Gruppe von vier Master-Studenten der FH Aachen aus dem Studiengang „Information System Engineering“ ist Auftraggeber der Software „NAME“. 
+
+
+\section{Zeit- und Budgetrahmen}
+[TODO: ECTS Rechnung]
+Das erste Gespräch mit dem Kunden hat am 21.10.2015 stattgefunden. Die erste Release-Version soll am [DATUM] dem Kunden vorliegen. Die finale Version muss am 21.01.2016 vorliegen und dem Kunden präsentiert werden.
+
+
+\section{Zielbestimmung}
+\subsection{Zweck}
+Die Software „NAME“ soll das Verkaufen von Produkten und Anbieten von Dienstleitungen erleichtern.
+
+\subsection{Nutzen}
+
+
+
+\section{Produckteinsatz}
+\subsection{Anwendungsbereich}
+Der Benutzer muss die Software starten können. Nach Starten der Software muss dem Benutzer die Startseite mit einem Artikel angezeigt werden. Die Startseite muss dem Benutzer einen Artikel anzeigen mit einem Bild des Artikels und dem Artikelnamen. Die Startseite muss ein Menü zur Verfügung stellen, über welches sich der Benutzer einloggen oder registrieren kann. Der Benutzer muss die Möglichkeit besitzen, sein Passwort zurückzusetzen. 
+Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filterungsfunktion der Artikel benutzen können. Der Benutzer muss eine Detailansicht des Artikel aufrufen können, welche weitere Bilder des Artikels anzeigt, den Preis des Artikels, die Entfernung zum Artikel und eine Artikelbeschreibung in Form eines Textes. Eingeloggte Benutzer müssen in der Detailansicht für einen Artikel dem Verkäufer ihr Interesse mitteilen können. Eingeloggte Benutzer müssen neue Artikel einstellen können.
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Diagramme/Use-Case_Diagramm_Anwendungsbereich}
+\caption{Use-Case Diagramm Anwendugsbereiche}
+\end{figure}
+\FloatBarrier
+
+\subsection{Zielgruppe und Anwender}
+Die Software „NAME“ richtet sich an Menschen, die auf schnelle und unkomplizierte Weise Produkte und Dienstleistungen erwerben möchten. Bei bekannten Verkaufsplattformen im Internet ist das Stöbern oft sehr unübersichtlich. Die Software „NAME“ hingegen überzeugt durch ein besonders simples Bedienkonzept und ist somit für alle Personen, die gerne online einkaufen, geeignet.
+
+\subsection{IST-Prozesse}
+
+\subsection{Unterstützte SOLL-Prozesse}
+Die Software muss folgende Funktionen zur Verfügung stellen:
+\begin{itemize}
+	\item Registrierung und Benutzerlogin
+	\item Für eingeloggte Benutzer:
+	\begin{enumerate}
+		\item Verwaltung des Profils
+		\item Erstellen neuer Anzeigen
+		\item Artikel einer Anzeige in den Einkaufswagen legen
+	\end{enumerate}
+	\item Für eingeloggte und nicht eingeloggte Benutzer:
+	\begin{enumerate}
+		\item Filterung der Anzeigen nach Stichwort und Standort
+		\item Aufrufen der Detailansicht einer Anzeige
+	\end{enumerate}
+	\item Premiumverkäufer, dessen Artikel priorisiert behandelt werden
+\end{itemize}
+
+
+\section{Produktfunktionen}
+\subsection{Alle Funktionen, Eingabe/Ausgabe, beschrieben aus Anwendersicht}
+
+\subsubsection*{Anmerkung:}
+Einige Buttons können je nach Implementation für ein bestimmtes Betriebssystem wegfallen und durch Swipe-Gesten ersetzt werden. Die Funktionalität muss jedoch erhalten bleiben.
+
+\subsubsection{Aktivität u00 - Starten der Software}
+Während des Startvorgangs muss dem Benutzer eine Warteanzeige angezeigt werden. Sollte der Start nicht erfolgreich verlaufen, muss dem Benutzer eine Fehlermeldung angezeigt werden. Ist der Start hingegen erfolgreich, muss dem Benutzer die Hauptseite angezeigt werden.
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Diagramme/Starten_der_Software}
+\caption{Starten der Software}
+\end{figure}
+\FloatBarrier
+
+\hypertarget{u01}{\subsubsection{Aktivität u01 – Startbildschirm}}
+Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. Auf der Startseite müssen folgende Informationen angezeigt werden:
+\begin{itemize}
+	\item Ein Artikel mit einem Foto und dem Artikelnamen, der aus maximal 100 Zeichen bestehen darf
+	\item Ein Button, der einen Artikel ablehnt und somit Desinteresse zeigt
+	\item Ein Button, der zu der Detailansicht des angezeigten Artikels führt
+	\item Ein Button, der ein Hauptmenü anzeigt
+\end{itemize}
+Das Hauptmenü muss folgende Menüpunkte beinhalten:
+\begin{itemize}
+	\item Startbildschirm
+	\item Einloggen
+	\item Registrieren
+	\item Einstellungen:
+	\begin{itemize}
+		\item Passwort des Benutzers ändern
+		\item Filterung
+	\end{itemize}
+	\item Artikel einstellen
+	\item Ausloggen
+\end{itemize}
+
+Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button für die Detailansicht eines Artikels muss sich unten links befinden. Buttons können durch Swipe-Gesten ersetzt werden (siehe Anmerkung).
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Diagramme/Startbildschirm}
+\caption{Startbildschirm}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Aktivität u02 – Einloggen}
+Über den Menübutton muss der Benutzer die Möglichkeit haben, auf einen Eintrag „Einloggen“ klicken zu können. Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss. Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können. Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet. Gibt der Benutzer eine falsche E-Mail-Adresse oder ein falsches Passwort zu einer korrekten E-Mail-Adresse ein, so muss ihm eine Fehlermeldung angezeigt werden. Hat der Benutzer seine Daten korrekt eingegeben und auf den Button „Einloggen“ geklickt, so muss er zurückgeleitet werden auf die Seite, von der aus der die Einloggen-Aktivität gestartet hat.
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Diagramme/Einloggen}
+\caption{Einloggen}
+\end{figure}
+\FloatBarrier
+
+
+\subsubsection{Aktivität u03 – Registrierung}
+Über den Menübutton muss der Benutzer die Möglichkeit haben, einen Eintrag „Registrieren“ auszuwählen. Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss. Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss. Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist und ob der Benutzer das Passwort zweimal identisch eingegeben hat. Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend muss der Benutzer zurückgeleitet werden auf die Seite, von der aus er „Registrieren“ ausgewählt hat. Außerdem muss der registrierte Benutzer nun auch eingeloggt sein. Sollten die Daten nicht korrekt sein, so muss dem Benutzer eine Fehlermeldung angezeigt werden, welche genau angibt, welche Daten nicht korrekt sind.
+
+Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
+\begin{itemize}
+	\item Name
+	\item Vorname
+	\item Adresse (Straße, Postleitzahl, Stadt, Land)
+	\item E-Mail-Adresse
+	\item Passwort (muss in zwei Felder eingegeben werden zur Überprüfung)
+\end{itemize}
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Diagramme/Registrierung}
+\caption{Registrierung}
+\end{figure}
+\FloatBarrier
+Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
+
+
+\subsubsection{Aktivität u04 – Artikel ablehnen}
+Der Benutzer muss auf dem Startbildschirm und in der Detailansicht einen Artikel ablehnen können, der ihm nicht gefällt. Dieser Artikel darf dem Benutzer nicht wieder angezeigt werden.
+Siehe \hyperlink{u01}{Aktivität u01} und \hyperlink{u05}{Aktivität u05}.
+
+
+\hypertarget{u05}{\subsubsection{Aktivität u05 – Detailansicht}}
+In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
+\begin{itemize}
+	\item Artikelname (bis zu 100 Zeichen)
+	\item Artikelpreis
+	\item 1-3 Bilder des Artikels
+	\item Artikelbeschreibung (bis zu [X] Zeichen)
+	\item Entfernung vom Standpunkt des Benutzers zum Artikel
+\end{itemize}
+Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
+Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine Email geschickt wurde. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,
+keepaspectratio]{Diagramme/Detailansicht_eines_Artikels}
+\caption{Detailansicht eines Artikels}
+\end{figure}
+\FloatBarrier
+
+
+\subsection{Eingabe/Ausgabe detailliert}
+
+
+\section{Produktdaten}
+\subsection{Mengengerüst}
+\subsection{Vorgaben für Hardware, Software, Schnittstellen}
+
+
+
+\section{Produktleistungen}
+\subsection{Performance}
+
+
+\section{Qualitätsanforderungen}
+\subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
+
+
+
+\end{document}
