@@ -3,7 +3,14 @@
 \usepackage[ngerman]{babel}
 \usepackage{hyperref}
 \usepackage{graphicx}
+%\usepackage{pdfpages}
+\usepackage{emp}
+%\usepackage[shellescape,latex]{gmp}
+%\usempxclass{article}
+\usepackage{svg}
 \usepackage[section]{placeins}
+
+\setsvg{svgpath = svg/}
 
 \title{Gruppe E Lastenheft V0.1}
 
@@ -37,8 +44,7 @@ Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filteru
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,
-keepaspectratio]{Diagramme/Use-Case_Diagramm_Anwendungsbereich}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Anwendungsbereiche}
 \caption{Use-Case Diagramm Anwendugsbereiche}
 \end{figure}
 \FloatBarrier
@@ -79,11 +85,11 @@ Während des Startvorgangs muss dem Benutzer eine Warteanzeige angezeigt werden.
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,
-keepaspectratio]{Diagramme/Starten_der_Software}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u00}
 \caption{Starten der Software}
 \end{figure}
 \FloatBarrier
+
 
 \hypertarget{u01}{\subsubsection{Aktivität u01 – Startbildschirm}}
 Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. Auf der Startseite müssen folgende Informationen angezeigt werden:
@@ -111,8 +117,7 @@ Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Ar
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,
-keepaspectratio]{Diagramme/Startbildschirm}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u01}
 \caption{Startbildschirm}
 \end{figure}
 \FloatBarrier
@@ -122,8 +127,7 @@ keepaspectratio]{Diagramme/Startbildschirm}
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,
-keepaspectratio]{Diagramme/Einloggen}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u02}
 \caption{Einloggen}
 \end{figure}
 \FloatBarrier
@@ -143,8 +147,7 @@ Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,
-keepaspectratio]{Diagramme/Registrierung}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u03}
 \caption{Registrierung}
 \end{figure}
 \FloatBarrier
@@ -170,8 +173,14 @@ Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweise
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,
-keepaspectratio]{Diagramme/Detailansicht_eines_Artikels}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u04}
+\caption{Detailansicht eines Artikels}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
 \caption{Detailansicht eines Artikels}
 \end{figure}
 \FloatBarrier
