@@ -18,9 +18,13 @@
 Eine Gruppe von vier Master-Studenten der FH Aachen aus dem Studiengang „Information System Engineering“ ist Auftraggeber der Software „NAME“. 
 
 
+
+
 \section{Zeit- und Budgetrahmen}
 [TODO: ECTS Rechnung]
 Das erste Gespräch mit dem Kunden hat am 21.10.2015 stattgefunden. Die erste Release-Version soll am [DATUM] dem Kunden vorliegen. Die finale Version muss am 21.01.2016 vorliegen und dem Kunden präsentiert werden.
+
+
 
 
 \section{Zielbestimmung}
@@ -31,10 +35,11 @@ Die Software „NAME“ soll das Verkaufen von Produkten und Anbieten von Dienst
 
 
 
+
 \section{Produckteinsatz}
 \subsection{Anwendungsbereich}
 Der Benutzer muss die Software starten können. Nach Starten der Software muss dem Benutzer die Startseite mit einem Artikel angezeigt werden. Die Startseite muss dem Benutzer einen Artikel anzeigen mit einem Bild des Artikels und dem Artikelnamen. Die Startseite muss ein Menü zur Verfügung stellen, über welches sich der Benutzer einloggen oder registrieren kann. Der Benutzer muss die Möglichkeit besitzen, sein Passwort zurückzusetzen. 
-Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filterungsfunktion der Artikel benutzen können. Der Benutzer muss eine Detailansicht des Artikel aufrufen können, welche weitere Bilder des Artikels anzeigt, den Preis des Artikels, die Entfernung zum Artikel und eine Artikelbeschreibung in Form eines Textes. Eingeloggte Benutzer müssen in der Detailansicht für einen Artikel dem Verkäufer ihr Interesse mitteilen können. Eingeloggte Benutzer müssen neue Artikel einstellen können.
+Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filterungsfunktion der Artikel benutzen können. Der Benutzer muss eine Detailansicht des Artikel aufrufen können, welche weitere Bilder des Artikels anzeigt, den Preis des Artikels, die Entfernung zum Artikel und eine Artikelbeschreibung in Form eines Textes. Eingeloggte Benutzer müssen in der Detailansicht für einen Artikel dem Verkäufer ihr Interesse mitteilen können. Eingeloggte Benutzer müssen neue Artikel einstellen können. 
 
 \begin{figure}[!htbp]
 \centering
@@ -43,11 +48,14 @@ Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filteru
 \end{figure}
 \FloatBarrier
 
+
 \subsection{Zielgruppe und Anwender}
 Die Software „NAME“ richtet sich an Menschen, die auf schnelle und unkomplizierte Weise Produkte und Dienstleistungen erwerben möchten. Bei bekannten Verkaufsplattformen im Internet ist das Stöbern oft sehr unübersichtlich. Die Software „NAME“ hingegen überzeugt durch ein besonders simples Bedienkonzept und ist somit für alle Personen, die gerne online einkaufen, geeignet.
 
+
 \subsection{IST-Prozesse}
 Aktuell gibt es nur Verkaufsplattformen, die den Benutzer nach konkreten Produkten suchen lassen ihn aber nicht mit zufälligen Vorschlägen überraschen. Auch steht der Impulskauf bei diesen Plattformen nicht im Fokus, sodass der Kunde auch vorher gesichtete Produkte später noch einmal aufrufen kann. 
+
 
 \subsection{Unterstützte SOLL-Prozesse}
 Die Software muss folgende Funktionen zur Verfügung stellen:
@@ -68,11 +76,14 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 \end{itemize}
 
 
+
+
 \section{Produktfunktionen}
 \subsection{Alle Funktionen, Eingabe/Ausgabe, beschrieben aus Anwendersicht}
 
 \subsubsection*{Anmerkung:}
 Einige Buttons können je nach Implementation für ein bestimmtes Betriebssystem wegfallen und durch Swipe-Gesten ersetzt werden. Die Funktionalität muss jedoch erhalten bleiben.
+
 
 \subsubsection{Aktivität u00 - Starten der Software}
 Während des Startvorgangs muss dem Benutzer eine Warteanzeige angezeigt werden. Sollte der Start nicht erfolgreich verlaufen, muss dem Benutzer eine Fehlermeldung angezeigt werden. Ist der Start hingegen erfolgreich, muss dem Benutzer die Hauptseite angezeigt werden.
@@ -116,6 +127,7 @@ Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Ar
 \end{figure}
 \FloatBarrier
 
+
 \subsubsection{Aktivität u02 – Einloggen}
 Über den Menübutton muss der Benutzer die Möglichkeit haben, auf einen Eintrag „Einloggen“ klicken zu können. Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss. Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können. Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet. Gibt der Benutzer eine falsche E-Mail-Adresse oder ein falsches Passwort zu einer korrekten E-Mail-Adresse ein, so muss ihm eine Fehlermeldung angezeigt werden. Hat der Benutzer seine Daten korrekt eingegeben und auf den Button „Einloggen“ geklickt, so muss er zurückgeleitet werden auf die Seite, von der aus der die Einloggen-Aktivität gestartet hat.
 
@@ -129,7 +141,7 @@ Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Ar
 
 \subsubsection{Aktivität u03 – Registrierung}
 Über den Menübutton muss der Benutzer die Möglichkeit haben, einen Eintrag „Registrieren“ auszuwählen. Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss. Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss. Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist und ob der Benutzer das Passwort zweimal identisch eingegeben hat. Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend muss der Benutzer zurückgeleitet werden auf die Seite, von der aus er „Registrieren“ ausgewählt hat. Außerdem muss der registrierte Benutzer nun auch eingeloggt sein. Sollten die Daten nicht korrekt sein, so muss dem Benutzer eine Fehlermeldung angezeigt werden, welche genau angibt, welche Daten nicht korrekt sind.
-
+\\ \\
 Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 \begin{itemize}
 	\item Name
@@ -138,6 +150,8 @@ Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 	\item E-Mail-Adresse
 	\item Passwort (muss in zwei Felder eingegeben werden zur Überprüfung)
 \end{itemize}
+
+Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
 
 \begin{figure}[!htbp]
 \centering
@@ -180,6 +194,44 @@ Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweise
 \FloatBarrier
 
 
+\subsubsection{Aktivität u06 – Interesse an Artikel melden}
+Wenn der Benutzer in der Detailansicht des ausgewählten Artikels den Bestätigungs-Button drückt, muss das System dem Interessierten (aktueller Benutzer) sowie dem Verkäufer die Daten des jeweils anderen per Email zusenden. Anschließend muss das System dem Benutzer die Daten des Verkäufers auf dem Bildschirm anzeigen. Der Benutzer muss hierauf per Drücken eines Buttons wieder zur Startseite gelangen können. 
+
+
+\subsubsection{Aktivität u07 – neuen Artikel einstellen}
+Der Benutzer muss über das Menü auf die Seite gelangen können, auf der er einen neuen Artikel mit der  zugehörigen Detailansicht erstellen kann. Hier muss der Benutzer in der Lage sein, den Vorgang des Erstellens eines neuen Artikels zu unterbrechen und zurück auf die Startseite zu gelangen. Ebenso muss der Benutzer in der Lage sein, einen Artikel und die dazugehörige Detailansicht zu erstellen. Das System muss, nachdem der Benutzer einen Artikel erstellt hat, diesen Artikel in die Datenbank einfügen. Anschließend muss der Benutzer zurück auf die Startseite gelangen. 
+Bei der Erstellung einer Detailansicht für einen neuen Artikel muss der Benutzer folgendes frei wählen können:
+\begin{itemize}
+\item Schriftart (aus einer vorgegebenen Liste)
+\item Schriftgröße (mit einer angemessenen maximalen und minimalen Begrenzung)
+\item Position der Bilder innerhalb der Artikelbeschreibung (1-3 Bilder)
+\item Artikelbeschreibung (bis zu [X] Zeichen)
+\end{itemize}
+
+
+\hypertarget{u08}{\subsubsection{Aktivität u08 – Artikel filtern}}
+Der Benutzer muss über das Menü den Reiter „Settings“ erreichen können. Dort muss der Benutzer seine Filtereinstellungen wie Artikel-Kategorien und maximale Entfernung eingeben können. Das System muss diese Eingaben speichern und den Benutzer anschließend zurück auf die Startseite leiten .
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u08}
+\caption{Detailansicht eines Artikels}
+\end{figure}
+\FloatBarrier
+
+
+\subsubsection{Aktivität u09 – Einstellungen}
+Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. 
+Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
+\begin{itemize}
+\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
+\item Filterung der angezeigten Artikel (\hyperlink{u08}{Aktivität u08})
+\end{itemize}
+
+
+\subsubsection{Aktivität u10 – Ausloggen}
+Der Benutzer muss über das Menü „Ausloggen“ aufrufen können. Das System muss den Benutzer daraufhin ausloggen. 
+
+
 \subsection{Eingabe/Ausgabe detailliert}
 
 
@@ -195,6 +247,10 @@ Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweise
 
 \section{Qualitätsanforderungen}
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
+Die Applikation muss unter den aktuellen Versionen von Android, iOS und Windows Phone lauffähig sein. Es muss außerdem eine Applikation für Desktop-PCs geben.
+
+\subsubsection*{Anforderung an die Zuverlässigkeit}
+Falls eine Bearbeitung des Benutzers durch einen Fehler unterbrochen wird, darf die Konsistenz der Datenbank nicht gefährdet sein.
 
 
 
