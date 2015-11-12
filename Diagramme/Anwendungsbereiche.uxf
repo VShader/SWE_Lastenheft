@@ -43,7 +43,7 @@ fontsize=11
       <x>160</x>
       <y>0</y>
       <w>752</w>
-      <h>832</h>
+      <h>928</h>
     </coordinates>
     <panel_attributes>Applikation
 valign=top</panel_attributes>
@@ -66,10 +66,10 @@ valign=top</panel_attributes>
       <x>240</x>
       <y>80</y>
       <w>48</w>
-      <h>688</h>
+      <h>768</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -135,13 +135,12 @@ u05</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>320</x>
+      <x>304</x>
       <y>480</y>
       <w>240</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>neuen Artikel
-einstellen
+    <panel_attributes>Historie
 u06</panel_attributes>
     <additional_attributes/>
   </element>
@@ -216,11 +215,11 @@ u06</panel_attributes>
     <coordinates>
       <x>240</x>
       <y>480</y>
-      <w>112</w>
+      <w>96</w>
       <h>64</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;40.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -263,10 +262,10 @@ valign=center</panel_attributes>
       <x>800</x>
       <y>80</y>
       <w>48</w>
-      <h>688</h>
+      <h>768</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;460.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -326,13 +325,13 @@ valign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>544</x>
+      <x>528</x>
       <y>480</y>
-      <w>304</w>
+      <w>320</w>
       <h>64</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -342,8 +341,8 @@ valign=center</panel_attributes>
       <w>224</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Artikel filtern
-u08</panel_attributes>
+    <panel_attributes>Einstellungen
+u07</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -376,9 +375,9 @@ u08</panel_attributes>
       <w>192</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Einstellungen
-aufrufen
-u07</panel_attributes>
+    <panel_attributes>neuen Artikel
+einstellen
+u08</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -448,5 +447,39 @@ u09</panel_attributes>
     <panel_attributes>Registrieren
 u04</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>784</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;60.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>336</x>
+      <y>768</y>
+      <w>192</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Menu
+u10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>784</y>
+      <w>336</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
   </element>
 </diagram>
