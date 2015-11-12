@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>11</zoom_level>
+  <zoom_level>1</zoom_level>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>561</x>
-      <y>33</y>
-      <w>341</w>
-      <h>825</h>
+      <x>638</x>
+      <y>151</y>
+      <w>31</w>
+      <h>71</h>
     </coordinates>
     <panel_attributes>Benutzer
 valign=top</panel_attributes>
@@ -16,10 +16,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>902</x>
-      <y>33</y>
-      <w>341</w>
-      <h>825</h>
+      <x>669</x>
+      <y>151</y>
+      <w>31</w>
+      <h>71</h>
     </coordinates>
     <panel_attributes>System
 valign=top</panel_attributes>
@@ -28,10 +28,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1056</x>
-      <y>66</y>
-      <w>22</w>
-      <h>22</h>
+      <x>683</x>
+      <y>154</y>
+      <w>2</w>
+      <h>2</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -39,10 +39,10 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>66</y>
-      <w>33</w>
-      <h>66</h>
+      <x>683</x>
+      <y>154</y>
+      <w>3</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -50,10 +50,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>990</x>
-      <y>352</y>
-      <w>220</w>
-      <h>88</h>
+      <x>677</x>
+      <y>180</y>
+      <w>20</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>Entfernt den Artikel
 aus der Liste der angezeigten
@@ -65,10 +65,10 @@ a0102</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>759</x>
-      <y>176</y>
-      <w>363</w>
-      <h>198</h>
+      <x>656</x>
+      <y>164</y>
+      <w>33</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;310.0;10.0;310.0;160.0</additional_attributes>
@@ -76,10 +76,10 @@ a0102</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>968</x>
-      <y>495</y>
-      <w>264</w>
-      <h>44</h>
+      <x>675</x>
+      <y>193</y>
+      <w>24</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>Detailansicht eines Artikels anzeigen
 a0200</panel_attributes>
@@ -88,10 +88,10 @@ a0200</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>561</x>
-      <y>264</y>
-      <w>110</w>
-      <h>385</h>
+      <x>638</x>
+      <y>172</y>
+      <w>10</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>70.0;330.0;10.0;330.0;10.0;10.0;80.0;10.0</additional_attributes>
@@ -99,10 +99,10 @@ a0200</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>638</x>
-      <y>605</y>
-      <w>176</w>
-      <h>44</h>
+      <x>645</x>
+      <y>203</y>
+      <w>16</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>Drückt den Menübutton
 a1001</panel_attributes>
@@ -111,13 +111,13 @@ a1001</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1078</x>
-      <y>726</y>
-      <w>143</w>
-      <h>77</h>
+      <x>677</x>
+      <y>207</y>
+      <w>13</w>
+      <h>7</h>
     </coordinates>
     <panel_attributes>Anzeigen des
-Benutzer Menu
+Menu
 (Pop-Up Fenster)
 a1000</panel_attributes>
     <additional_attributes/>
@@ -125,10 +125,10 @@ a1000</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1089</x>
-      <y>528</y>
-      <w>33</w>
-      <h>55</h>
+      <x>686</x>
+      <y>196</y>
+      <w>3</w>
+      <h>5</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -136,10 +136,10 @@ a1000</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1089</x>
-      <y>561</y>
-      <w>22</w>
-      <h>22</h>
+      <x>686</x>
+      <y>199</y>
+      <w>2</w>
+      <h>2</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -147,21 +147,21 @@ a1000</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1133</x>
-      <y>792</y>
-      <w>33</w>
-      <h>55</h>
+      <x>682</x>
+      <y>213</y>
+      <w>3</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1133</x>
-      <y>825</y>
-      <w>22</w>
-      <h>22</h>
+      <x>682</x>
+      <y>217</y>
+      <w>2</w>
+      <h>2</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -169,10 +169,10 @@ a1000</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>737</x>
-      <y>363</y>
-      <w>110</w>
-      <h>44</h>
+      <x>654</x>
+      <y>181</y>
+      <w>10</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>lehnt Artikel ab
 a0101</panel_attributes>
@@ -181,10 +181,10 @@ a0101</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>583</x>
-      <y>429</y>
-      <w>165</w>
-      <h>44</h>
+      <x>640</x>
+      <y>187</y>
+      <w>15</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>Detailansicht aufrufen
 a0103</panel_attributes>
@@ -193,10 +193,10 @@ a0103</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>836</x>
-      <y>374</y>
-      <w>176</w>
-      <h>33</h>
+      <x>663</x>
+      <y>182</y>
+      <w>16</w>
+      <h>3</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -204,10 +204,10 @@ a0103</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>297</y>
-      <w>33</w>
-      <h>88</h>
+      <x>657</x>
+      <y>175</y>
+      <w>3</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -215,10 +215,10 @@ a0103</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>297</y>
-      <w>33</w>
-      <h>154</h>
+      <x>647</x>
+      <y>175</y>
+      <w>3</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
@@ -226,10 +226,10 @@ a0103</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>462</y>
-      <w>330</w>
-      <h>77</h>
+      <x>647</x>
+      <y>190</y>
+      <w>30</w>
+      <h>7</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>280.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
@@ -237,10 +237,10 @@ a0103</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>616</x>
-      <y>594</y>
-      <w>616</w>
-      <h>253</h>
+      <x>643</x>
+      <y>202</y>
+      <w>56</w>
+      <h>19</h>
     </coordinates>
     <panel_attributes>Menü
 valign=top
@@ -251,94 +251,21 @@ lt=.</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>803</x>
-      <y>616</y>
-      <w>275</w>
-      <h>55</h>
+      <x>660</x>
+      <y>204</y>
+      <w>25</w>
+      <h>5</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>230.0;30.0;230.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1034</x>
-      <y>649</y>
-      <w>44</w>
-      <h>44</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>935</x>
-      <y>660</y>
-      <w>143</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-Benutzer ist
-nicht eingeloggt</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0;90.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1067</x>
-      <y>660</y>
-      <w>176</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-Benutzer ist
-eingeloggt</panel_attributes>
-    <additional_attributes>70.0;60.0;70.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLState</id>
     <coordinates>
-      <x>913</x>
-      <y>726</y>
-      <w>143</w>
-      <h>77</h>
-    </coordinates>
-    <panel_attributes>Anzeigen des
-Gast Menu
-(Pop-Up Fenster)
-a1100</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>935</x>
-      <y>792</y>
-      <w>33</w>
-      <h>55</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>935</x>
-      <y>825</y>
-      <w>22</w>
-      <h>22</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>968</x>
-      <y>110</y>
-      <w>220</w>
-      <h>66</h>
+      <x>675</x>
+      <y>158</y>
+      <w>20</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>Startbildschirm
 anzeigen mit einem Artikel
@@ -348,10 +275,10 @@ a0003</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>737</x>
-      <y>132</y>
-      <w>253</w>
-      <h>55</h>
+      <x>654</x>
+      <y>160</y>
+      <w>23</w>
+      <h>5</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0;210.0;10.0</additional_attributes>
@@ -359,10 +286,10 @@ a0003</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>649</x>
-      <y>231</y>
-      <w>198</w>
-      <h>77</h>
+      <x>646</x>
+      <y>169</y>
+      <w>18</w>
+      <h>7</h>
     </coordinates>
     <panel_attributes>Benutzer wählt aus
 folgenden Aktionen
@@ -372,10 +299,10 @@ a0100</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>726</x>
-      <y>165</y>
-      <w>44</w>
-      <h>44</h>
+      <x>653</x>
+      <y>163</y>
+      <w>4</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -383,10 +310,10 @@ a0100</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>737</x>
-      <y>198</y>
-      <w>33</w>
-      <h>55</h>
+      <x>654</x>
+      <y>166</y>
+      <w>3</w>
+      <h>5</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>

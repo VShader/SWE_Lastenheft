@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>10</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>410</x>
-      <y>160</y>
-      <w>340</w>
-      <h>710</h>
+      <x>492</x>
+      <y>30</y>
+      <w>204</w>
+      <h>426</h>
     </coordinates>
     <panel_attributes>Benutzer
 valign=top</panel_attributes>
@@ -16,10 +16,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>750</x>
-      <y>160</y>
-      <w>450</w>
-      <h>710</h>
+      <x>696</x>
+      <y>30</y>
+      <w>270</w>
+      <h>426</h>
     </coordinates>
     <panel_attributes>System
 valign=top</panel_attributes>
@@ -28,10 +28,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>570</x>
-      <y>190</y>
-      <w>20</w>
-      <h>20</h>
+      <x>588</x>
+      <y>48</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -39,10 +39,10 @@ valign=top</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>260</y>
-      <w>30</w>
-      <h>50</h>
+      <x>588</x>
+      <y>90</y>
+      <w>18</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -50,10 +50,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>480</x>
-      <y>290</y>
-      <w>240</w>
-      <h>60</h>
+      <x>534</x>
+      <y>108</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>befindet sich im  Registrieren Dialog
 und wählt aus folgenden Aktionen
@@ -63,10 +63,10 @@ a0400</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>340</y>
-      <w>30</w>
-      <h>150</h>
+      <x>540</x>
+      <y>138</y>
+      <w>18</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
@@ -74,10 +74,10 @@ a0400</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>460</x>
-      <y>470</y>
-      <w>230</w>
-      <h>60</h>
+      <x>522</x>
+      <y>216</y>
+      <w>138</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Gibt Daten zur Registrierung ein
 und Drückt auf Button "registrieren"
@@ -87,10 +87,10 @@ a0401</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>490</y>
-      <w>250</w>
-      <h>80</h>
+      <x>654</x>
+      <y>228</y>
+      <w>150</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>230.0;60.0;230.0;10.0;10.0;10.0</additional_attributes>
@@ -98,10 +98,10 @@ a0401</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>890</x>
-      <y>550</y>
-      <w>40</w>
-      <h>40</h>
+      <x>780</x>
+      <y>264</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -109,10 +109,10 @@ a0401</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>760</x>
-      <y>620</y>
-      <w>170</w>
-      <h>130</h>
+      <x>702</x>
+      <y>306</y>
+      <w>102</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>Zeigt Fehlermeldung an
 mit Hinweis darauf,
@@ -124,10 +124,10 @@ a0401</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>560</y>
-      <w>100</w>
-      <h>80</h>
+      <x>732</x>
+      <y>270</y>
+      <w>60</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Daten nicht
@@ -137,10 +137,10 @@ korrekt</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>560</y>
-      <w>190</w>
-      <h>80</h>
+      <x>798</x>
+      <y>270</y>
+      <w>114</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Daten korrekt</panel_attributes>
@@ -149,10 +149,10 @@ Daten korrekt</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>940</x>
-      <y>620</y>
-      <w>210</w>
-      <h>160</h>
+      <x>810</x>
+      <y>306</y>
+      <w>126</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>Speichert neue Daten in
 der Datenbank und leitet 
@@ -168,10 +168,10 @@ a0402</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>240</y>
-      <w>420</w>
-      <h>550</h>
+      <x>498</x>
+      <y>78</y>
+      <w>252</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0;10.0;530.0;400.0;530.0;400.0;510.0</additional_attributes>
@@ -179,10 +179,10 @@ a0402</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
-      <y>770</y>
-      <w>30</w>
-      <h>70</h>
+      <x>828</x>
+      <y>396</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -190,10 +190,10 @@ a0402</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>970</x>
-      <y>820</y>
-      <w>20</w>
-      <h>20</h>
+      <x>828</x>
+      <y>426</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -201,10 +201,10 @@ a0402</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>540</x>
-      <y>400</y>
-      <w>180</w>
-      <h>40</h>
+      <x>570</x>
+      <y>174</y>
+      <w>108</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Drückt auf Button "zurück"
 a0309</panel_attributes>
@@ -213,10 +213,10 @@ a0309</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>410</y>
-      <w>360</w>
-      <h>50</h>
+      <x>672</x>
+      <y>180</y>
+      <w>216</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>340.0;30.0;340.0;10.0;10.0;10.0</additional_attributes>
@@ -224,10 +224,10 @@ a0309</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>990</x>
-      <y>440</y>
-      <w>110</w>
-      <h>50</h>
+      <x>840</x>
+      <y>198</y>
+      <w>66</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Login Dialog
 anzeigen
@@ -237,10 +237,10 @@ a0300</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>340</y>
-      <w>30</w>
-      <h>80</h>
+      <x>612</x>
+      <y>138</y>
+      <w>18</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -248,10 +248,10 @@ a0300</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>560</x>
-      <y>230</y>
-      <w>40</w>
-      <h>40</h>
+      <x>582</x>
+      <y>72</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -259,10 +259,10 @@ a0300</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>200</y>
-      <w>30</w>
-      <h>50</h>
+      <x>588</x>
+      <y>54</y>
+      <w>18</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>

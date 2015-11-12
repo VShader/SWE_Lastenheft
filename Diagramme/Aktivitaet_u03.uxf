@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>10</zoom_level>
+  <zoom_level>2</zoom_level>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>350</x>
-      <y>30</y>
-      <w>310</w>
-      <h>830</h>
+      <x>574</x>
+      <y>156</y>
+      <w>62</w>
+      <h>166</h>
     </coordinates>
     <panel_attributes>Benutzer
 valign=top</panel_attributes>
@@ -16,10 +16,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>660</x>
-      <y>30</y>
-      <w>470</w>
-      <h>830</h>
+      <x>636</x>
+      <y>156</y>
+      <w>94</w>
+      <h>166</h>
     </coordinates>
     <panel_attributes>System
 valign=top</panel_attributes>
@@ -28,10 +28,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>420</x>
-      <y>160</y>
-      <w>230</w>
-      <h>70</h>
+      <x>588</x>
+      <y>182</y>
+      <w>46</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>befindet sich im Login Dialog
 und wählt aus folgenden Aktionen
@@ -41,10 +41,10 @@ a0300</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>220</y>
-      <w>80</w>
-      <h>590</h>
+      <x>582</x>
+      <y>194</y>
+      <w>16</w>
+      <h>118</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>60.0;570.0;10.0;570.0;10.0;40.0;60.0;40.0;60.0;10.0</additional_attributes>
@@ -52,10 +52,10 @@ a0300</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>460</x>
-      <y>350</y>
-      <w>190</w>
-      <h>70</h>
+      <x>596</x>
+      <y>220</y>
+      <w>38</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>Eingabe von E-Mail-Adresse
 und Passwort.
@@ -66,10 +66,10 @@ a0306</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>350</y>
-      <w>220</w>
-      <h>50</h>
+      <x>632</x>
+      <y>220</y>
+      <w>44</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>200.0;30.0;200.0;10.0;10.0;10.0</additional_attributes>
@@ -77,10 +77,10 @@ a0306</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>820</x>
-      <y>380</y>
-      <w>40</w>
-      <h>40</h>
+      <x>668</x>
+      <y>226</y>
+      <w>8</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -88,10 +88,10 @@ a0306</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
-      <y>390</y>
-      <w>120</w>
-      <h>70</h>
+      <x>674</x>
+      <y>228</y>
+      <w>24</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Daten 
@@ -101,10 +101,10 @@ korrekt</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>470</x>
-      <y>490</y>
-      <w>160</w>
-      <h>50</h>
+      <x>598</x>
+      <y>248</y>
+      <w>32</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>klickt auf
 "Passwort vergessen"
@@ -114,10 +114,10 @@ a0303</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
-      <y>390</y>
-      <w>100</w>
-      <h>80</h>
+      <x>654</x>
+      <y>228</y>
+      <w>20</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Daten nicht 
@@ -127,10 +127,10 @@ korrekt</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>670</x>
-      <y>450</y>
-      <w>170</w>
-      <h>40</h>
+      <x>638</x>
+      <y>240</y>
+      <w>34</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>Fehlermeldung anzeigen
 a0308</panel_attributes>
@@ -139,10 +139,10 @@ a0308</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>900</x>
-      <y>310</y>
-      <w>160</w>
-      <h>80</h>
+      <x>684</x>
+      <y>210</y>
+      <w>32</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>Seite anzeigen, von 
 welcher der Benutzer
@@ -154,10 +154,10 @@ a0310</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
-      <y>380</y>
-      <w>30</w>
-      <h>50</h>
+      <x>698</x>
+      <y>224</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -165,10 +165,10 @@ a0310</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>970</x>
-      <y>410</y>
-      <w>20</w>
-      <h>20</h>
+      <x>698</x>
+      <y>230</y>
+      <w>4</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -176,10 +176,10 @@ a0310</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>510</y>
-      <w>210</w>
-      <h>50</h>
+      <x>628</x>
+      <y>252</y>
+      <w>42</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>190.0;30.0;190.0;10.0;10.0;10.0</additional_attributes>
@@ -187,10 +187,10 @@ a0310</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>790</x>
-      <y>540</y>
-      <w>40</w>
-      <h>40</h>
+      <x>662</x>
+      <y>258</y>
+      <w>8</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -198,51 +198,52 @@ a0310</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>550</y>
-      <w>110</w>
-      <h>80</h>
+      <x>644</x>
+      <y>260</y>
+      <w>22</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 E-Mail ist in 
 Datenbank
 vorhanden</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;90.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>670</x>
-      <y>610</y>
-      <w>200</w>
-      <h>90</h>
+      <x>638</x>
+      <y>274</y>
+      <w>40</w>
+      <h>16</h>
     </coordinates>
-    <panel_attributes>Schickt E-Mail an eingegebene
-E-Mail-Adresse mit neuem
-Passwort
+    <panel_attributes>Schickt E-Mail an
+eingegebene E-Mail-Adresse
+mit neuem Passwort.
+Wechsel auf Login Dialog.
 a0304</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>880</x>
-      <y>630</y>
-      <w>160</w>
-      <h>50</h>
+      <x>680</x>
+      <y>276</y>
+      <w>32</w>
+      <h>10</h>
     </coordinates>
-    <panel_attributes>Zeigt Fehlermeldung
-an
+    <panel_attributes>Zeigt Fehlermeldung an
+(Pop-Up Fenster)
 a0305</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>820</x>
-      <y>550</y>
-      <w>210</w>
-      <h>100</h>
+      <x>668</x>
+      <y>260</y>
+      <w>42</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 E-Mail ist in
@@ -254,10 +255,10 @@ handen</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>110</y>
-      <w>600</w>
-      <h>660</h>
+      <x>576</x>
+      <y>172</y>
+      <w>120</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>120.0;10.0;10.0;10.0;10.0;640.0;580.0;640.0;580.0;570.0</additional_attributes>
@@ -265,10 +266,10 @@ handen</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>740</x>
-      <y>690</y>
-      <w>30</w>
-      <h>50</h>
+      <x>644</x>
+      <y>288</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -276,10 +277,10 @@ handen</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>490</x>
-      <y>60</y>
-      <w>20</w>
-      <h>20</h>
+      <x>602</x>
+      <y>162</y>
+      <w>4</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -287,10 +288,10 @@ handen</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>740</x>
-      <y>720</y>
-      <w>20</w>
-      <h>20</h>
+      <x>644</x>
+      <y>294</y>
+      <w>4</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -298,10 +299,10 @@ handen</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>530</x>
-      <y>280</y>
-      <w>120</w>
-      <h>50</h>
+      <x>610</x>
+      <y>202</y>
+      <w>24</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>drückt auf Button
 "zurück"
@@ -311,21 +312,21 @@ a0309</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>280</y>
-      <w>360</w>
-      <h>50</h>
+      <x>632</x>
+      <y>202</y>
+      <w>72</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>340.0;30.0;340.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>340.0;40.0;340.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>850</x>
-      <y>440</y>
-      <w>270</w>
-      <h>90</h>
+      <x>674</x>
+      <y>238</y>
+      <w>54</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>Benutzerinformationen aus der Datenbank
 laden. Seite anzeigen, von welcher der
@@ -337,10 +338,10 @@ a0307</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1040</x>
-      <y>550</y>
-      <w>20</w>
-      <h>20</h>
+      <x>712</x>
+      <y>260</y>
+      <w>4</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -348,10 +349,10 @@ a0307</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1040</x>
-      <y>520</y>
-      <w>30</w>
-      <h>50</h>
+      <x>712</x>
+      <y>254</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -359,10 +360,10 @@ a0307</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>450</x>
-      <y>770</y>
-      <w>170</w>
-      <h>40</h>
+      <x>594</x>
+      <y>304</y>
+      <w>34</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>klickt auf "kein Account"
 a301</panel_attributes>
@@ -371,10 +372,10 @@ a301</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>780</y>
-      <w>220</w>
-      <h>30</h>
+      <x>626</x>
+      <y>306</y>
+      <w>44</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>200.0;10.0;10.0;10.0</additional_attributes>
@@ -382,10 +383,10 @@ a301</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>810</x>
-      <y>770</y>
-      <w>210</w>
-      <h>40</h>
+      <x>666</x>
+      <y>304</y>
+      <w>42</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>Zeige Registrierungsdialog an
 a302</panel_attributes>
@@ -394,10 +395,10 @@ a302</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>910</x>
-      <y>830</y>
-      <w>20</w>
-      <h>20</h>
+      <x>686</x>
+      <y>316</y>
+      <w>4</w>
+      <h>4</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -405,10 +406,10 @@ a302</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>910</x>
-      <y>800</y>
-      <w>30</w>
-      <h>50</h>
+      <x>686</x>
+      <y>310</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -416,10 +417,10 @@ a302</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>480</x>
-      <y>100</y>
-      <w>40</w>
-      <h>40</h>
+      <x>600</x>
+      <y>170</y>
+      <w>8</w>
+      <h>8</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -427,10 +428,10 @@ a302</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>60</y>
-      <w>30</w>
-      <h>60</h>
+      <x>602</x>
+      <y>162</y>
+      <w>6</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -438,10 +439,10 @@ a302</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>130</y>
-      <w>30</w>
-      <h>50</h>
+      <x>602</x>
+      <y>176</y>
+      <w>6</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -449,10 +450,10 @@ a302</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>500</x>
-      <y>220</y>
-      <w>30</w>
-      <h>150</h>
+      <x>604</x>
+      <y>194</y>
+      <w>6</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
@@ -460,10 +461,10 @@ a302</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>110</y>
-      <w>230</w>
-      <h>360</h>
+      <x>606</x>
+      <y>172</y>
+      <w>46</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;210.0;10.0;210.0;340.0</additional_attributes>
@@ -471,21 +472,21 @@ a302</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>220</y>
-      <w>30</w>
-      <h>80</h>
+      <x>620</x>
+      <y>194</y>
+      <w>6</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>220</y>
-      <w>80</w>
-      <h>320</h>
+      <x>588</x>
+      <y>194</y>
+      <w>16</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>50.0;300.0;10.0;300.0;10.0;90.0;60.0;90.0;60.0;10.0</additional_attributes>
