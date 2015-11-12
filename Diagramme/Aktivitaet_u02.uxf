@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>7</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>875</x>
-      <y>63</y>
-      <w>217</w>
-      <h>693</h>
+      <x>765</x>
+      <y>0</y>
+      <w>279</w>
+      <h>891</h>
     </coordinates>
     <panel_attributes>Benutzer
 valign=top</panel_attributes>
@@ -16,10 +16,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>1092</x>
-      <y>63</y>
-      <w>343</w>
-      <h>693</h>
+      <x>1044</x>
+      <y>0</y>
+      <w>441</w>
+      <h>891</h>
     </coordinates>
     <panel_attributes>System
 valign=top</panel_attributes>
@@ -28,10 +28,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>924</x>
-      <y>154</y>
-      <w>154</w>
-      <h>35</h>
+      <x>828</x>
+      <y>117</y>
+      <w>198</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Befindet sich in der Detailansicht
 und wählt aus folgenden Aktionen
@@ -41,10 +41,10 @@ a0200</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>973</x>
-      <y>77</y>
-      <w>14</w>
-      <h>14</h>
+      <x>891</x>
+      <y>18</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -52,10 +52,10 @@ a0200</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>182</y>
-      <w>21</w>
-      <h>42</h>
+      <x>936</x>
+      <y>153</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -64,10 +64,10 @@ a0200</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>973</x>
-      <y>210</y>
-      <w>84</w>
-      <h>35</h>
+      <x>891</x>
+      <y>189</y>
+      <w>108</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Hat Interesse an
 einem Artikel
@@ -77,10 +77,10 @@ a0204</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>217</y>
-      <w>210</w>
-      <h>35</h>
+      <x>990</x>
+      <y>198</y>
+      <w>270</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>280.0;30.0;280.0;10.0;10.0;10.0</additional_attributes>
@@ -88,53 +88,50 @@ a0204</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1253</x>
-      <y>322</y>
-      <w>175</w>
-      <h>98</h>
+      <x>1251</x>
+      <y>333</y>
+      <w>207</w>
+      <h>72</h>
     </coordinates>
-    <panel_attributes>Schickt dem Verkäufer eine
-Email mit den Kontaktdaten
-des Interessenten. Der Interessent
-bekommt eine Email mit den
-Kontaktdaten des Verkäufers.
-Der Artikel wir dem Interssenten
-nicht mehr angezeigt.
+    <panel_attributes>Entfernt den Artikel
+aus der Liste der anzuzeigenden
+Artikel für den Benutzer und
+fügt dieses Interessenliste hinzu
 a0206</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1330</x>
-      <y>413</y>
-      <w>21</w>
-      <h>42</h>
+      <x>1350</x>
+      <y>396</y>
+      <w>27</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1274</x>
-      <y>441</y>
-      <w>126</w>
-      <h>49</h>
+      <x>1278</x>
+      <y>486</y>
+      <w>162</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Zeigt dem Interessenten
 eine Bestätigung an
 (Pop-Up Fenster)
-a1300</panel_attributes>
+a1100</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>462</y>
-      <w>238</w>
-      <h>21</h>
+      <x>990</x>
+      <y>513</y>
+      <w>306</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;320.0;10.0</additional_attributes>
@@ -142,10 +139,10 @@ a1300</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>952</x>
-      <y>182</y>
-      <w>21</w>
-      <h>350</h>
+      <x>864</x>
+      <y>153</y>
+      <w>27</w>
+      <h>450</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;480.0;10.0;10.0</additional_attributes>
@@ -153,10 +150,10 @@ a1300</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>903</x>
-      <y>518</y>
-      <w>98</w>
-      <h>35</h>
+      <x>801</x>
+      <y>585</y>
+      <w>126</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Lehnt den Artikel ab
 a0201</panel_attributes>
@@ -165,10 +162,10 @@ a0201</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>994</x>
-      <y>525</y>
-      <w>280</w>
-      <h>21</h>
+      <x>918</x>
+      <y>594</y>
+      <w>360</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>380.0;10.0;10.0;10.0</additional_attributes>
@@ -177,12 +174,12 @@ a0201</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1260</x>
-      <y>504</y>
-      <w>140</w>
-      <h>49</h>
+      <y>567</y>
+      <w>180</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Entfernt den Artikel
-aus der Liste der angezeigten
+aus der Liste der anzuzeigenden
 Artikel für den Benutzer.
 a0202</panel_attributes>
     <additional_attributes/>
@@ -190,10 +187,10 @@ a0202</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1323</x>
-      <y>546</y>
-      <w>21</w>
-      <h>35</h>
+      <x>1341</x>
+      <y>621</y>
+      <w>27</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -201,23 +198,23 @@ a0202</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1281</x>
-      <y>567</y>
-      <w>98</w>
-      <h>35</h>
+      <x>1287</x>
+      <y>648</y>
+      <w>126</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Startseite anzeigen
 mit nächstem Artikel
-a1302</panel_attributes>
+a0203</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1141</x>
-      <y>385</y>
-      <w>14</w>
-      <h>14</h>
+      <x>1107</x>
+      <y>414</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -225,23 +222,23 @@ a1302</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>980</x>
-      <y>448</y>
-      <w>77</w>
-      <h>35</h>
+      <x>900</x>
+      <y>495</y>
+      <w>99</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Klickt im Popup
 auf "ok"
-a1301</panel_attributes>
+a1101</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>476</y>
-      <w>287</w>
-      <h>126</h>
+      <x>936</x>
+      <y>531</y>
+      <w>369</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>390.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
@@ -249,10 +246,10 @@ a1301</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1232</x>
-      <y>238</y>
-      <w>28</w>
-      <h>28</h>
+      <x>1224</x>
+      <y>225</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -260,10 +257,10 @@ a1301</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1141</x>
-      <y>245</y>
-      <w>105</w>
-      <h>91</h>
+      <x>1107</x>
+      <y>234</y>
+      <w>135</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Benutzer ist
@@ -273,10 +270,10 @@ nicht eingeloggt</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1113</x>
-      <y>322</y>
-      <w>133</w>
-      <h>42</h>
+      <x>1071</x>
+      <y>333</y>
+      <w>171</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>Zeigt dem Interesseten die
 Login Seite an.
@@ -286,10 +283,10 @@ a1200</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1253</x>
-      <y>245</y>
-      <w>154</w>
-      <h>91</h>
+      <x>1251</x>
+      <y>234</y>
+      <w>198</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 Benutzer ist
@@ -299,10 +296,10 @@ eingeloggt</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>973</x>
-      <y>84</y>
-      <w>21</w>
-      <h>84</h>
+      <x>891</x>
+      <y>27</y>
+      <w>27</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
@@ -310,10 +307,10 @@ eingeloggt</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1141</x>
-      <y>357</y>
-      <w>21</w>
-      <h>42</h>
+      <x>1107</x>
+      <y>378</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -321,10 +318,10 @@ eingeloggt</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
-      <y>161</y>
-      <w>70</w>
-      <h>483</h>
+      <x>774</x>
+      <y>126</y>
+      <w>90</w>
+      <h>621</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>80.0;670.0;10.0;670.0;10.0;10.0;60.0;10.0</additional_attributes>
@@ -332,10 +329,10 @@ eingeloggt</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>1099</x>
-      <y>203</y>
-      <w>329</w>
-      <h>105</h>
+      <x>1053</x>
+      <y>180</y>
+      <w>423</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>Login Prüfung
 valign=top
@@ -345,10 +342,10 @@ lt=.</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>938</x>
-      <y>616</y>
-      <w>112</w>
-      <h>28</h>
+      <x>846</x>
+      <y>711</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Drückt den Menübutton
 a1001</panel_attributes>
@@ -357,10 +354,10 @@ a1001</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1162</x>
-      <y>644</y>
-      <w>91</w>
-      <h>49</h>
+      <x>1134</x>
+      <y>747</y>
+      <w>117</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Anzeigen des
 Benutzer Menu
@@ -371,10 +368,10 @@ a1000</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1197</x>
-      <y>686</y>
-      <w>21</w>
-      <h>42</h>
+      <x>1179</x>
+      <y>801</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -382,10 +379,10 @@ a1000</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1197</x>
-      <y>714</y>
-      <w>14</w>
-      <h>14</h>
+      <x>1179</x>
+      <y>837</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -393,10 +390,10 @@ a1000</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>924</x>
-      <y>609</y>
-      <w>392</w>
-      <h>133</h>
+      <x>828</x>
+      <y>702</y>
+      <w>504</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>Menü
 valign=top
@@ -407,10 +404,10 @@ lt=.</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1043</x>
-      <y>623</y>
-      <w>175</w>
-      <h>35</h>
+      <x>981</x>
+      <y>720</y>
+      <w>225</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>230.0;30.0;230.0;10.0;10.0;10.0</additional_attributes>
@@ -418,10 +415,10 @@ lt=.</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1323</x>
-      <y>595</y>
-      <w>21</w>
-      <h>42</h>
+      <x>1341</x>
+      <y>684</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -429,10 +426,10 @@ lt=.</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1323</x>
-      <y>623</y>
-      <w>14</w>
-      <h>14</h>
+      <x>1341</x>
+      <y>720</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
