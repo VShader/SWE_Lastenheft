@@ -1,0 +1,69 @@
+Todo Lastenheft:
+
+X fehlt komplett
+! fehlerhaft
++ fast gut
+$ rleasefähig
+? stand unklar (Aufgabenstellung unklar)
+
++ 1. Auftraggeber
+! 2. Zeit- und Budgetrahmen
+3. Zielbestimmung
+	+ 3.1. Zweck
+	X 3.2. Nutzen
+4. Produkteinsatz
+	! 4.1. Anwendungsbereiche //use case am ende updaten
+	+ 4.2. Zielgruppen und Anwender
+	? 4.3. IST-Prozesse
+	! 4.4. Unterstützte SOLL-Prozesse
+5. Produktfunktionen
+	!!!//alle Texte müssen noch etwas angepasst werden
+	5.1. Alle Funktionen, Eingabe/Ausgabe, beschrieben aus Anwendersicht
+ 		+ Aktivität u00 – Starten der Software
+ 		+ Aktivität u01 – Startbildschirm
+ 		+ Aktivität u02 – Detailansicht
+			? Aktivität u21 – Kauf Pop-Up //hat kein eigenes Aktivitätsdiagramm
+ 		+ Aktivität u03 – Einloggen
+ 		+ Aktivität u04 – Registrierung
+		[frei] Aktivität u05 //warum auch immer frei gelassen
+ 		X Aktivität u06 – Interessen Liste
+ 		! Aktivität u07 – Einstellungen
+		//wenns nicht in ein aktivitätsdiagramm passt
+			X Aktivität u71 – Passwort ändern
+			X Aktivität u72 – Artikel Filtern
+			? Aktivität u73 – Reichweite
+ 		! Aktivität u08 – Artikel einstellen //Verkaufs Liste mit interessen counter
+			! Aktivität u81 – neuen Artikel einstellen //menge, Ort, Detailansichtsdesigner
+			X Aktivität u82 – Artikel entfernen //Verkauft oder Angebot zurückziehen
+			X Aktivität u83 - Artikel editieren
+ 		[frei] Aktivität u09
+ 		+ Aktivität u10 – Menü
+	5.2. Eingabe/Ausgabe detailliert
+		! Anmerkung
+ 		! Dialog a0000 – Starten der Software //Logo fehlt
+			X Pop-Up a9999 – Fehlermeldung 
+ 		+ Dialog a0100 – Startseite
+ 		+ Dialog a0200 – Detailansicht
+			X Pop-Up a2100 – Kauf Pop-Up
+			X Pop-Up a2200 – nicht Eingeloggt (entfällt)
+ 		+ Dialog a0300 – Einloggen
+			X Pop-Up a3100 – Login Fehlermeldung
+ 		+ Dialog a0400 – Registrieren
+			X Pop-Up a4100 – Email nicht vorhanden
+			X Pop-Up a4200 – Email fehlerhaft
+		X Dialog a0600 – Interessen Liste
+		X Dialog a0700 – Einstellungen //alle Einstellungen auf einer Seite
+		! Dialog a0800 – Verkaufs Liste (use case heißt Artikel Einstellen)
+			! Dialog a8100 – neuen Artikel einstellen
+			X Dialog a8400 – Design Ansicht //wenn nötig
+			X Dialog a8200 – Artikel entfernen
+			X Dialog a8300 – Artikel editieren
+ 		+ Dialog a1000 – Menü
+6. Produktdaten
+	X 6.1. Mengengerüst
+	+ 6.2. Vorgaben für Hardware, Software, Schnittstellen
+7. Produktleistungen
+	X 7.1. Performance
+	//gleichzeitigkeitskreterium muss nicht aktuellen verkaufsplattformstandards entsprechen
+8. Qualitätsanforderungen
+	! 8.1. Bedienbarkeit, Zuverlässigkeit, Effizienz
