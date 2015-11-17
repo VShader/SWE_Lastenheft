@@ -128,8 +128,22 @@ Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Ar
 \FloatBarrier
 
 
-\subsubsection{Aktivität u02 – Einloggen}
-Über den Menübutton muss der Benutzer die Möglichkeit haben, auf einen Eintrag „Einloggen“ klicken zu können. Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss. Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können. Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet. Gibt der Benutzer eine falsche E-Mail-Adresse oder ein falsches Passwort zu einer korrekten E-Mail-Adresse ein, so muss ihm eine Fehlermeldung angezeigt werden. Hat der Benutzer seine Daten korrekt eingegeben und auf den Button „Einloggen“ geklickt, so muss er zurückgeleitet werden auf die Seite, von der aus der die Einloggen-Aktivität gestartet hat.
+\subsubsection{Aktivität u02 - Detailansicht}
+In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
+\begin{itemize}
+	\item Artikelpreis
+	\item 0-10 Bilder des Artikels
+	\item (Modular designbare Elemente)
+	\item Artikelbeschreibung (bis zu [X] Zeichen)
+	\item Entfernung vom Standpunkt des Benutzers zum Artikel
+\end{itemize}
+Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
+Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-Up mit den Kontaktdaten des Verkäufers  erscheinen und es muss der Interessenliste hinzugefügt werden. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
+
+
+\subsubsection{Aktivität u03 – Einloggen}
+Über den Menübutton muss der Benutzer die Möglichkeit haben, auf einen Eintrag „Einloggen“ klicken zu können. Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss. Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können. Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet.
+Gibt der Benutzer bei einem Loginversuch eine falsche E-Mail-Adresse oder ein falsches Passwort zu einer korrekten E-Mail-Adresse ein, so muss ihm eine Fehlermeldung angezeigt werden. Hat der Benutzer seine Daten korrekt eingegeben und auf den Button „Einloggen“ geklickt, so muss er zurückgeleitet werden auf die Seite, von der aus er die Einloggen-Aktivität gestartet hat.
 
 \begin{figure}[!htbp]
 \centering
@@ -139,19 +153,14 @@ Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Ar
 \FloatBarrier
 
 
-\subsubsection{Aktivität u03 – Registrierung}
-Über den Menübutton muss der Benutzer die Möglichkeit haben, einen Eintrag „Registrieren“ auszuwählen. Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss. Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss. Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist und ob der Benutzer das Passwort zweimal identisch eingegeben hat. Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend muss der Benutzer zurückgeleitet werden auf die Seite, von der aus er „Registrieren“ ausgewählt hat. Außerdem muss der registrierte Benutzer nun auch eingeloggt sein. Sollten die Daten nicht korrekt sein, so muss dem Benutzer eine Fehlermeldung angezeigt werden, welche genau angibt, welche Daten nicht korrekt sind.
+\subsubsection{Aktivität u04 – Registrierung}
+Über den Menübutton muss der Benutzer die Möglichkeit haben, einen Eintrag „Registrieren“ auszuwählen. Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss. Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss. Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist, dass es sich dabei um eine valide E-Mailadresse handelt und ob der Benutzer das Passwort zweimal identisch eingegeben hat. Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend wird der Registrierungsdialog geschlossen und der Benutzer befindet sich wieder auf der Seite, von der aus er die Einloggen-Aktivität gestartet hat. Außerdem muss der registrierte Benutzer nun auch eingeloggt sein.
 \\ \\
 Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 \begin{itemize}
-	\item Name
-	\item Vorname
-	\item Adresse (Straße, Postleitzahl, Stadt, Land)
 	\item E-Mail-Adresse
 	\item Passwort (muss in zwei Felder eingegeben werden zur Überprüfung)
 \end{itemize}
-
-Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
 
 \begin{figure}[!htbp]
 \centering
@@ -162,10 +171,12 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
 
 
-\subsubsection{Aktivität u04 – Artikel ablehnen}
+\subsubsection{Aktivität u06 - Interessen Liste [todo]}
+
+
+\subsubsection{Aktivität u05 – Artikel ablehnen}
 Der Benutzer muss auf dem Startbildschirm und in der Detailansicht einen Artikel ablehnen können, der ihm nicht gefällt. Dieser Artikel darf dem Benutzer nicht wieder angezeigt werden.
 Siehe \hyperlink{u01}{Aktivität u01} und \hyperlink{u05}{Aktivität u05}.
-
 
 \hypertarget{u05}{\subsubsection{Aktivität u05 – Detailansicht}}
 In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
@@ -226,6 +237,10 @@ Der Benutzer muss über das Menü „Ausloggen“ aufrufen können. Das System m
 
 
 \subsection{Eingabe/Ausgabe detailliert}
+Die folgenden Wireframes sind grobe Beispiele und geben nicht das genaue Design der späteren Software wieder. Dieses kann nämlich abweichen. 
+Dialog - Beispielhafte Erfolgs- und Fehlermeldung. 
+Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, um den Verlauf der Bilder besser verfolgen zu können. Dabei stehen der „Haken“ und das „Kreuz“ immer für eine systemseitige Überprüfung, die in den Aktivitätsdiagrammen mit einer Raute versehen ist. Außerdem gibt es auch noch ein „Fragezeichen“, dass zu einem (Warn-)Hinweis führt. Der logische Verlauf wird von einem einfachen „Pfeil“ Repräsentiert.  
+
 \subsubsection{Dialog a0000 – Starten der Software}
 \begin{figure}[!htbp]
 \centering
@@ -278,7 +293,20 @@ Der Benutzer muss über das Menü „Ausloggen“ aufrufen können. Das System m
 \section{Produktdaten}
 \subsection{Mengengerüst}
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
+Die Applikation wird in zwei Teile unterteilt. Ein Teil ist die SQL-Server, der andere die Client Applikation, die auf allen Endgeräten installiert wird.
 
+\subsubsection*{Server}
+Auf dem Server werden die Benutzerdaten, Verkaufsdaten in einer Datenbank gespeichert.
+Der Server muss über folgende Ausstattungsmerkmale verfügen:
+\begin{itemize}
+	\item MySQL 10.0.17-MariaDB
+	\item OS: Linux oder Windows
+	\item HD mindestens 10 GB
+	\item 2 GB RAM
+\end{itemize}
+
+\subsubsection*{Client}
+Der Client muss eine ständige Verbindung zum Internet besitzen. Die Applikation muss auf Android, Windows Phone, Windows und iOS lauffähig sein. Optimierung für genaue Modelle ist nicht gefordert. Die App benötigt maximal 50MB an Speicherplatz. 
 
 
 \section{Produktleistungen}
