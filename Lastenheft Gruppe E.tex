@@ -128,7 +128,7 @@ Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Ar
 \FloatBarrier
 
 
-\subsubsection{Aktivität u02 - Detailansicht}
+\hypertarget{u02}{\subsubsection{Aktivität u02 - Detailansicht}}
 In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
 \begin{itemize}
 	\item Artikelpreis
@@ -140,6 +140,13 @@ In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines A
 Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
 Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-Up mit den Kontaktdaten des Verkäufers  erscheinen und es muss der Interessenliste hinzugefügt werden. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u02}
+\caption{Detailansicht eines Artikels}
+\end{figure}
+\FloatBarrier
+
 
 \subsubsection{Aktivität u03 – Einloggen}
 Über den Menübutton muss der Benutzer die Möglichkeit haben, auf einen Eintrag „Einloggen“ klicken zu können. Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss. Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können. Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet.
@@ -147,7 +154,7 @@ Gibt der Benutzer bei einem Loginversuch eine falsche E-Mail-Adresse oder ein fa
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u02}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u03}
 \caption{Einloggen}
 \end{figure}
 \FloatBarrier
@@ -155,7 +162,6 @@ Gibt der Benutzer bei einem Loginversuch eine falsche E-Mail-Adresse oder ein fa
 
 \subsubsection{Aktivität u04 – Registrierung}
 Über den Menübutton muss der Benutzer die Möglichkeit haben, einen Eintrag „Registrieren“ auszuwählen. Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss. Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss. Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist, dass es sich dabei um eine valide E-Mailadresse handelt und ob der Benutzer das Passwort zweimal identisch eingegeben hat. Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend wird der Registrierungsdialog geschlossen und der Benutzer befindet sich wieder auf der Seite, von der aus er die Einloggen-Aktivität gestartet hat. Außerdem muss der registrierte Benutzer nun auch eingeloggt sein.
-\\ \\
 Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 \begin{itemize}
 	\item E-Mail-Adresse
@@ -164,76 +170,101 @@ Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u03}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u04}
 \caption{Registrierung}
 \end{figure}
 \FloatBarrier
 Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
 
 
-\subsubsection{Aktivität u06 - Interessen Liste [todo]}
+\subsubsection{Aktivität u05 - [todo]}
 
 
-\subsubsection{Aktivität u05 – Artikel ablehnen}
-Der Benutzer muss auf dem Startbildschirm und in der Detailansicht einen Artikel ablehnen können, der ihm nicht gefällt. Dieser Artikel darf dem Benutzer nicht wieder angezeigt werden.
-Siehe \hyperlink{u01}{Aktivität u01} und \hyperlink{u05}{Aktivität u05}.
+%\subsubsection{Aktivität u05 – Artikel ablehnen}
+%Der Benutzer muss auf dem Startbildschirm und in der Detailansicht einen Artikel ablehnen können, der ihm nicht gefällt. Dieser Artikel darf dem Benutzer nicht wieder angezeigt werden.
+%Siehe \hyperlink{u01}{Aktivität u01} und \hyperlink{u05}{Aktivität u05}.
+%
+%\hypertarget{u05}{\subsubsection{Aktivität u05 – Detailansicht}}
+%In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
+%\begin{itemize}
+%	\item Artikelname (bis zu 100 Zeichen)
+%	\item Artikelpreis
+%	\item 1-3 Bilder des Artikels
+%	\item Artikelbeschreibung (bis zu [X] Zeichen)
+%	\item Entfernung vom Standpunkt des Benutzers zum Artikel
+%\end{itemize}
+%Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
+%Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine Email geschickt wurde. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
-\hypertarget{u05}{\subsubsection{Aktivität u05 – Detailansicht}}
-In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
-\begin{itemize}
-	\item Artikelname (bis zu 100 Zeichen)
-	\item Artikelpreis
-	\item 1-3 Bilder des Artikels
-	\item Artikelbeschreibung (bis zu [X] Zeichen)
-	\item Entfernung vom Standpunkt des Benutzers zum Artikel
-\end{itemize}
-Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
-Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine Email geschickt wurde. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
+%\begin{figure}[!htbp]
+%\centering
+%\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
+%\caption{Detailansicht eines Artikels}
+%\end{figure}
+%\FloatBarrier
+
+
+\subsubsection{Aktivität u06 – Interessen Liste}
+Der Benutzer muss die Möglichkeit haben, eine Liste der Artikel aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}). Die Interessen Liste muss der Benutzer über das Menü aufrufen können. 
+Sollte ein Verkäufer einen Artikel aus der Datenbank entfernen, so darf dieser Artikel bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden, der für diesen Artikel zuvor Interesse gemeldet hat. Der Benutzer muss einen Artikel aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
 
 \begin{figure}[!htbp]
 \centering
-\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
-\caption{Detailansicht eines Artikels}
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u06}
+\caption{Interessen Liste}
 \end{figure}
 \FloatBarrier
 
 
-\subsubsection{Aktivität u06 – Interesse an Artikel melden}
-Wenn der Benutzer in der Detailansicht des ausgewählten Artikels den Bestätigungs-Button drückt, muss das System dem Interessierten (aktueller Benutzer) sowie dem Verkäufer die Daten des jeweils anderen per Email zusenden. Anschließend muss das System dem Benutzer die Daten des Verkäufers auf dem Bildschirm anzeigen. Der Benutzer muss hierauf per Drücken eines Buttons wieder zur Startseite gelangen können. 
-
-
-\subsubsection{Aktivität u07 – neuen Artikel einstellen}
-Der Benutzer muss über das Menü auf die Seite gelangen können, auf der er einen neuen Artikel mit der  zugehörigen Detailansicht erstellen kann. Hier muss der Benutzer in der Lage sein, den Vorgang des Erstellens eines neuen Artikels zu unterbrechen und zurück auf die Startseite zu gelangen. Ebenso muss der Benutzer in der Lage sein, einen Artikel und die dazugehörige Detailansicht zu erstellen. Das System muss, nachdem der Benutzer einen Artikel erstellt hat, diesen Artikel in die Datenbank einfügen. Anschließend muss der Benutzer zurück auf die Startseite gelangen. 
-Bei der Erstellung einer Detailansicht für einen neuen Artikel muss der Benutzer folgendes frei wählen können:
+\subsubsection{Aktivität u07 – Einstellungen}
+Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 \begin{itemize}
-\item Schriftart (aus einer vorgegebenen Liste)
-\item Schriftgröße (mit einer angemessenen maximalen und minimalen Begrenzung)
-\item Position der Bilder innerhalb der Artikelbeschreibung (1-3 Bilder)
-\item Artikelbeschreibung (bis zu [X] Zeichen)
+	\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
+	\item Filterung der angezeigten Artikel (\hyperlink{u08}{Aktivität u08})
 \end{itemize}
 
-
-\hypertarget{u08}{\subsubsection{Aktivität u08 – Artikel filtern}}
-Der Benutzer muss über das Menü den Reiter „Settings“ erreichen können. Dort muss der Benutzer seine Filtereinstellungen wie Artikel-Kategorien und maximale Entfernung eingeben können. Das System muss diese Eingaben speichern und den Benutzer anschließend zurück auf die Startseite leiten .
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u08}
-\caption{Detailansicht eines Artikels}
+\caption{Einstellungen vornehmen}
 \end{figure}
 \FloatBarrier
 
 
-\subsubsection{Aktivität u09 – Einstellungen}
-Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. 
-Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
+\hypertarget{u08}{\subsubsection{Aktivität u08 – neuen Artikel einstellen}}
+Der Benutzer muss über den Menüpunkt „add item“ auf die Seite gelangen können, auf der seine zum Verkauf angebotenen Produkte und Dienstleistungen dargestellt werden. Er muss einen neuen Artikel mit der  zugehörigen Detailansicht erstellen können. Hier muss der Benutzer in der Lage sein, einen Artikel und die dazugehörige Detailansicht zu erstellen. Bevor das Erstellen vollendet ist, muss der Benutzer einen Ort sowie Preis angeben, welche dem Produkt zugeordnet werden. Ebenso muss die Möglichkeit bestehen den Vorgang des Erstellens zu unterbrechen und zurück auf die Startseite zu gelangen. Nachdem der Benutzer einen Artikel erstellt hat, wird der Artikel in die Datenbank eingefügt. Anschließend muss der Benutzer zurück auf die Startseite gelangen. 
+Bei der Erstellung der Detailansicht für einen neuen Artikel muss der Benutzer aus folgenden dynamischen Elementen frei kombinieren können:
 \begin{itemize}
-\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
-\item Filterung der angezeigten Artikel (\hyperlink{u08}{Aktivität u08})
+	\item Schriftart (aus einer vorgegebenen Liste)
+	\item Schriftgröße (mit einer angemessenen maximalen und minimalen Begrenzung)
+	\item Position der Bilder innerhalb der Artikelbeschreibung (1-10 Bilder)
+	\item Anordnung der Text- und Bildelemente
+	\item Artikelbeschreibung (bis zu [X] Zeichen)
+	\item Titel
 \end{itemize}
 
 
-\subsubsection{Aktivität u10 – Ausloggen}
+\subsubsection{Aktivität u09 – Ausloggen}
 Der Benutzer muss über das Menü „Ausloggen“ aufrufen können. Das System muss den Benutzer daraufhin ausloggen. 
+
+
+\subsubsection{Aktivität u10 – Menü}
+Der Benutzer muss über das Menü:
+\begin{itemize}
+	\item „home“ aufrufen können. Das System muss den Benutzer auf die Start-Seite führen.
+	\item „settings“ aufrufen können. Das System muss den Benutzer auf die Settings-Seite führen.
+\end{itemize}
+Der Benutzer muss , wenn er nicht eingeloggt ist, über das Menü :
+\begin{itemize}
+	\item „Einloggen“ aufrufen können. Das System muss den Benutzer auf die Login-Seite führen.
+	\item wenn „interests“ oder „add item“ gedrückt wird, vom System auf die Loginseite geführt werden.
+\end{itemize}
+Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
+\begin{itemize}
+	\item „add item“ aufrufen können. Das System muss den Benutzer auf die add item-Liste führen.
+	\item „interests“ aufrufen können. Das System muss den Benutzer auf die Interessenliste führen
+	\item „logout“ aufrufen können. Das System muss den Benutzer daraufhin ausloggen. 
+\end{itemize}
 
 
 \subsection{Eingabe/Ausgabe detailliert}
