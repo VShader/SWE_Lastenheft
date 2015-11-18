@@ -79,8 +79,8 @@ a</panel_attributes>
       <w>100</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>drückt auf Button
-"zurück"
+    <panel_attributes>drückt den 
+Menübutton
 a</panel_attributes>
     <additional_attributes/>
   </element>
@@ -101,12 +101,10 @@ a</panel_attributes>
       <x>480</x>
       <y>250</y>
       <w>180</w>
-      <h>70</h>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>leitet den Benutzer
-zurück auf die Seite,
-von der aus er Interessen
-Liste aufgerufen hat
+    <panel_attributes>Anzeigen des Menüs
+(Pop-Up Fenster)
 a</panel_attributes>
     <additional_attributes/>
   </element>
@@ -219,7 +217,7 @@ a</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>560</x>
-      <y>340</y>
+      <y>330</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -230,11 +228,11 @@ a</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>560</x>
-      <y>310</y>
+      <y>290</y>
       <w>30</w>
-      <h>50</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
