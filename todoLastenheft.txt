@@ -15,7 +15,7 @@ d = Dialoge und dazugehörige Aktivitätsdiagramm nummerieren (powerpoint)
 //-> = vorgänger nachvolgerbeziehung, bezieht sich auf darüber liegende Zeile (nur Empfehlung von meiner Seite)
 //---StepXX--- (hier muss alles synchronisiert sein)
 
-Reiner(m,a,t)	: Aktivität u08, Dialog a0800 bis Dialog a8400 //ist viel wenn hilfe brauchst sag bescheid
+Reiner(m,a,t)	: Aktivität u08, Dialog a0800 bis Dialog a8500 //ist viel wenn hilfe brauchst sag bescheid
 -> Thomas (d)   : Aktivität u08, Dialog a0800 bis Dialog a8400
 Martin(m,a) 	: Aktivität u07, Dialog a0700
 -> Cornelius(t)	: Aktivität u07
@@ -102,9 +102,10 @@ $ = rleasefähig
 		! Dialog a0800 – Verkaufs Liste (use case heißt Artikel Einstellen)
 			! Dialog a8100 – neuen Artikel einstellen
 			X Dialog a8400 – Design Ansicht //wenn nötig
+			X Overlay a8500 – Add Menu
 			X Dialog a8200 – Artikel entfernen
 			X Dialog a8300 – Artikel editieren
- 		+ Dialog a1000 – Menü
+ 		+ Overlay a1000 – Menü
 6. Produktdaten
 	X 6.1. Mengengerüst
 	+ 6.2. Vorgaben für Hardware, Software, Schnittstellen
