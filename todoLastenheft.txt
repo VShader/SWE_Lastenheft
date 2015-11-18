@@ -1,11 +1,58 @@
 Todo Lastenheft:
 
-X fehlt komplett
-! fehlerhaft
-+ fast gut
-$ rleasefähig
-? stand unklar (Aufgabenstellung unklar)
+//Es bleint noch zu sagen, wer sich nicht an die Aktivitätsdiagrammdesignregeln hält ist doof
 
+
+//Aufgabentypen sortiert nach empfohlener Arbeitsschrittreihenfolge
+m = Mokups Screens (Mockingbot) // muss nichtmehr dem Kunden vorgeführt werden, daher scheiß auf buttonverknüpfungen etc...)
+a = Aktivitätsdiagramm ohne aXXXX nummern (umlet schriftgröße 10!!!) // bitte eine leerzeile mit aXXXX oder nur a einfügen für alle Aktionen
+t = Texte //Beschreibungstexte zu den Diagrammen
+d = Dialoge und dazugehörige Aktivitätsdiagramm nummerieren (powerpoint)
+//t und d kann nebenläufig erfolgen
+
+
+//Wer macht was Sotiert nach Priorität.
+//-> = vorgänger nachvolgerbeziehung, bezieht sich auf darüber liegende Zeile (nur Empfehlung von meiner Seite)
+//---StepXX--- (hier muss alles synchronisiert sein)
+
+Reiner(m,a,t)	: Aktivität u08, Dialog a0800 bis Dialog a8500 //ist viel wenn hilfe brauchst sag bescheid
+-> Thomas (d)   : Aktivität u08, Dialog a0800 bis Dialog a8400
+Martin(m,a) 	: Aktivität u07, Dialog a0700
+-> Cornelius(t)	: Aktivität u07
+-> Thomas (d)	: Aktivität u07, Dialog a0700
+Thomas(m)	: Dialog a0600
+-> Johanna(a,t)	: Aktivität u06
+-> Thomas(d)	: Aktivität u06, Dialog a0600
+---Step01---
+Thomas(use case): 4.1.
+---Martin schickt Kunde Update---Diese Woche noch!!
+
+Thomas,Reiner(m): alle Pop-Ups
+->Thomas,Martin(d): alle Pop-Ups //nur Dialog! sollten keine eigenen aktivitätsdiagramm bekommen
+Cornelius(a,t)	: Aktivität u00 bis Aktivität u04 // Texte und Texte in Aktivitätsdiagramm überarbeiten
+Tobias(a,t)	: Aktivität u06 bis Aktivität u07 // Texte und ggf. Texte in Aktivitätsdiagramm überarbeiten
+Johanna(a,t)	: Aktivität u08, Aktivität u10    // Texte und ggf. Texte in Aktivitätsdiagramm überarbeiten
+wer will	: 5.2. Anmerkung besser formulieren
+Victor		: 2. Zeit- und Budgetrahmen
+wer will	: 3.2. Nutzen
+Kirill,Victor	: 6.1. Mengengerüst
+Tobias		: 7.1. Performance
+Johanna,Cornelius: 8.1. Bedienbarkeit, Zuverlässigkeit, Effizienz //QM Aufgabe oder?
+wtf???		: 4.3. IST-Prozesse
+Tobias,Thomas	: 4.4. Unterstützte SOLL-Prozesse
+---Step02---
+vielleicht guckt sich hier jemand nochmal das ganze nach Formatfehlern an
+---Martin schickt Kunde Update---Diesen Monat noch!
+
+//Fortschritt
+X = fehlt komplett
+! = fehlerhaft
++ = fast gut
+$ = rleasefähig
+? = stand unklar (Aufgabenstellung unklar)
+
+
+//Inhaltsverzeichnis:
 + 1. Auftraggeber
 ! 2. Zeit- und Budgetrahmen
 3. Zielbestimmung
@@ -17,21 +64,20 @@ $ rleasefähig
 	? 4.3. IST-Prozesse
 	! 4.4. Unterstützte SOLL-Prozesse
 5. Produktfunktionen
-	!!!//alle Texte müssen noch etwas angepasst werden
 	5.1. Alle Funktionen, Eingabe/Ausgabe, beschrieben aus Anwendersicht
  		+ Aktivität u00 – Starten der Software
  		+ Aktivität u01 – Startbildschirm
  		+ Aktivität u02 – Detailansicht
-			? Aktivität u21 – Kauf Pop-Up //hat kein eigenes Aktivitätsdiagramm
+			? Aktivität u21 – Kauf Pop-Up //hat kein eigenes Aktivitätsdiagramm, sollte im Text aber genauer beschrieben werden
  		+ Aktivität u03 – Einloggen
  		+ Aktivität u04 – Registrierung
 		[frei] Aktivität u05 //warum auch immer frei gelassen
  		X Aktivität u06 – Interessen Liste
- 		! Aktivität u07 – Einstellungen
+ 		! Aktivität u07 – Einstellungen 
 		//wenns nicht in ein aktivitätsdiagramm passt
-			X Aktivität u71 – Passwort ändern
-			X Aktivität u72 – Artikel Filtern
-			? Aktivität u73 – Reichweite
+		//	X Aktivität u71 – Passwort ändern
+		//	X Aktivität u72 – Artikel Filtern
+		//	? Aktivität u73 – Reichweite
  		! Aktivität u08 – Artikel einstellen //Verkaufs Liste mit interessen counter
 			! Aktivität u81 – neuen Artikel einstellen //menge, Ort, Detailansichtsdesigner
 			X Aktivität u82 – Artikel entfernen //Verkauft oder Angebot zurückziehen
@@ -56,9 +102,10 @@ $ rleasefähig
 		! Dialog a0800 – Verkaufs Liste (use case heißt Artikel Einstellen)
 			! Dialog a8100 – neuen Artikel einstellen
 			X Dialog a8400 – Design Ansicht //wenn nötig
+			X Overlay a8500 – Add Menu
 			X Dialog a8200 – Artikel entfernen
 			X Dialog a8300 – Artikel editieren
- 		+ Dialog a1000 – Menü
+ 		+ Overlay a1000 – Menü
 6. Produktdaten
 	X 6.1. Mengengerüst
 	+ 6.2. Vorgaben für Hardware, Software, Schnittstellen
