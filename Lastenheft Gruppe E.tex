@@ -30,10 +30,11 @@ Am 21.10.2015 fand das erste Gespräch mit dem Auftraggeber statt. Die erste Rel
 
 \section{Zielbestimmung}
 \subsection{Zweck}
-Die Software „Unsocial Selling App“ soll das Verkaufen von Produkten und Anbieten von Dienstleitungen erleichtern.
+Die Software „Unsocial Selling App“ soll das Anbieten von Produkten und Dienstleistungen im Bereich Consumer-to-Consumer erleichtern. In einem lokalen Suchradius soll den Nutzern eine Plattform geboten werden, sowohl eigene Anzeigen aufzugeben, als auch auf Zufallsbasis fremde Anzeigen vorgeführt zu bekommen. 
+
 
 \subsection{Nutzen}
-
+Die Software soll den Nutzern eine einfache, intuitive Möglichkeit bieten, Anzeigen in ihrer Umgebung zu durchstöbern und, sofern diese für sie interessant sind, zu speichern und mit dem Anbieter via Email in Kontakt zu treten. Durch eine einfache Einstellung des Radius und der Interessen, wird eine angenehmes Impulskauferlebnis geboten.
 
 
 
@@ -87,7 +88,7 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 		\item Filterung der Anzeigen nach Stichwort und Standort
 		\item Aufrufen der Detailansicht einer Anzeige
 	\end{enumerate}
-	\item Premiumverkäufer, dessen Artikel priorisiert behandelt werden
+	\item Premiumverkäufer, dessen Anzeigen/Artikel priorisiert behandelt werden
 \end{itemize}
 
 
@@ -150,15 +151,18 @@ befinden. Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, u
 
 
 \hypertarget{u02}{\subsubsection{Aktivität u02 - Detailansicht}}
-In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
+In der Detailansicht einer Anzeige müssen dem Benutzer folgende Details angezeigt werden:
 \begin{itemize}
 	\item Artikelpreis
-	\item 0-10 Bilder des Artikels
-	\item (Modular designbare Elemente)
-	\item Artikelbeschreibung (bis zu [X] Zeichen)
-	\item Entfernung vom Standpunkt des Benutzers zum Artikel
+	\item 0-10 Modular designbare Elemente bestehend aus
+	\begin{itemize}
+		\item Bilder (Fotos, Grafiken)
+		\item Texte
+		\item Listen (z.b. Aufzählungen von Funktionalitäten)
+	\end{itemize}
+	\item Entfernung vom Standpunkt des Benutzers zum Verkäufer (wo er die Anzeige platzieren möchte)
 \end{itemize}
-Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
+Der Benutzer muss eine Anzeige ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen einer Anzeige befindet sich unten rechts („X“ siehe Dialog a0200) und der Button, der Interesse bekundet, befindet sich unten links („Häkchen“ siehe Dialog a0200) .
 Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-Up mit den Kontaktdaten des Verkäufers  erscheinen und es muss der Interessenliste hinzugefügt werden. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
 \begin{figure}[!htbp]
@@ -226,8 +230,8 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 
 
 \subsubsection{Aktivität u06 – Interessen Liste}
-Der Benutzer muss die Möglichkeit haben, eine Liste der Artikel aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}). Die Interessen Liste muss der Benutzer über das Menü aufrufen können. 
-Sollte ein Verkäufer einen Artikel aus der Datenbank entfernen, so darf dieser Artikel bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden, der für diesen Artikel zuvor Interesse gemeldet hat. Der Benutzer muss einen Artikel aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
+Der Benutzer muss die Möglichkeit haben, eine Liste der Anzeigen aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}). Die Interessen Liste muss der Benutzer über das Menü aufrufen können. 
+Sollte ein Verkäufer eine Anzeige aus der Datenbank entfernen, so darf diese Anzeige bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden, der für diese Anzeige zuvor Interesse gemeldet hat. Der Benutzer muss eine Anzeige aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
 
 \begin{figure}[!htbp]
 \centering
@@ -241,8 +245,8 @@ Sollte ein Verkäufer einen Artikel aus der Datenbank entfernen, so darf dieser 
 Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 \begin{itemize}
 	\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
-	\item Filterung der angezeigten Artikel (\hyperlink{u08}{Aktivität u08})
-	\item Radius indem sich Artikel befinden können.
+	\item Filterung der angezeigten Anzeigen (\hyperlink{u08}{Aktivität u08})
+	\item Radius indem sich Anzeige befinden können.
 \end{itemize}
 
 \begin{figure}[!htbp]
@@ -253,9 +257,9 @@ Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. Auf
 \FloatBarrier
 
 
-\hypertarget{u08}{\subsubsection{Aktivität u08 – neuen Artikel einstellen}}
-Der Benutzer muss über den Menüpunkt „my adverts“ auf die Seite gelangen können, auf der seine zum Verkauf angebotenen Produkte und Dienstleistungen dargestellt werden. Er muss einen neuen Artikel mit der zugehörigen Detailansicht erstellen können. Hier muss der Benutzer in der Lage sein, einen Artikel und die dazugehörige Detailansicht zu erstellen. Bevor das Erstellen vollendet ist, muss der Benutzer ein Titelbild und einen Titeltext bestimmt haben sowie auf der Detailseite einen Ort und Preis angeben, welche dem Produkt zugeordnet werden. Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „my adverts“ zu gelangen. Nachdem der Benutzer einen Artikel erstellt hat, wird der Artikel in die Datenbank eingefügt. Anschließend muss der Benutzer zurück auf die Seite „my adverts“ gelangen. 
-Bei der Erstellung der Detailansicht für einen neuen Artikel muss der Benutzer aus folgenden dynamischen Elementen frei kombinieren können:
+\hypertarget{u08}{\subsubsection{Aktivität u08 – neue Anzeige einstellen}}
+Der Benutzer muss über den Menüpunkt „my adverts“ auf die Seite gelangen können, auf der seine zum Verkauf angebotenen Produkte und Dienstleistungen dargestellt werden. Er muss eine neue Anzeige mit der zugehörigen Detailansicht erstellen können. Hier muss der Benutzer in der Lage sein, eine Anzeige und die dazugehörige Detailansicht zu erstellen. Bevor das Erstellen vollendet ist, muss der Benutzer ein Titelbild und einen Titeltext bestimmt haben sowie auf der Detailseite einen Ort und Preis angeben, welche der Anzeige zugeordnet werden. Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „my adverts“ zu gelangen. Nachdem der Benutzer eine Anzeige erstellt hat, wird die Anzeige in die Datenbank eingefügt. Anschließend muss der Benutzer zurück auf die Seite „my adverts“ gelangen. 
+Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer aus folgenden dynamischen Elementen frei kombinieren können:
 \begin{itemize}
 	\item Bildelemente, die das Hochladen von Bildern ermöglichen.
 	\item Textelemente, die das Eingeben einer Anzeigenbeschreibung ermöglichen.
