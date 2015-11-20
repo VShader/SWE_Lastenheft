@@ -40,8 +40,22 @@ Die Software soll den Nutzern eine einfache, intuitive Möglichkeit bieten, Anze
 
 \section{Produckteinsatz}
 \subsection{Anwendungsbereich}
-Der Benutzer muss die Software starten können. Nach Starten der Software muss dem Benutzer die Startseite mit einem Artikel angezeigt werden. Die Startseite muss dem Benutzer einen Artikel anzeigen mit einem Bild des Artikels und dem Artikelnamen. Die Startseite muss ein Menü zur Verfügung stellen, über welches sich der Benutzer einloggen oder registrieren kann. Der Benutzer muss die Möglichkeit besitzen, sein Passwort zurückzusetzen. 
-Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filterungsfunktion der Artikel benutzen können. Der Benutzer muss eine Detailansicht des Artikel aufrufen können, welche weitere Bilder des Artikels anzeigt, den Preis des Artikels, die Entfernung zum Artikel und eine Artikelbeschreibung in Form eines Textes. Eingeloggte Benutzer müssen in der Detailansicht für einen Artikel dem Verkäufer ihr Interesse mitteilen können. Eingeloggte Benutzer müssen neue Artikel einstellen können. 
+Der Benutzer muss:
+\begin{itemize}
+	\item die Software starten können 
+	\item Nach dem Start die Startseite mit einer Anzeige, sowie deren Bild und Namen angezeigt werden 
+	\item auf der Startseite ein Menü auswählen können, über welches er sich einloggen oder registrieren kann 
+	\item die Möglichkeit haben, sein Passwort zurückzusetzen 
+	\item eine Anzeige ablehnen können 
+	\item vorgegebene Kategorien einfügen können, welche die Anzeigenmenge filtert 
+	\item eine Detailansicht der Anzeige aufrufen können, welche weitere Bilder, Preis, Entfernung und Beschreibung in Form eines Textes darstellt 
+
+	\item sofern er eingeloggt ist: 
+	\begin{itemize}
+		\item dem Anbieter, via Detailansicht der Anzeige, sein Interesse bekunden können
+		\item eine Anzeige einstellen könne	
+	\end{itemize}
+\end{itemize}
 
 \begin{figure}[!htbp]
 \centering
@@ -99,17 +113,22 @@ Während des Startvorgangs muss dem Benutzer eine Warteanzeige angezeigt werden.
 
 
 \hypertarget{u01}{\subsubsection{Aktivität u01 – Startbildschirm}}
-Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. Auf der Startseite müssen folgende Informationen angezeigt werden:
+Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. 
+Auf der Startseite müssen folgende Informationen angezeigt werden:
 \begin{itemize}
 	\item Ein Artikel mit einem Foto und dem Artikelnamen, der aus maximal 100 Zeichen bestehen darf
 	\item Ein Button, der einen Artikel ablehnt und somit Desinteresse zeigt
-	\item Ein Button, der zu der Detailansicht des angezeigten Artikels führt
-	\item Ein Button, der ein Hauptmenü anzeigt
+	\item Ein Bild der Anzeige, welches beim Drücken zur Detailansicht führt
+	\item Eine Navigationsleiste mit Button, welcher das Menü aufruft
 \end{itemize}
 Das Hauptmenü muss folgende Menüpunkte beinhalten:
 \begin{itemize}
 	\item Startbildschirm
-	\item Einloggen
+	\item zustandsabhängige Anzeige
+	\begin{itemize}
+		\item falls angemeldet: Ausloggen 
+		\item falls nicht angemeldet: Einloggen 
+	\end{itemize}
 	\item Registrieren
 	\item Einstellungen:
 	\begin{itemize}
@@ -117,10 +136,11 @@ Das Hauptmenü muss folgende Menüpunkte beinhalten:
 		\item Filterung
 	\end{itemize}
 	\item Artikel einstellen
-	\item Ausloggen
 \end{itemize}
 
-Der Menübutton muss sich oben rechts befinden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button für die Detailansicht eines Artikels muss sich unten links befinden. Buttons können durch Swipe-Gesten ersetzt werden (siehe Anmerkung).
+Der Menübutton befindet sich oben rechts. Der Button zum Ablehnen eines Artikels muss sich 
+unten rechts befinden und der Button für die Detailansicht eines Artikels muss sich unten links 
+befinden. Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktuelle Anzeige zu verwerfen und die nächste Anzeige darzustellen.
 
 \begin{figure}[!htbp]
 \centering
