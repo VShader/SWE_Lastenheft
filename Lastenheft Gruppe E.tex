@@ -15,21 +15,22 @@
 \newpage
 
 \section{Auftraggeber}
-Eine Gruppe von vier Master-Studenten der FH Aachen aus dem Studiengang „Information System Engineering“ ist Auftraggeber der Software „NAME“. 
+Eine Gruppe von vier Master-Studenten der FH Aachen aus dem Studiengang „Information System Engineering“ ist Auftraggeber der Software „Unsocial Selling App“. 
 
 
 
 
 \section{Zeit- und Budgetrahmen}
-[TODO: ECTS Rechnung]
-Das erste Gespräch mit dem Kunden hat am 21.10.2015 stattgefunden. Die erste Release-Version soll am [DATUM] dem Kunden vorliegen. Die finale Version muss am 21.01.2016 vorliegen und dem Kunden präsentiert werden.
+Die Software „Unsocial Selling App“ wird im Rahmen der Lehrveranstaltung „Software Engineering“ im Fachsemester 5 Studiengang “Angewandte Informatik” an der Fachhochschule Aachen erstellt. Durch die vorgegebenen ECTS-Punkte für das Praktikum (3 ECTS-Punkte) ist bereits der zeitliche Rahmen vorgegeben. Daraus ergibt sich eine Arbeitszeit von 156 Stunden pro Person. Insgesamt werden 1248 Zeitstunden für das Projekt vorausgesetzt. 
+Davon werden wir 288 Stunden für die Vorbereitung, 480 Stunden für die Planung und 480 Stunden für die Implementierung veranschlagen. 
+Am 21.10.2015 fand das erste Gespräch mit dem Auftraggeber statt. Die erste Release-Version der Software soll am 08.01.2016 an den Kunden übergeben werden. Die finale Version muss am 15.01.2016 dem Kunden vorliegen und bereit sein für die Vorführung. 
 
 
 
 
 \section{Zielbestimmung}
 \subsection{Zweck}
-Die Software „NAME“ soll das Verkaufen von Produkten und Anbieten von Dienstleitungen erleichtern.
+Die Software „Unsocial Selling App“ soll das Verkaufen von Produkten und Anbieten von Dienstleitungen erleichtern.
 
 \subsection{Nutzen}
 
@@ -50,7 +51,7 @@ Der Benutzer muss einen Artikel ablehnen können. Der Benutzer muss eine Filteru
 
 
 \subsection{Zielgruppe und Anwender}
-Die Software „NAME“ richtet sich an Menschen, die auf schnelle und unkomplizierte Weise Produkte und Dienstleistungen erwerben möchten. Bei bekannten Verkaufsplattformen im Internet ist das Stöbern oft sehr unübersichtlich. Die Software „NAME“ hingegen überzeugt durch ein besonders simples Bedienkonzept und ist somit für alle Personen, die gerne online einkaufen, geeignet.
+Die Software „Unsocial Selling App“ richtet sich an Menschen, die auf schnelle und unkomplizierte Weise Produkte und Dienstleistungen erwerben möchten. Bei bekannten Verkaufsplattformen im Internet ist das Stöbern oft sehr unübersichtlich. Die Software „Unsocial Selling App“ hingegen überzeugt durch ein besonders simples Bedienkonzept und ist somit für alle Personen, die gerne online einkaufen, geeignet.
 
 
 \subsection{IST-Prozesse}
@@ -256,26 +257,26 @@ Der Benutzer muss über das Menü „Ausloggen“ aufrufen können. Das System m
 
 \subsubsection{Aktivität u10 – Menü}
 Der Benutzer muss über das Menü:
-\begin{itemize}
+\begin{enumerate}
 	\item „home“ aufrufen können. Das System muss den Benutzer auf die Start-Seite führen.
 	\item „settings“ aufrufen können. Das System muss den Benutzer auf die Settings-Seite führen.
-\end{itemize}
+\end{enumerate}
 Der Benutzer muss , wenn er nicht eingeloggt ist, über das Menü :
-\begin{itemize}
+\begin{enumerate}
 	\item „Einloggen“ aufrufen können. Das System muss den Benutzer auf die Login-Seite führen.
 	\item wenn „interests“ oder „add item“ gedrückt wird, vom System auf die Loginseite geführt werden.
-\end{itemize}
+\end{enumerate}
 Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
-\begin{itemize}
+\begin{enumerate}
 	\item „add item“ aufrufen können. Das System muss den Benutzer auf die add item-Liste führen.
 	\item „interests“ aufrufen können. Das System muss den Benutzer auf die Interessenliste führen
 	\item „logout“ aufrufen können. Das System muss den Benutzer daraufhin ausloggen. 
-\end{itemize}
+\end{enumerate}
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u10}
-\caption{Interessen Liste}
+\caption{Menü}
 \end{figure}
 \FloatBarrier
 
@@ -336,6 +337,21 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 
 \section{Produktdaten}
 \subsection{Mengengerüst}
+Anforderungen aufgrund des Mengengerüsts. 
+
+\subsubsection*{MENGE\_001 - Benutzeranzahl}
+\begin{itemize}
+	\item Mit der Software müssen mindestens 300 Personen arbeiten können. 
+	\item Jedem Benutzer muss mindestens 20 MB Speicherplatz zur Verfügung gestellt werden. 
+\end{itemize}
+
+\subsubsection*{MENGE\_002 - Anzahl der Vorgänge }
+\begin{itemize}
+	\item Pro Tag müssen mindestens 100 Anzeigen erstellt werden können. 
+	\item Pro Tag müssen mindestens 1000 Anzeigen angesehen werden können.
+\end{itemize}
+
+
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
 Die Applikation wird in zwei Teile unterteilt. Ein Teil ist die SQL-Server, der andere die Client Applikation, die auf allen Endgeräten installiert wird.
 
