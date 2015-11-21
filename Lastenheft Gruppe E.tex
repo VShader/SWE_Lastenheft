@@ -97,7 +97,6 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 	\begin{enumerate}
 		\item Verwaltung des Profils
 		\item Erstellen neuer Anzeigen
-		\item Artikel einer Anzeige in den Einkaufswagen legen
 	\end{enumerate}
 	\item Für eingeloggte und nicht eingeloggte Benutzer:
 	\begin{enumerate}
@@ -105,7 +104,7 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 		\item Aufrufen der Detailansicht einer Anzeige
 		\item Ablehnen eines Angebotes um Neues zu erhalten
 	\end{enumerate}
-	\item Premiumverkäufer, dessen Artikel priorisiert behandelt werden
+	\item Premiumverkäufer, dessen Annoncen priorisiert behandelt werden
 \end{itemize}
 
 
@@ -160,8 +159,7 @@ Das Hauptmenü muss folgende Menüpunkte beinhalten:
 \end{itemize}
 
 Der Menübutton befindet sich oben rechts.
-Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button für die Detailansicht eines Artikels muss sich unten links 
-befinden.
+Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button für die Detailansicht unten links.
 Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktuelle Anzeige zu verwerfen und die nächste Anzeige darzustellen.
 Entsprechende Buttons entfallen in diesem Fall.
 
@@ -262,10 +260,10 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 
 
 \subsubsection{Aktivität u06 – Interessen Liste}
-Der Benutzer muss die Möglichkeit haben, eine Liste der Artikel aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
+Der Benutzer muss die Möglichkeit haben, eine Liste der Angebote aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
 Die Interessen Liste muss der Benutzer über das Menü aufrufen können. 
-Sollte ein Verkäufer einen Artikel aus der Datenbank entfernen, so darf dieser Artikel bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden, der für diesen Artikel zuvor Interesse gemeldet hat.
-Der Benutzer muss einen Artikel aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
+Sollte ein Verkäufer eine Annonce aus der Datenbank entfernen, so darf diese bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden.
+Der Benutzer muss ein Angebot aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
 
 \begin{figure}[!htbp]
 \centering
@@ -276,11 +274,12 @@ Der Benutzer muss einen Artikel aus der Liste auswählen können und das System 
 
 
 \subsubsection{Aktivität u07 – Einstellungen}
-Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
+Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können.
+Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 \begin{itemize}
 	\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
-	\item Filterung der angezeigten Artikel (\hyperlink{u08}{Aktivität u08})
-	\item Radius indem sich Artikel befinden können.
+	\item Filterung der angezeigten Angebote (\hyperlink{u08}{Aktivität u08})
+	\item Radius indem sich Angebote befinden können.
 \end{itemize}
 
 \begin{figure}[!htbp]
@@ -315,7 +314,7 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u08}
-\caption{neuen Artikel einstellen}
+\caption{neue Annonce einstellen}
 \end{figure}
 \FloatBarrier
 
