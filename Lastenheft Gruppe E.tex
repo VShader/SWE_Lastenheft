@@ -34,7 +34,10 @@ Die finale Version muss am 15.01.2016 dem Kunden vorliegen und bereit sein für 
 
 \section{Zielbestimmung}
 \subsection{Zweck}
-Die Software „Unsocial Selling App“ soll das Verkaufen von Produkten und Anbieten von Dienstleitungen erleichtern.
+Die Software „Unsocial Selling App“ erlaubt die Kontaktaufnahme zwischen Verkäufern und Kunden.
+Dazu bietet sie Verkäufern die Möglichkeit, Annoncen für Produkten und das Anbieten von Dienstleitungen, in einem bestimmten Gebiet und zu einer bestimmten Kategorie, zu erstellen.
+Des weiteren können Kunden jene Annoncen sehen, die der Kategorie ihrer Filterliste entsprechen und sich in ihrem Gebiet befinden.
+Annoncen von sogenannter Premiumverkäufer, werden dabei häufiger Angezeigt.
 
 \subsection{Nutzen}
 „Unsocial Selling App“ bietet den Nutzern die Möglichkeit für schnelles und problemloses impulsiv Einkaufen.
@@ -98,8 +101,9 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 	\end{enumerate}
 	\item Für eingeloggte und nicht eingeloggte Benutzer:
 	\begin{enumerate}
-		\item Filterung der Anzeigen nach Stichwort und Standort
+		\item Filterung der Anzeigen nach Kategorien und Standort
 		\item Aufrufen der Detailansicht einer Anzeige
+		\item Ablehnen eines Angebotes um Neues zu erhalten
 	\end{enumerate}
 	\item Premiumverkäufer, dessen Artikel priorisiert behandelt werden
 \end{itemize}
@@ -132,9 +136,10 @@ Ist der Start hingegen erfolgreich, muss dem Benutzer die Hauptseite angezeigt w
 Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. 
 Auf der Startseite müssen folgende Informationen angezeigt werden:
 \begin{itemize}
-	\item Ein Artikel mit einem Foto und dem Artikelnamen, der aus maximal 100 Zeichen bestehen darf
-	\item Ein Button, der einen Artikel ablehnt und somit Desinteresse zeigt
-	\item Ein Bild der Anzeige, welches beim Drücken zur Detailansicht führt
+	\item Eine Annonce mit einem Namen, der aus maximal 100 Zeichen bestehen darf
+	\item Ein Button, der ein Angebot ablehnt und somit Desinteresse zeigt
+	\item Ein Bild der Annonce, welches beim Drücken zur Detailansicht führt
+	\item Der Preis des Angebotes
 	\item Eine Navigationsleiste mit Button, welcher das Menü aufruft
 \end{itemize}
 Das Hauptmenü muss folgende Menüpunkte beinhalten:
@@ -151,13 +156,14 @@ Das Hauptmenü muss folgende Menüpunkte beinhalten:
 		\item Passwort des Benutzers ändern
 		\item Filterung
 	\end{itemize}
-	\item Artikel einstellen
+	\item Annonce einstellen
 \end{itemize}
 
 Der Menübutton befindet sich oben rechts.
 Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button für die Detailansicht eines Artikels muss sich unten links 
 befinden.
 Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktuelle Anzeige zu verwerfen und die nächste Anzeige darzustellen.
+Entsprechende Buttons entfallen in diesem Fall.
 
 \begin{figure}[!htbp]
 \centering
@@ -168,24 +174,24 @@ Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktu
 
 
 \hypertarget{u02}{\subsubsection{Aktivität u02 - Detailansicht}}
-In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
+In der Detailansicht eines Angebots müssen dem Benutzer folgende Details angezeigt werden:
 \begin{itemize}
-	\item Artikelpreis
-	\item 0-10 Bilder des Artikels
+	\item Preis
+	\item 0-10 Bilder des Angebots
 	\item (Modular designbare Elemente)
-	\item Artikelbeschreibung (bis zu [X] Zeichen)
-	\item Entfernung vom Standpunkt des Benutzers zum Artikel
+	\item Angebotsbeschreibung (bis zu [X] Zeichen)
+	\item Entfernung vom Standpunkt des Benutzers zum Angebot
 \end{itemize}
-Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können.
+Der Benutzer muss das Angebot ablehnen können oder dem Verkäufer sein Interesse melden können.
 Dies muss über zwei Buttons realisiert werden.
-Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
+Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
 Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-Up mit den Kontaktdaten des Verkäufers  erscheinen und es muss der Interessenliste hinzugefügt werden.
 Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u02}
-\caption{Detailansicht eines Artikels}
+\caption{Detailansicht eines Angebotss}
 \end{figure}
 \FloatBarrier
 
