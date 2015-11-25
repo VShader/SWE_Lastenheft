@@ -43,15 +43,15 @@ Annoncen von sogenannter Premiumverkäufer, werden dabei häufiger Angezeigt.
 „Unsocial Selling App“ bietet den Nutzern die Möglichkeit für schnelles und problemloses impulsiv Einkaufen.
 Die Käufer können die Anzeigen nach ihren Interessen filtern.
 Dafür wird eine Datenbank verwendet, in der die Angebote der Verkäufer gespeichert werden.
-Bei Kaufinteresse bekommt der Benutzer die Kontaktdaten des Verkäufers.
-Durch das Zusammenspiel vieler Nutzer, soll eine attraktive Verkaufsplattform geschaffen werden.
-So hat der Nutzer einerseits die Möglichkeit neue Anzeigen zu erstellen und somit seine Ware schnell verkaufen oder Dienstleistung schnell erbringen.
-Andererseits kann er die Waren und Dienstleistungen anderer Nutzern schnell bekommen.
+Bei einem Kaufinteresse bekommt der Benutzer die Kontaktdaten des Verkäufers und kann somit den Kontakt für einen möglichen Verkauf initiieren.
+Durch das Zusammenspiel vieler Nutzer soll eine attraktive Verkaufsplattform geschaffen werden.
+Somit hat der Nutzer einerseits die Möglichkeit, schnell und unkompliziert seine Produkte zu verkaufen und Dienstleistungen anzubieten, andererseits kann er auch schnell auf vorhandene Anzeigen reagieren und Artikel und Dienstleistungen erwerben.
 
 
 
 
-\section{Produckteinsatz}
+
+\section{Produkteinsatz}
 \subsection{Anwendungsbereich}
 Der Benutzer muss:
 \begin{itemize}
@@ -506,41 +506,54 @@ Die Applikation wird in zwei Teile unterteilt.
 Ein Teil ist die SQL-Server, der andere die Client Applikation, die auf allen Endgeräten installiert wird.
 
 \subsubsection*{Server}
-Auf dem Server werden die Benutzerdaten, Verkaufsdaten in einer Datenbank gespeichert.
-Der Server muss über folgende Ausstattungsmerkmale verfügen:
+Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
+Der Server muss mindestens über folgende Ausstattungsmerkmale verfügen:
 \begin{itemize}
 	\item MySQL 10.0.17-MariaDB
 	\item OS: Linux oder Windows
-	\item HD mindestens 10 GB
+	\item HD 10 GB
 	\item 2 GB RAM
 \end{itemize}
 
 \subsubsection*{Client}
 Der Client muss eine ständige Verbindung zum Internet besitzen.
-Die Applikation muss auf: 
+Die Client Applikation muss auf folgenden Plattformen laufen: 
 \begin{itemize}
-	\item Android v4.4
-	\item Windows Phone 8.1
-	\item Windows 7
-	\item iOS v8.0
+	\item Android Version 4.4
+	\item Windows Phone Version 8.1
+	\item Windows Version 7
+	\item iOS Version 8.0
 \end{itemize} 
-lauffähig sein.
 Optimierung für genaue Modelle ist nicht gefordert.
-Die App benötigt maximal 50MB an Speicherplatz. 
+
+Auf den folgenden Geräten muss die Software laufen:
+Galaxy Note 2
+\begin{itemize}
+	\item 5.5 Zoll Display mit einer Auflösung von 720 x 1280 Pixeln
+	\item Quad-core 1.6 GHz Cortex-A9
+	\item Android 4.4 (KitKat)
+	\item 2GB RAM
+\end{itemize} 
+
+Die Applikation benötigt maximal 50MB an Speicherplatz. 
 
 
 \section{Produktleistungen}
 \subsection{Performance}
-
+Der Server muss innerhalb von 6 Sekunden auf eine Anfrage des Clients antworten. Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. Sollte der Server nicht innerhalb der oben angegebenen Zeit reagieren, so muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden. 
 
 \section{Qualitätsanforderungen}
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
-Die Applikation muss unter den aktuellen Versionen von Android, iOS und Windows Phone lauffähig sein.
-Es muss außerdem eine Applikation für Desktop-PCs geben.
+Jeder Benutzer muss sich mit seiner Email-Adresse und seinem Passwort beim Server authentifizieren. Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer erfolgreich eingeloggt hat. Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder eingeloggt. 
+
+Der Benutzer darf nur seine eigenen Daten und Aktionen verändern.
+Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
+
+Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
 
 \subsubsection*{Anforderung an die Zuverlässigkeit}
-Die Konsistenz der Datenbank, muss jederzeit gewährleistet werden.
+Die Konsistenz der Datenbank muss jederzeit gewährleistet werden. Sollte es einen Fehler im System geben, wird die Datenbank auf den letzten noch konsistenten Zustand zurückgesetzt.
 
-
+Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
 
 \end{document}
