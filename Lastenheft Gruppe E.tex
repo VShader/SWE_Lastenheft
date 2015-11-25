@@ -509,10 +509,10 @@ Ein Teil ist die SQL-Server, der andere die Client Applikation, die auf allen En
 Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
 Der Server muss mindestens über folgende Ausstattungsmerkmale verfügen:
 \begin{itemize}
-	\item MySQL 10.0.17-MariaDB
-	\item OS: Linux oder Windows
-	\item HD 10 GB
-	\item 2 GB RAM
+	\item MySQL 5.5
+	\item OS: Linux
+	\item HD 70 GB
+	\item 4 GB RAM
 \end{itemize}
 
 \subsubsection*{Client}
@@ -527,6 +527,15 @@ Die Client Applikation muss auf folgenden Plattformen laufen:
 Optimierung für genaue Modelle ist nicht gefordert.
 
 Auf den folgenden Geräten muss die Software laufen:
+
+Huawei P8
+\begin{itemize}
+	\item 5.2 Zoll Display mit einer Auflösung von 1080 x 1920 Pixeln
+	\item Quad-core 2 GHz Cortex-A53 & quad-core 1.5 GHz Cortex-A53
+	\item Android 5.0.1
+	\item 3GB RAM
+\end{itemize} 
+
 Galaxy Note 2
 \begin{itemize}
 	\item 5.5 Zoll Display mit einer Auflösung von 720 x 1280 Pixeln
@@ -535,16 +544,28 @@ Galaxy Note 2
 	\item 2GB RAM
 \end{itemize} 
 
-Die Applikation benötigt maximal 50MB an Speicherplatz. 
+Microsoft lumia 535
+\begin{itemize}
+	\item 5.0 Zoll Display mit einer Auflösung von 540 x 960 Pixeln
+	\item Quad-core 1.2 GHz Cortex-A7
+	\item Windows Phone Version 8.1
+	\item 1GB RAM
+\end{itemize} 
+
+Die Applikation benötigt maximal 50MB an Speicherplatz. Davon werden 40MB für die Installation benötigt und 10MB für den Cache.
 
 
 \section{Produktleistungen}
 \subsection{Performance}
-Der Server muss innerhalb von 6 Sekunden auf eine Anfrage des Clients antworten. Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. Sollte der Server nicht innerhalb der oben angegebenen Zeit reagieren, so muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden. 
+Der Server muss innerhalb von 6 Sekunden auf eine Anfrage des Clients antworten. 
+Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. 
+Sollte der Server nicht innerhalb der oben angegebenen Zeit reagieren, so muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden. 
 
 \section{Qualitätsanforderungen}
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
-Jeder Benutzer muss sich mit seiner Email-Adresse und seinem Passwort beim Server authentifizieren. Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer erfolgreich eingeloggt hat. Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder eingeloggt. 
+Jeder Benutzer muss sich mit seiner Email-Adresse und seinem Passwort beim Server authentifizieren. 
+Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer erfolgreich eingeloggt hat. 
+Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder eingeloggt. 
 
 Der Benutzer darf nur seine eigenen Daten und Aktionen verändern.
 Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
@@ -552,7 +573,8 @@ Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Da
 Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
 
 \subsubsection*{Anforderung an die Zuverlässigkeit}
-Die Konsistenz der Datenbank muss jederzeit gewährleistet werden. Sollte es einen Fehler im System geben, wird die Datenbank auf den letzten noch konsistenten Zustand zurückgesetzt.
+Die Konsistenz der Datenbank muss jederzeit gewährleistet werden. 
+Sollte es einen Fehler im System geben, wird die Datenbank auf den letzten noch konsistenten Zustand zurückgesetzt.
 
 Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
 
