@@ -490,29 +490,30 @@ Anforderungen aufgrund des Mengengerüsts.
 
 \subsubsection*{MENGE\_001 - Benutzeranzahl}
 \begin{itemize}
-	\item Mit der Software müssen mindestens 300 Personen arbeiten können. 
-	\item Jedem Benutzer muss mindestens 20 MB Speicherplatz zur Verfügung gestellt werden. 
+	\item Mit der Software müssen mindestens 300 Personen gleichzeitig arbeiten können. 
+	\item Jedem Benutzer muss mindestens 100 MB Speicherplatz zur Verfügung gestellt werden. 
 \end{itemize}
 
 \subsubsection*{MENGE\_002 - Anzahl der Vorgänge }
 \begin{itemize}
-	\item Pro Tag müssen mindestens 100 Anzeigen erstellt werden können. 
-	\item Pro Tag müssen mindestens 1000 Anzeigen angesehen werden können.
+	\item Pro Tag müssen mindestens 25.000 Anzeigen erstellt werden können. 
+	\item Pro Tag müssen mindestens 2.500.000 Anzeigen angesehen werden können.
 \end{itemize}
 
 
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
 Die Applikation wird in zwei Teile unterteilt.
-Ein Teil ist die SQL-Server, der andere die Client Applikation, die auf allen Endgeräten installiert wird.
+Ein Teil ist ein PHP-Server mit einer SQL Datenbank, der Andere, die Client Applikation die auf allen Endgeräten installiert wird.
 
 \subsubsection*{Server}
 Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
-Der Server muss mindestens über folgende Ausstattungsmerkmale verfügen:
+Die Benutzerdaten werden nicht an Dritte weitergegeben.
+Der Server muss über folgende Ausstattungsmerkmale verfügen:
 \begin{itemize}
-	\item MySQL 5.5
-	\item OS: Linux
-	\item HD 70 GB
-	\item 4 GB RAM
+	\item MySQL 5.5 oder höher bzw. zur DB kompatible
+	\item PHP 5 oder höher bzw. kompatible
+	\item HD mindestens 70 GB
+	\item mindestens 4 GB RAM
 \end{itemize}
 
 \subsubsection*{Client}
@@ -531,7 +532,7 @@ Auf den folgenden Geräten muss die Software laufen:
 Huawei P8
 \begin{itemize}
 	\item 5.2 Zoll Display mit einer Auflösung von 1080 x 1920 Pixeln
-	\item Quad-core 2 GHz Cortex-A53 & quad-core 1.5 GHz Cortex-A53
+	\item Quad-core 2 GHz Cortex-A53 \& quad-core 1.5 GHz Cortex-A53
 	\item Android 5.0.1
 	\item 3GB RAM
 \end{itemize} 
@@ -552,7 +553,8 @@ Microsoft Lumia 535
 	\item 1GB RAM
 \end{itemize} 
 
-Die Applikation benötigt maximal 50MB an Speicherplatz. Davon werden 40MB für die Installation benötigt und 10MB für den Cache.
+Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
+Davon werden 40MB für die Installation und 10MB für den Cache benötigt.
 
 
 \section{Produktleistungen}
