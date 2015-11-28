@@ -73,7 +73,7 @@ Der Benutzer muss:
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Anwendungsbereiche}
-\caption{Use-Case Diagramm Anwendugsbereiche}
+\caption{Use-Case Diagramm Anwendungsbereiche}
 \end{figure}
 \FloatBarrier
 
@@ -85,8 +85,14 @@ Die Software „Unsocial Selling App“ hingegen überzeugt durch ein besonders 
 
 
 \subsection{IST-Prozesse}
-Aktuell gibt es nur Verkaufsplattformen, die den Benutzer nach konkreten Produkten suchen lassen ihn aber nicht mit zufälligen Vorschlägen überraschen.
-Auch steht der Impulskauf bei diesen Plattformen nicht im Fokus, sodass der Kunde auch vorher gesichtete Produkte später noch einmal aufrufen kann. 
+Der bisherige IST-Prozess ist durch zu viele nicht zentrierte Anlaufstellen und Kommunikationsmittel geprägt. Er kann wie folgt abgebildet werden:
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/IST-Prozesse}
+\caption{Aktivitätsdiagramm „IST-Prozesse"}
+\end{figure}
+\FloatBarrier
 
 
 \subsection{Unterstützte SOLL-Prozesse}
@@ -95,14 +101,17 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 	\item Registrierung und Benutzerlogin
 	\item Für eingeloggte Benutzer:
 	\begin{enumerate}
-		\item Verwaltung des Profils
+		\item Verwaltung des eigenen Profils
 		\item Erstellen neuer Anzeigen
+		\item Verwaltung der eigenen eingestellten Anzeigen (Editieren und Löschen)
+		\item Aufruf der Details einer Anzeige
+		\item Erwerb einer Anzeige und Erhalt der Kontaktdaten des zugehörigen Benutzers
 	\end{enumerate}
 	\item Für eingeloggte und nicht eingeloggte Benutzer:
 	\begin{enumerate}
 		\item Filterung der Anzeigen nach Kategorien und Standort
 		\item Aufrufen der Detailansicht einer Anzeige
-		\item Ablehnen eines Angebotes um Neues zu erhalten
+		\item Ablehnen einer Anzeige, sodass eine neue angezeigt wird
 	\end{enumerate}
 	\item Premiumverkäufer, dessen Annoncen priorisiert behandelt werden
 \end{itemize}
@@ -294,7 +303,7 @@ Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 Der Benutzer muss über den Menüpunkt „add item“ auf die Seite gelangen können, die es ihm ermöglicht, seine bisherigen Anzeigen einzusehen und eine neue Anzeige zu erstellen. 
 Er muss eine neue Anzeige mit der zugehörigen Titelseite und Detailansicht erstellen können.
 Für die Titelseite muss der Benutzer ein Bild hochladen können und eine Artikelbezeichnung eingeben können. 
-Ein weiterer Button "edit details"  muss den Benutzer auf die nächste Seite leiten, auf der er die Detailansicht erstellen können muss. 
+Ein weiterer Button „edit details"  muss den Benutzer auf die nächste Seite leiten, auf der er die Detailansicht erstellen können muss. 
 Die Detailansicht ist modular aufgebaut. Das bedeutet, der Benutzer muss aus einzelnen Modulen wählen können und diese der Detailansicht hinzufügen können.
 Bevor das Erstellen vollendet ist, muss der Benutzer auf der Detailseite einen Ort, Preis und Menge angeben.
 Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „add item“ zu gelangen.
