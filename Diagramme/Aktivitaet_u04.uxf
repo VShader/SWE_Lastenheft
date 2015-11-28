@@ -155,8 +155,8 @@ a4100</panel_attributes>
       <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Daten nicht
-korrekt</panel_attributes>
+[Daten nicht
+korrekt]</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0;80.0;10.0</additional_attributes>
   </element>
   <element>
@@ -168,7 +168,7 @@ korrekt</panel_attributes>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Daten korrekt</panel_attributes>
+[Daten korrekt]</panel_attributes>
     <additional_attributes>90.0;60.0;90.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
