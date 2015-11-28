@@ -36,22 +36,22 @@ Die finale Version muss am 15.01.2016 dem Kunden vorliegen und bereit sein für 
 \subsection{Zweck}
 Die Software „Unsocial Selling App“ erlaubt die Kontaktaufnahme zwischen Verkäufern und Kunden.
 Dazu bietet sie Verkäufern die Möglichkeit, Annoncen für Produkten und das Anbieten von Dienstleitungen, in einem bestimmten Gebiet und zu einer bestimmten Kategorie, zu erstellen.
-Des weiteren können Kunden jene Annoncen sehen, die der Kategorie ihrer Filterliste entsprechen und sich in ihrem Gebiet befinden.
+Des Weiteren können Kunden jene Annoncen sehen, die der Kategorie ihrer Filterliste entsprechen und sich in ihrem Gebiet befinden.
 Annoncen von sogenannter Premiumverkäufer, werden dabei häufiger Angezeigt.
 
 \subsection{Nutzen}
 „Unsocial Selling App“ bietet den Nutzern die Möglichkeit für schnelles und problemloses impulsiv Einkaufen.
 Die Käufer können die Anzeigen nach ihren Interessen filtern.
 Dafür wird eine Datenbank verwendet, in der die Angebote der Verkäufer gespeichert werden.
-Bei Kaufinteresse bekommt Benutzer Kontaktdaten des Verkäufers.
-Durch das Zusammenspiel vieler Nutzer, soll daraus ein schnell Kaufs/Verkaufs App werden.
-So hat der Nutzer einerseits die Möglichkeit neue Anzeigen zu erstellen und somit seine Ware schnell verkaufen oder Dienstleistung schnell erbringen.
-Andererseits kann er die Waren und Dienstleistungen anderer Nutzern schnell bekommen.
+Bei einem Kaufinteresse bekommt der Benutzer die Kontaktdaten des Verkäufers und kann somit den Kontakt für einen möglichen Verkauf initiieren.
+Durch das Zusammenspiel vieler Nutzer soll eine attraktive Verkaufsplattform geschaffen werden.
+Somit hat der Nutzer einerseits die Möglichkeit, schnell und unkompliziert seine Produkte zu verkaufen und Dienstleistungen anzubieten, andererseits kann er auch schnell auf vorhandene Anzeigen reagieren und Artikel und Dienstleistungen erwerben.
 
 
 
 
-\section{Produckteinsatz}
+
+\section{Produkteinsatz}
 \subsection{Anwendungsbereich}
 Der Benutzer muss:
 \begin{itemize}
@@ -73,7 +73,7 @@ Der Benutzer muss:
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Anwendungsbereiche}
-\caption{Use-Case Diagramm Anwendugsbereiche}
+\caption{Use-Case Diagramm Anwendungsbereiche}
 \end{figure}
 \FloatBarrier
 
@@ -85,24 +85,36 @@ Die Software „Unsocial Selling App“ hingegen überzeugt durch ein besonders 
 
 
 \subsection{IST-Prozesse}
-Aktuell gibt es nur Verkaufsplattformen, die den Benutzer nach konkreten Produkten suchen lassen ihn aber nicht mit zufälligen Vorschlägen überraschen.
-Auch steht der Impulskauf bei diesen Plattformen nicht im Fokus, sodass der Kunde auch vorher gesichtete Produkte später noch einmal aufrufen kann. 
+Der bisherige IST-Prozess ist durch zu viele nicht zentrierte Anlaufstellen und Kommunikationsmittel geprägt.
+Er kann wie folgt abgebildet werden:
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/IST-Prozesse}
+\caption{Aktivitätsdiagramm "`IST-Prozesse"'}
+\end{figure}
+\FloatBarrier
 
 
 \subsection{Unterstützte SOLL-Prozesse}
+Die Software stellt eine intuitive und zentralisierte Verkaufsplattform dar, auf der Benutzer Anzeigen erstellen und auf vorhandene Anzeigen mit einem Kauf reagieren können.
+Der Fokus wird dabei vor allem auf Anzeigen aus der Umgebung gelegt, die dem Benutzer, abhängig von seinem Standort, angeboten werden.
 Die Software muss folgende Funktionen zur Verfügung stellen:
 \begin{itemize}
 	\item Registrierung und Benutzerlogin
 	\item Für eingeloggte Benutzer:
 	\begin{enumerate}
-		\item Verwaltung des Profils
+		\item Verwaltung des eigenen Profils
 		\item Erstellen neuer Anzeigen
+		\item Verwaltung der eigenen eingestellten Anzeigen (Editieren und Löschen)
+		\item Aufruf der Details einer Anzeige
+		\item Erwerb einer Anzeige und Erhalt der Kontaktdaten des zugehörigen Benutzers
 	\end{enumerate}
 	\item Für eingeloggte und nicht eingeloggte Benutzer:
 	\begin{enumerate}
 		\item Filterung der Anzeigen nach Kategorien und Standort
 		\item Aufrufen der Detailansicht einer Anzeige
-		\item Ablehnen eines Angebotes um Neues zu erhalten
+		\item Ablehnen einer Anzeige, sodass eine neue angezeigt wird
 	\end{enumerate}
 	\item Premiumverkäufer, dessen Annoncen priorisiert behandelt werden
 \end{itemize}
@@ -291,15 +303,16 @@ Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 
 
 \hypertarget{u08}{\subsubsection{Aktivität u08 – neue Anzeige einstellen}}
-[todo editieren aktivitätsdiagramm, text auf diagramme verteilen, u84 aufteilen]
-Der Benutzer muss über den Menüpunkt „my adverts“ auf die Seite gelangen können, auf der seine zum Verkauf angebotenen Produkte und Dienstleistungen dargestellt werden.
-Er muss eine neue Anzeige mit der zugehörigen Detailansicht erstellen können.
-Hier muss der Benutzer in der Lage sein, eine Anzeige und die dazugehörige Detailansicht zu erstellen.
-Bevor das Erstellen vollendet ist, muss der Benutzer ein Titelbild und einen Titeltext bestimmt haben sowie auf der Detailseite einen Ort und Preis angeben, welche der Anzeige zugeordnet werden.
-Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „my adverts“ zu gelangen.
-Nachdem der Benutzer eine Anzeige erstellt hat, wird die Anzeige in die Datenbank eingefügt.
-Anschließend muss der Benutzer zurück auf die Seite „my adverts“ gelangen. 
-Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer aus folgenden dynamischen Elementen frei kombinieren können:
+Der Benutzer muss über den Menüpunkt „add item“ auf die Seite gelangen können, die es ihm ermöglicht, seine bisherigen Anzeigen einzusehen und eine neue Anzeige zu erstellen. 
+Er muss eine neue Anzeige mit der zugehörigen Titelseite und Detailansicht erstellen können.
+Für die Titelseite muss der Benutzer ein Bild hochladen können und eine Artikelbezeichnung eingeben können. 
+Ein weiterer Button „edit details"  muss den Benutzer auf die nächste Seite leiten, auf der er die Detailansicht erstellen können muss. 
+Die Detailansicht ist modular aufgebaut. Das bedeutet, der Benutzer muss aus einzelnen Modulen wählen können und diese der Detailansicht hinzufügen können.
+Bevor das Erstellen vollendet ist, muss der Benutzer auf der Detailseite einen Ort, Preis und Menge angeben.
+Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „add item“ zu gelangen.
+Nachdem der Benutzer eine Anzeige erstellt hat, muss die Anzeige in die Datenbank eingefügt werden.
+Anschließend muss der Benutzer zurück auf die Seite „add item“ gelangen. 
+Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer die folgenden Elementen frei kombinieren können:
 
 \begin{itemize}
 	\item Bildelemente, die das Hochladen von Bildern ermöglichen.
@@ -328,6 +341,13 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u84}
+\caption{Menü}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u84_2}
 \caption{Menü}
 \end{figure}
 \FloatBarrier
@@ -490,48 +510,126 @@ Anforderungen aufgrund des Mengengerüsts.
 
 \subsubsection*{MENGE\_001 - Benutzeranzahl}
 \begin{itemize}
-	\item Mit der Software müssen mindestens 300 Personen arbeiten können. 
-	\item Jedem Benutzer muss mindestens 20 MB Speicherplatz zur Verfügung gestellt werden. 
+	\item Mit der Software müssen mindestens 300 Personen gleichzeitig arbeiten können. 
+	\item Jedem Benutzer muss mindestens 100 MB Speicherplatz zur Verfügung gestellt werden. 
 \end{itemize}
 
 \subsubsection*{MENGE\_002 - Anzahl der Vorgänge }
 \begin{itemize}
-	\item Pro Tag müssen mindestens 100 Anzeigen erstellt werden können. 
-	\item Pro Tag müssen mindestens 1000 Anzeigen angesehen werden können.
+	\item Pro Tag müssen mindestens 25.000 Anzeigen erstellt werden können. 
+	\item Pro Tag müssen mindestens 2.500.000 Anzeigen angesehen werden können.
 \end{itemize}
 
 
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
 Die Applikation wird in zwei Teile unterteilt.
-Ein Teil ist die SQL-Server, der andere die Client Applikation, die auf allen Endgeräten installiert wird.
+Ein Teil ist ein PHP-Server mit einer SQL Datenbank, der Andere, die Client Applikation die auf allen Endgeräten installiert wird.
 
 \subsubsection*{Server}
-Auf dem Server werden die Benutzerdaten, Verkaufsdaten in einer Datenbank gespeichert.
+Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
+Die Benutzerdaten werden nicht an Dritte weitergegeben.
 Der Server muss über folgende Ausstattungsmerkmale verfügen:
 \begin{itemize}
-	\item MySQL 10.0.17-MariaDB
-	\item OS: Linux oder Windows
-	\item HD mindestens 10 GB
-	\item 2 GB RAM
+	\item MySQL 5.5 oder höher bzw. zur DB kompatible
+	\item PHP 5 oder höher bzw. kompatible
+	\item HD mindestens 70 GB
+	\item mindestens 4 GB RAM
 \end{itemize}
 
 \subsubsection*{Client}
 Der Client muss eine ständige Verbindung zum Internet besitzen.
-Die Applikation muss auf Android, Windows Phone, Windows und iOS lauffähig sein. Optimierung für genaue Modelle ist nicht gefordert.
-Die App benötigt maximal 50MB an Speicherplatz. 
+Die Client Applikation muss auf folgenden Plattformen laufen: 
+\begin{itemize}
+	\item Android Version 4.4
+%	\item Windows Phone Version 8.1
+	\item Windows Version 7
+%	\item iOS Version 8.0
+\end{itemize} 
+Optimierung für genaue Modelle ist nicht gefordert.
+
+Auf den folgenden Geräten muss die Software laufen:
+
+\textbf{Huawei P8}
+\begin{itemize}
+	\item 5.2 Zoll Display mit einer Auflösung von 1080 x 1920 Pixeln
+	\item Quad-core 2 GHz Cortex-A53 \& quad-core 1.5 GHz Cortex-A53
+	\item Android 5.0.1
+	\item 3GB RAM
+\end{itemize} 
+
+\textbf{Galaxy Note 2}
+\begin{itemize}
+	\item 5.5 Zoll Display mit einer Auflösung von 720 x 1280 Pixeln
+	\item Quad-core 1.6 GHz Cortex-A9
+	\item Android 4.4 (KitKat)
+	\item 2GB RAM
+\end{itemize} 
+
+%Microsoft Lumia 535
+%\begin{itemize}
+%	\item 5.0 Zoll Display mit einer Auflösung von 540 x 960 Pixeln
+%	\item Quad-core 1.2 GHz Cortex-A7
+%	\item Windows Phone Version 8.1
+%	\item 1GB RAM
+%\end{itemize} 
+
+Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
+
+
 
 
 \section{Produktleistungen}
-\subsection{Performance}
+\hypertarget{s07}{\subsection{Performance}}
+Der Server muss innerhalb von 5 Sekunden nach Erhalt einer Anfrage der Clients auf diese antworten.
+Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. 
+Die RTT "`Round Trip Time"' zwischen Client Abfrage und Server Antwort darf nicht 10 Sekunden überschreiten.
+Ist die RTT größer als 10 Sekunden gilt die Abfrage als fehlgeschlagen.
+In diesem Falle muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden mit der Möglichkeit die Anfrage zu wiederhole. 
+
+
 
 
 \section{Qualitätsanforderungen}
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
-Die Applikation muss unter den aktuellen Versionen von Android, iOS und Windows Phone lauffähig sein.
-Es muss außerdem eine Applikation für Desktop-PCs geben.
+Jeder Benutzer muss sich mit seiner Email-Adresse und seinem Passwort beim Server authentifizieren. 
+Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer erfolgreich eingeloggt hat. 
+Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder eingeloggt. 
 
-\subsubsection*{Anforderung an die Zuverlässigkeit}
-Die Konsistenz der Datenbank, muss jederzeit gewährleistet werden.
+Der Benutzer darf nur seine eigenen Daten und Aktionen verändern.
+
+%Der Client muss unter Android und sollte auf iOS und WinRT laufen.
+
+
+\subsubsection{Anforderung an die Zuverlässigkeit}
+Die Konsistenz der Datenbank muss jederzeit gewährleistet werden.
+Sollte es einen Fehler im System geben, wird die Datenbank auf den letzten noch konsistenten Zustand zurückgesetzt.
+
+Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
+
+
+\subsubsection{Anforderungen an die Benutzbarkeit und des Speicherplatzes}
+Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
+Davon werden 40MB für die Installation und 10MB für den Cache benötigt.
+Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
+
+
+\subsubsection{Anforderungen an die Effizienz}
+Das Applikation muss in 5 Sekunden starten.
+Danach muss in 10 Sekunden eine Verbindung zum Server aufgebaut sein oder eine Fehlermeldung angezeigt werden.
+Siehe \hyperlink{s07}{Kapitel 7.1}.
+
+
+\subsubsection{Anforderungen an die Änderbarkeit}
+Das System muss so gestaltet sein, dass Änderungen an einzelnen Komponenten des Systems keine Auswirkungen auf andere Systemteile haben.
+
+
+\subsubsection{Anforderungen an den Schutz der Systemumgebung und an den Schutz des Systems}
+Jeder Benutzer des Systems muss sich bei der Anmeldung am Server über die Applikation mittels Email und Passwort authentifizieren.
+Der Server erstellt für die weitere Sitzung eine eindeutige ID, mit der sich die Client Applikation im weiteren Verlauf der Benutzung bei jeder Aktion am Server autorisiert.
+Diese ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
+Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
+Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern was mittels Autorisierung sichergestellt wird.
+Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
 
 
 

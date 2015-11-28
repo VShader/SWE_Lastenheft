@@ -136,7 +136,7 @@ aXXXX</panel_attributes>
     <coordinates>
       <x>549</x>
       <y>207</y>
-      <w>144</w>
+      <w>162</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>schließt "Element Menü" Overlay
@@ -251,9 +251,9 @@ aXXXX</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>558</x>
+      <x>540</x>
       <y>495</y>
-      <w>153</w>
+      <w>171</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>schließt "Element Menü" Overlay
@@ -264,9 +264,9 @@ aXXXX</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>558</x>
+      <x>540</x>
       <y>423</y>
-      <w>153</w>
+      <w>171</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>schließt "Element Menü" Overlay
@@ -277,9 +277,9 @@ aXXXX</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>558</x>
+      <x>540</x>
       <y>351</y>
-      <w>153</w>
+      <w>171</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>schließt "Element Menü" Overlay
@@ -292,33 +292,33 @@ aXXXX</panel_attributes>
     <coordinates>
       <x>378</x>
       <y>360</y>
-      <w>198</w>
+      <w>180</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>200.0;20.0;10.0;20.0;10.0;10.0</additional_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>270</x>
       <y>360</y>
-      <w>306</w>
+      <w>288</w>
       <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>320.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+    <additional_attributes>300.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>162</x>
       <y>360</y>
-      <w>414</w>
+      <w>396</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>440.0;180.0;10.0;180.0;10.0;10.0</additional_attributes>
+    <additional_attributes>420.0;180.0;10.0;180.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
