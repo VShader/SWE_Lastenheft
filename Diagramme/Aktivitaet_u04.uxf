@@ -88,12 +88,12 @@ a0400</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>255</x>
-      <y>315</y>
-      <w>45</w>
-      <h>195</h>
+      <y>270</y>
+      <w>120</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;140.0;10.0;40.0;60.0;40.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -262,13 +262,13 @@ a0300</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
+      <x>330</x>
       <y>315</y>
-      <w>45</w>
+      <w>105</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>50.0;40.0;50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
@@ -313,41 +313,6 @@ a0300</panel_attributes>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>225</x>
-      <y>315</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>345</x>
-      <y>315</y>
-      <w>120</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>330</x>
-      <y>270</y>
-      <w>45</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>

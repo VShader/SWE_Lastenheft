@@ -87,13 +87,13 @@ a0600</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>272</x>
+      <x>224</x>
       <y>288</y>
-      <w>48</w>
+      <w>96</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>40.0;30.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -136,12 +136,12 @@ a1000</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>176</x>
-      <y>288</y>
-      <w>48</w>
-      <h>208</h>
+      <y>256</y>
+      <w>96</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;10.0;30.0;40.0;30.0;40.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -177,9 +177,8 @@ a0601</panel_attributes>
       <h>128</h>
     </coordinates>
     <panel_attributes>zeigt dem Benutzer die
-Startseite der ausgewählten Anzeige an
-(von der aus er wieder auf
-die Detailansicht und die Kontaktdaten
+Detailseite der ausgewählten Anzeige an
+(von der aus er wieder auf die Kontaktdaten
 des Verkäufers gelangen kann)
 a0100</panel_attributes>
     <additional_attributes/>
@@ -200,29 +199,6 @@ a0100</panel_attributes>
     <coordinates>
       <x>784</x>
       <y>464</y>
-      <w>48</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>176</x>
-      <y>288</y>
-      <w>128</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>224</x>
-      <y>256</y>
       <w>48</w>
       <h>80</h>
     </coordinates>
