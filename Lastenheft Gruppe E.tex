@@ -539,15 +539,15 @@ Der Client muss eine ständige Verbindung zum Internet besitzen.
 Die Client Applikation muss auf folgenden Plattformen laufen: 
 \begin{itemize}
 	\item Android Version 4.4
-	\item Windows Phone Version 8.1
+%	\item Windows Phone Version 8.1
 	\item Windows Version 7
-	\item iOS Version 8.0
+%	\item iOS Version 8.0
 \end{itemize} 
 Optimierung für genaue Modelle ist nicht gefordert.
 
 Auf den folgenden Geräten muss die Software laufen:
 
-Huawei P8
+\textbf{Huawei P8}
 \begin{itemize}
 	\item 5.2 Zoll Display mit einer Auflösung von 1080 x 1920 Pixeln
 	\item Quad-core 2 GHz Cortex-A53 \& quad-core 1.5 GHz Cortex-A53
@@ -555,7 +555,7 @@ Huawei P8
 	\item 3GB RAM
 \end{itemize} 
 
-Galaxy Note 2
+\textbf{Galaxy Note 2}
 \begin{itemize}
 	\item 5.5 Zoll Display mit einer Auflösung von 720 x 1280 Pixeln
 	\item Quad-core 1.6 GHz Cortex-A9
@@ -563,23 +563,29 @@ Galaxy Note 2
 	\item 2GB RAM
 \end{itemize} 
 
-Microsoft Lumia 535
-\begin{itemize}
-	\item 5.0 Zoll Display mit einer Auflösung von 540 x 960 Pixeln
-	\item Quad-core 1.2 GHz Cortex-A7
-	\item Windows Phone Version 8.1
-	\item 1GB RAM
-\end{itemize} 
+%Microsoft Lumia 535
+%\begin{itemize}
+%	\item 5.0 Zoll Display mit einer Auflösung von 540 x 960 Pixeln
+%	\item Quad-core 1.2 GHz Cortex-A7
+%	\item Windows Phone Version 8.1
+%	\item 1GB RAM
+%\end{itemize} 
 
 Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
-Davon werden 40MB für die Installation und 10MB für den Cache benötigt.
+
+
 
 
 \section{Produktleistungen}
-\subsection{Performance}
-Der Server muss innerhalb von 6 Sekunden auf eine Anfrage des Clients antworten. 
+\hypertarget{s07}{\subsection{Performance}}
+Der Server muss innerhalb von 5 Sekunden nach Erhalt einer Anfrage der Clients auf diese antworten.
 Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. 
-Sollte der Server nicht innerhalb der oben angegebenen Zeit reagieren, so muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden. 
+Die RTT "`Round Trip Time"' zwischen Client Abfrage und Server Antwort darf nicht 10 Sekunden überschreiten.
+Ist die RTT größer als 10 Sekunden gilt die Abfrage als fehlgeschlagen.
+In diesem Falle muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden mit der Möglichkeit die Anfrage zu wiederhole. 
+
+
+
 
 \section{Qualitätsanforderungen}
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
@@ -590,12 +596,28 @@ Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder ein
 Der Benutzer darf nur seine eigenen Daten und Aktionen verändern.
 Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
 
-Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
+Der Client muss unter Android und sollte auf iOS und WinRT laufen.
+
 
 \subsubsection*{Anforderung an die Zuverlässigkeit}
 Die Konsistenz der Datenbank muss jederzeit gewährleistet werden.
 Sollte es einen Fehler im System geben, wird die Datenbank auf den letzten noch konsistenten Zustand zurückgesetzt.
 
 Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
+
+
+\subsubsection*{Anforderungen an die Benutzbarkeit und des Speicherplatzes}
+Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
+Davon werden 40MB für die Installation und 10MB für den Cache benötigt.
+Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
+
+
+\subsubsection{Anforderungen an die Effizienz}
+Das Applikation muss in 5 Sekunden starten.
+Danach muss in 10 Sekunden eine Verbindung zum Server aufgebaut sein oder eine Fehlermeldung angezeigt werden.
+Siehe \hyperlink{s07}{Kapitel 7.1}.
+
+
+
 
 \end{document}
