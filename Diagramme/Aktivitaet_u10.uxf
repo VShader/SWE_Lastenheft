@@ -97,13 +97,17 @@ a1010</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
+      <x>171</x>
+=======
       <x>180</x>
+>>>>>>> refs/remotes/VShader/master
       <y>198</y>
-      <w>72</w>
+      <w>126</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>120.0;40.0;90.0;40.0;90.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -549,6 +553,15 @@ a0700</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< HEAD
+      <x>99</x>
+      <y>171</y>
+      <w>99</w>
+      <h>684</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;740.0;10.0;40.0;90.0;40.0;90.0;10.0</additional_attributes>
+=======
       <x>54</x>
       <y>198</y>
       <w>27</w>
@@ -556,6 +569,7 @@ a0700</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;580.0;10.0;10.0</additional_attributes>
+>>>>>>> refs/remotes/VShader/master
   </element>
   <element>
     <id>UMLState</id>
@@ -800,6 +814,8 @@ a1002</panel_attributes>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
+<<<<<<< HEAD
+=======
   <element>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
@@ -835,4 +851,5 @@ a1002</panel_attributes>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
+>>>>>>> refs/remotes/VShader/master
 </diagram>
