@@ -97,17 +97,13 @@ a1010</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-<<<<<<< HEAD
-      <x>171</x>
-=======
-      <x>180</x>
->>>>>>> refs/remotes/VShader/master
-      <y>198</y>
+      <x>126</x>
+      <y>171</y>
       <w>126</w>
-      <h>54</h>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>120.0;40.0;90.0;40.0;90.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>120.0;70.0;90.0;70.0;90.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -392,7 +388,7 @@ eingeloggt</panel_attributes>
     <coordinates>
       <x>558</x>
       <y>504</y>
-      <w>171</w>
+      <w>162</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -553,23 +549,13 @@ a0700</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-<<<<<<< HEAD
-      <x>99</x>
+      <x>54</x>
       <y>171</y>
       <w>99</w>
-      <h>684</h>
+      <h>567</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;740.0;10.0;40.0;90.0;40.0;90.0;10.0</additional_attributes>
-=======
-      <x>54</x>
-      <y>198</y>
-      <w>27</w>
-      <h>540</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;580.0;10.0;10.0</additional_attributes>
->>>>>>> refs/remotes/VShader/master
+    <additional_attributes>10.0;610.0;10.0;40.0;90.0;40.0;90.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -675,7 +661,7 @@ a0300</panel_attributes>
     </coordinates>
     <panel_attributes>leitet Benutzer zurück 
 auf die Startseite
-a0047</panel_attributes>
+a0100</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -814,42 +800,4 @@ a1002</panel_attributes>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
-<<<<<<< HEAD
-=======
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>54</x>
-      <y>198</y>
-      <w>72</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSyncBarHorizontal</id>
-    <coordinates>
-      <x>126</x>
-      <y>198</y>
-      <w>72</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>lw=5
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>153</x>
-      <y>171</y>
-      <w>27</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
-  </element>
->>>>>>> refs/remotes/VShader/master
 </diagram>
