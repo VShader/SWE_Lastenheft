@@ -594,19 +594,18 @@ Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer
 Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder eingeloggt. 
 
 Der Benutzer darf nur seine eigenen Daten und Aktionen verändern.
-Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
 
 Der Client muss unter Android und sollte auf iOS und WinRT laufen.
 
 
-\subsubsection*{Anforderung an die Zuverlässigkeit}
+\subsubsection{Anforderung an die Zuverlässigkeit}
 Die Konsistenz der Datenbank muss jederzeit gewährleistet werden.
 Sollte es einen Fehler im System geben, wird die Datenbank auf den letzten noch konsistenten Zustand zurückgesetzt.
 
 Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
 
 
-\subsubsection*{Anforderungen an die Benutzbarkeit und des Speicherplatzes}
+\subsubsection{Anforderungen an die Benutzbarkeit und des Speicherplatzes}
 Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
 Davon werden 40MB für die Installation und 10MB für den Cache benötigt.
 Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
@@ -617,6 +616,18 @@ Das Applikation muss in 5 Sekunden starten.
 Danach muss in 10 Sekunden eine Verbindung zum Server aufgebaut sein oder eine Fehlermeldung angezeigt werden.
 Siehe \hyperlink{s07}{Kapitel 7.1}.
 
+
+\subsubsection{Anforderungen an die Änderbarkeit}
+Das System muss so gestaltet sein, dass Änderungen an einzelnen Komponenten des Systems keine Auswirkungen auf andere Systemteile haben.
+
+
+\subsubsection{Anforderungen an den Schutz der Systemumgebung und an den Schutz des Systems}
+Jeder Benutzer des Systems muss sich bei der Anmeldung am Server über die Applikation mittels Email und Passwort authentifizieren.
+Der Server erstellt für die weitere Sitzung eine eindeutige ID, mit der sich die Client Applikation im weiteren Verlauf der Benutzung bei jeder Aktion am Server autorisiert.
+Diese ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
+Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
+Der Benutzer darf nur seine eigenen Daten und Aktionen verändern was mittels Autorisierung sichergestellt wird.
+Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
 
 
 
