@@ -6,7 +6,7 @@
 \usepackage[section]{placeins}
 
 
-\title{Gruppe E Lastenheft V0.2}
+\title{Gruppe E Lastenheft V0.4}
 
 \begin{document}
 \maketitle
@@ -34,9 +34,19 @@ Die finale Version muss am 15.01.2016 dem Kunden vorliegen und bereit sein für 
 
 \section{Zielbestimmung}
 \subsection{Zweck}
-Die Software „Unsocial Selling App“ soll das Verkaufen von Produkten und Anbieten von Dienstleitungen erleichtern.
+Die Software „Unsocial Selling App“ erlaubt die Kontaktaufnahme zwischen Verkäufern und Kunden.
+Dazu bietet sie Verkäufern die Möglichkeit, Annoncen für Produkten und das Anbieten von Dienstleitungen, in einem bestimmten Gebiet und zu einer bestimmten Kategorie, zu erstellen.
+Des weiteren können Kunden jene Annoncen sehen, die der Kategorie ihrer Filterliste entsprechen und sich in ihrem Gebiet befinden.
+Annoncen von sogenannter Premiumverkäufer, werden dabei häufiger Angezeigt.
 
 \subsection{Nutzen}
+„Unsocial Selling App“ bietet den Nutzern die Möglichkeit für schnelles und problemloses impulsiv Einkaufen.
+Die Käufer können die Anzeigen nach ihren Interessen filtern.
+Dafür wird eine Datenbank verwendet, in der die Angebote der Verkäufer gespeichert werden.
+Bei Kaufinteresse bekommt Benutzer Kontaktdaten des Verkäufers.
+Durch das Zusammenspiel vieler Nutzer, soll daraus ein schnell Kaufs/Verkaufs App werden.
+So hat der Nutzer einerseits die Möglichkeit neue Anzeigen zu erstellen und somit seine Ware schnell verkaufen oder Dienstleistung schnell erbringen.
+Andererseits kann er die Waren und Dienstleistungen anderer Nutzern schnell bekommen.
 
 
 
@@ -87,14 +97,14 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 	\begin{enumerate}
 		\item Verwaltung des Profils
 		\item Erstellen neuer Anzeigen
-		\item Artikel einer Anzeige in den Einkaufswagen legen
 	\end{enumerate}
 	\item Für eingeloggte und nicht eingeloggte Benutzer:
 	\begin{enumerate}
-		\item Filterung der Anzeigen nach Stichwort und Standort
+		\item Filterung der Anzeigen nach Kategorien und Standort
 		\item Aufrufen der Detailansicht einer Anzeige
+		\item Ablehnen eines Angebotes um Neues zu erhalten
 	\end{enumerate}
-	\item Premiumverkäufer, dessen Artikel priorisiert behandelt werden
+	\item Premiumverkäufer, dessen Annoncen priorisiert behandelt werden
 \end{itemize}
 
 
@@ -125,9 +135,10 @@ Ist der Start hingegen erfolgreich, muss dem Benutzer die Hauptseite angezeigt w
 Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. 
 Auf der Startseite müssen folgende Informationen angezeigt werden:
 \begin{itemize}
-	\item Ein Artikel mit einem Foto und dem Artikelnamen, der aus maximal 100 Zeichen bestehen darf
-	\item Ein Button, der einen Artikel ablehnt und somit Desinteresse zeigt
-	\item Ein Bild der Anzeige, welches beim Drücken zur Detailansicht führt
+	\item Eine Annonce mit einem Namen, der aus maximal 100 Zeichen bestehen darf
+	\item Ein Button, der ein Angebot ablehnt und somit Desinteresse zeigt
+	\item Ein Bild der Annonce, welches beim Drücken zur Detailansicht führt
+	\item Der Preis des Angebotes
 	\item Eine Navigationsleiste mit Button, welcher das Menü aufruft
 \end{itemize}
 Das Hauptmenü muss folgende Menüpunkte beinhalten:
@@ -144,13 +155,13 @@ Das Hauptmenü muss folgende Menüpunkte beinhalten:
 		\item Passwort des Benutzers ändern
 		\item Filterung
 	\end{itemize}
-	\item Artikel einstellen
+	\item Annonce einstellen
 \end{itemize}
 
 Der Menübutton befindet sich oben rechts.
-Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button für die Detailansicht eines Artikels muss sich unten links 
-befinden.
+Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button für die Detailansicht unten links.
 Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktuelle Anzeige zu verwerfen und die nächste Anzeige darzustellen.
+Entsprechende Buttons entfallen in diesem Fall.
 
 \begin{figure}[!htbp]
 \centering
@@ -161,24 +172,24 @@ Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktu
 
 
 \hypertarget{u02}{\subsubsection{Aktivität u02 - Detailansicht}}
-In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
+In der Detailansicht eines Angebots müssen dem Benutzer folgende Details angezeigt werden:
 \begin{itemize}
-	\item Artikelpreis
-	\item 0-10 Bilder des Artikels
+	\item Preis
+	\item 0-10 Bilder des Angebots
 	\item (Modular designbare Elemente)
-	\item Artikelbeschreibung (bis zu [X] Zeichen)
-	\item Entfernung vom Standpunkt des Benutzers zum Artikel
+	\item Angebotsbeschreibung (bis zu [X] Zeichen)
+	\item Entfernung vom Standpunkt des Benutzers zum Angebot
 \end{itemize}
-Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können.
+Der Benutzer muss das Angebot ablehnen können oder dem Verkäufer sein Interesse melden können.
 Dies muss über zwei Buttons realisiert werden.
-Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
+Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
 Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-Up mit den Kontaktdaten des Verkäufers  erscheinen und es muss der Interessenliste hinzugefügt werden.
 Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u02}
-\caption{Detailansicht eines Artikels}
+\caption{Detailansicht eines Angebots}
 \end{figure}
 \FloatBarrier
 
@@ -249,10 +260,10 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 
 
 \subsubsection{Aktivität u06 – Interessen Liste}
-Der Benutzer muss die Möglichkeit haben, eine Liste der Artikel aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
+Der Benutzer muss die Möglichkeit haben, eine Liste der Angebote aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
 Die Interessen Liste muss der Benutzer über das Menü aufrufen können. 
-Sollte ein Verkäufer einen Artikel aus der Datenbank entfernen, so darf dieser Artikel bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden, der für diesen Artikel zuvor Interesse gemeldet hat.
-Der Benutzer muss einen Artikel aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
+Sollte ein Verkäufer eine Annonce aus der Datenbank entfernen, so darf diese bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden.
+Der Benutzer muss ein Angebot aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
 
 \begin{figure}[!htbp]
 \centering
@@ -263,11 +274,12 @@ Der Benutzer muss einen Artikel aus der Liste auswählen können und das System 
 
 
 \subsubsection{Aktivität u07 – Einstellungen}
-Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können. Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
+Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können.
+Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 \begin{itemize}
 	\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
-	\item Filterung der angezeigten Artikel (\hyperlink{u08}{Aktivität u08})
-	\item Radius indem sich Artikel befinden können.
+	\item Filterung der angezeigten Angebote (\hyperlink{u08}{Aktivität u08})
+	\item Radius indem sich Angebote befinden können.
 \end{itemize}
 
 \begin{figure}[!htbp]
@@ -302,7 +314,7 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u08}
-\caption{neuen Artikel einstellen}
+\caption{neue Annonce einstellen}
 \end{figure}
 \FloatBarrier
 
@@ -358,11 +370,14 @@ Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
 \subsection{Eingabe/Ausgabe detailliert}
 [Todo alle Popups fehlen noch]
 Die folgenden Wireframes sind grobe Beispiele und geben nicht das genaue Design der späteren Software wieder.
-Dieses kann nämlich abweichen. 
-Dialog - Beispielhafte Erfolgs- und Fehlermeldung. 
+
+\subsubsection*{Legende}
 Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, um den Verlauf der Bilder besser verfolgen zu können.
-Dabei stehen der „Haken“ und das „Kreuz“ immer für eine systemseitige Überprüfung, die in den Aktivitätsdiagrammen mit einer Raute versehen ist. Außerdem gibt es auch noch ein „Fragezeichen“, dass zu einem (Warn-)Hinweis führt.
-Der logische Verlauf wird von einem einfachen „Pfeil“ Repräsentiert.  
+\begin{itemize}
+	\item Haken und das Kreuz $\rightarrow$  systemseitige Überprüfung, in Aktivitätsdiagrammen mit Raute versehen
+	\item Fragezeichen $\rightarrow$ führt zu einem (Warn-)Hinweis.
+	\item Pfeil $\rightarrow$ logischer Verlauf
+\end{itemize}
 
 \subsubsection{Dialog a0000 – Starten der Software}
 \begin{figure}[!htbp]
@@ -456,8 +471,8 @@ Der logische Verlauf wird von einem einfachen „Pfeil“ Repräsentiert.
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8500}
-\caption{neue Anzeige einstellen}
-\end{„add Item“ Menü}
+\caption{„add Item“ Menü}
+\end{figure}
 \FloatBarrier
 
 \subsubsection{Dialog a1000 – Menü}
@@ -516,7 +531,7 @@ Die Applikation muss unter den aktuellen Versionen von Android, iOS und Windows 
 Es muss außerdem eine Applikation für Desktop-PCs geben.
 
 \subsubsection*{Anforderung an die Zuverlässigkeit}
-Falls eine Bearbeitung des Benutzers durch einen Fehler unterbrochen wird, darf die Konsistenz der Datenbank nicht gefährdet sein.
+Die Konsistenz der Datenbank, muss jederzeit gewährleistet werden.
 
 
 
