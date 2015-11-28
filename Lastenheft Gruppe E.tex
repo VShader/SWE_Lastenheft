@@ -590,6 +590,12 @@ In diesem Falle muss dem Benutzer eine ausführliche Fehlermeldung angezeigt wer
 
 
 \section{Qualitätsanforderungen}
+Dieses Produkt ist ein reiner Prototyp für eine Konzeptprüfung und ist nicht für den realen Einsatz für den Endkunden gedacht.
+%Weder wird auf Datenschutzbestimmung Rücksicht genommen noch auf etwaige Schäden an Hard- und Software.
+%Für diese Haftet alleine der Benutzer.
+Alle Funktionen des Prototypen sind auf andere Plattformen, sofern technisch verfügbar, erhalten.
+
+
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
 Jeder Benutzer muss sich mit seiner Email-Adresse und seinem Passwort beim Server authentifizieren. 
 Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer erfolgreich eingeloggt hat. 
@@ -609,7 +615,7 @@ Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
 
 \subsubsection{Anforderungen an die Benutzbarkeit und des Speicherplatzes}
 Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
-Davon werden 40MB für die Installation und 10MB für den Cache benötigt.
+Davon sollten 40MB für die Installation und 10MB für den Cache benötigt.
 Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
 
 
@@ -629,7 +635,7 @@ Der Server erstellt für die weitere Sitzung eine eindeutige ID, mit der sich di
 Diese ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
 Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
 Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern was mittels Autorisierung sichergestellt wird.
-Der System-Administrator hat Zugriff auf alle Daten der Datenbank, da der die Datenbank verwaltet. 
+Der System-Administrator hat Zugriff auf alle Daten dieser Datenbank, da der die Datenbank verwaltet. 
 
 
 
