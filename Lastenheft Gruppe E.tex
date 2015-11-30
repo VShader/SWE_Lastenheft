@@ -6,7 +6,7 @@
 \usepackage[section]{placeins}
 
 
-\title{Gruppe E Lastenheft V0.4}
+\title{Gruppe E Lastenheft V0.5}
 
 \begin{document}
 \maketitle
@@ -34,18 +34,20 @@ Die finale Version muss am 15.01.2016 dem Kunden vorliegen und bereit sein für 
 
 \section{Zielbestimmung}
 \subsection{Zweck}
-Die Software „Unsocial Selling App“ erlaubt die Kontaktaufnahme zwischen Verkäufern und Kunden.
-Dazu bietet sie Verkäufern die Möglichkeit, Annoncen für Produkten und das Anbieten von Dienstleitungen, in einem bestimmten Gebiet und zu einer bestimmten Kategorie, zu erstellen.
-Des Weiteren können Kunden jene Annoncen sehen, die der Kategorie ihrer Filterliste entsprechen und sich in ihrem Gebiet befinden.
-Annoncen von sogenannter Premiumverkäufer, werden dabei häufiger Angezeigt.
+Die Software „Unsocial Selling App“ erlaubt eine schnelle und direkte Kontaktaufnahme zwischen Verkäufern und Kunden, die dadurch ermöglicht wird, dass sie den Verkäufern die Möglichkeit bietet, Annoncen für angebotene Produkte und Dienstleistungen in einem bestimmten räumlichen Radius und in einer bestimmten Kategorie zu erstellen.
+Die Verwaltung der Nutzer und der angebotenen Produkte/Dienstleistungen werden mittels einer Datenbank realisiert.
+Diese ist so aufgebaut, dass die Käufer die Anzeigen nach ihren Interessen und räumlicher Nähe filtern können.
+Bei einem Kaufinteresse wird dem Käufer und dem Verkäufer die Möglichkeit geboten, ihre Kontaktdaten auszutauschen.
+Annoncen von sog. Premiumverkäufern werden dabei häufiger und vorrangig angezeigt.
+„Unsocial Selling App“ soll hierbei sowohl auf Android 5 als auch auf einem Desktop-PC lauffähig sein.
 
 \subsection{Nutzen}
-„Unsocial Selling App“ bietet den Nutzern die Möglichkeit für schnelles und problemloses impulsiv Einkaufen.
-Die Käufer können die Anzeigen nach ihren Interessen filtern.
-Dafür wird eine Datenbank verwendet, in der die Angebote der Verkäufer gespeichert werden.
-Bei einem Kaufinteresse bekommt der Benutzer die Kontaktdaten des Verkäufers und kann somit den Kontakt für einen möglichen Verkauf initiieren.
-Durch das Zusammenspiel vieler Nutzer soll eine attraktive Verkaufsplattform geschaffen werden.
-Somit hat der Nutzer einerseits die Möglichkeit, schnell und unkompliziert seine Produkte zu verkaufen und Dienstleistungen anzubieten, andererseits kann er auch schnell auf vorhandene Anzeigen reagieren und Artikel und Dienstleistungen erwerben.
+„Unsocial Selling App“ ermöglicht durch Schaffung einer attraktiven Verkaufsplattform eine völlig neue, sehr direkte und effektive Art der Kommunikation bzw. Kontaktaufnahme zwischen Verkäufer und Kunden.
+Hierbei hat der Nutzer einerseits die Möglichkeit, schnell und unkompliziert seine Produkte zu verkaufen und Dienstleistungen anzubieten
+Andererseits kann er auch schnell auf vor-handene Anzeigen reagieren und Artikel bzw. Dienstleistungen erwerben.
+Dadurch wird dem Nutzer ein bisher nicht gekanntes Kundenerlebenis vermittelt.
+Diese Innovation bietet deshalb auch die Möglichkeit der Erschließung neuer Märkte und der Rekrutierung bisher nicht erfasster User-Schichten.
+„Unsocial Selling App“ ist außerdem so konzipiert, dass die Bedienung für jedermann leicht verständlich und nachvollziehbar ist, was zur Folge hat, dass zum einen alle Bevölkerungsschichten erreicht werden und zum anderen auch Impulskäufe begünstigt werden. 
 
 
 
@@ -524,14 +526,16 @@ Anforderungen aufgrund des Mengengerüsts.
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
 Die Applikation wird in zwei Teile unterteilt.
 Ein Teil ist ein PHP-Server mit einer SQL Datenbank, der Andere, die Client Applikation die auf allen Endgeräten installiert wird.
+Der Prototyp muss für Android 5.0 entwickelt werden. 
+Da der Source Code auch mit ältere Android Versionen (ab 3.x) und andere OS (iOS und WinRT) kompatibel ist, kann der Prototyp, durch entsprechendes compilieren für die gewünschte Plattform, leicht portiert werden.
 
 \subsubsection*{Server}
 Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
 Die Benutzerdaten werden nicht an Dritte weitergegeben.
 Der Server muss über folgende Ausstattungsmerkmale verfügen:
 \begin{itemize}
-	\item MySQL 5.5 oder höher bzw. zur DB kompatible
-	\item PHP 5 oder höher bzw. kompatible
+	\item MySQL 5.5 oder höher bzw. zur DB kompatibel
+	\item PHP 5 oder höher bzw. kompatibel
 	\item HD mindestens 70 GB
 	\item mindestens 4 GB RAM
 \end{itemize}
@@ -540,7 +544,7 @@ Der Server muss über folgende Ausstattungsmerkmale verfügen:
 Der Client muss eine ständige Verbindung zum Internet besitzen.
 Die Client Applikation muss auf folgenden Plattformen laufen: 
 \begin{itemize}
-	\item Android Version 4.4
+	\item Android Version 5.0
 %	\item Windows Phone Version 8.1
 	\item Windows Version 7
 %	\item iOS Version 8.0
@@ -557,13 +561,13 @@ Auf den folgenden Geräten muss die Software laufen:
 	\item 3GB RAM
 \end{itemize} 
 
-\textbf{Galaxy Note 2}
-\begin{itemize}
-	\item 5.5 Zoll Display mit einer Auflösung von 720 x 1280 Pixeln
-	\item Quad-core 1.6 GHz Cortex-A9
-	\item Android 4.4 (KitKat)
-	\item 2GB RAM
-\end{itemize} 
+%\textbf{Galaxy Note 2}
+%\begin{itemize}
+%	\item 5.5 Zoll Display mit einer Auflösung von 720 x 1280 Pixeln
+%	\item Quad-core 1.6 GHz Cortex-A9
+%	\item Android 4.4 (KitKat)
+%	\item 2GB RAM
+%\end{itemize} 
 
 %Microsoft Lumia 535
 %\begin{itemize}
@@ -626,7 +630,8 @@ Siehe \hyperlink{s07}{Kapitel 7.1}.
 
 
 \subsubsection{Anforderungen an die Änderbarkeit}
-Das System muss so gestaltet sein, dass Änderungen an einzelnen Komponenten des Systems keine Auswirkungen auf andere Systemteile haben.
+Weder Änderungen an einzelnen Komponenten der Anwendung, noch am Server oder der Datenbank sollten Einschränkungen an die Benutzbarkeit habe.
+Noch dürfen sie die Integrität gefährden.
 
 
 \subsubsection{Anforderungen an den Schutz der Systemumgebung und an den Schutz des Systems}
