@@ -16,6 +16,7 @@
 
 \section{Auftraggeber}
 Eine Gruppe von vier Master-Studenten der FH Aachen aus dem Studiengang „Information System Engineering“ ist Auftraggeber der Software „Unsocial Selling App“. 
+Die Realisierung der Software übernimmt eine Gruppe von 8 Bachelor-Studenten aus dem Studiengang „Angewandte Informatik".
 
 
 
@@ -26,26 +27,25 @@ Durch die vorgegebenen ECTS-Punkte für das Praktikum (3 ECTS-Punkte) ist bereit
 Daraus ergibt sich eine Arbeitszeit von 156 Stunden pro Person. Insgesamt werden 1248 Zeitstunden für das Projekt vorausgesetzt. 
 Davon werden wir 288 Stunden für die Vorbereitung, 480 Stunden für die Planung und 480 Stunden für die Implementierung veranschlagen. 
 Am 21.10.2015 fand das erste Gespräch mit dem Auftraggeber statt.
-Die erste Release-Version der Software soll am 08.01.2016 an den Kunden übergeben werden.
-Die finale Version muss am 15.01.2016 dem Kunden vorliegen und bereit sein für die Vorführung. 
+Die erste Release-Version der Software soll am 06.01.2016 an den Kunden übergeben werden.
+Die finale Version muss am 21.01.2016 dem Kunden vorliegen und bereit sein für die Vorführung. 
 
 
 
 
 \section{Zielbestimmung}
 \subsection{Zweck}
-Die Software „Unsocial Selling App“ erlaubt eine schnelle und direkte Kontaktaufnahme zwischen Verkäufern und Kunden, die dadurch ermöglicht wird, dass sie den Verkäufern die Möglichkeit bietet, Annoncen für angebotene Produkte und Dienstleistungen in einem bestimmten räumlichen Radius und in einer bestimmten Kategorie zu erstellen.
+Die Software „Unsocial Selling App“ erlaubt eine schnelle und direkte Kontaktaufnahme zwischen Verkäufern und Kunden, die dadurch ermöglicht wird, dass sie den Verkäufern die Möglichkeit bietet, Anzeigen für angebotene Produkte und Dienstleistungen in einem bestimmten räumlichen Radius und in einer bestimmten Kategorie zu erstellen.
 Die Verwaltung der Nutzer und der angebotenen Produkte/Dienstleistungen werden mittels einer Datenbank realisiert.
 Diese ist so aufgebaut, dass die Käufer die Anzeigen nach ihren Interessen und räumlicher Nähe filtern können.
 Bei einem Kaufinteresse wird dem Käufer und dem Verkäufer die Möglichkeit geboten, ihre Kontaktdaten auszutauschen.
-Annoncen von sog. Premiumverkäufern werden dabei häufiger und vorrangig angezeigt.
-„Unsocial Selling App“ soll hierbei sowohl auf Android 5 als auch auf einem Desktop-PC lauffähig sein.
+Anzeigen von sog. Premium-Verkäufern werden dabei häufiger und vorrangig angezeigt.
+„Unsocial Selling App“ soll hierbei auf einem Android 5.0 Gert lauffähig sein.
 
 \subsection{Nutzen}
-„Unsocial Selling App“ ermöglicht durch Schaffung einer attraktiven Verkaufsplattform eine völlig neue, sehr direkte und effektive Art der Kommunikation bzw. Kontaktaufnahme zwischen Verkäufer und Kunden.
-Hierbei hat der Nutzer einerseits die Möglichkeit, schnell und unkompliziert seine Produkte zu verkaufen und Dienstleistungen anzubieten
-Andererseits kann er auch schnell auf vor-handene Anzeigen reagieren und Artikel bzw. Dienstleistungen erwerben.
-Dadurch wird dem Nutzer ein bisher nicht gekanntes Kundenerlebenis vermittelt.
+„Unsocial Selling App“ stellt eine attraktive Verkaufsplattform dar, die eine völlig neue, sehr direkte und effektive Art der Kommunikation bzw. Kontaktaufnahme zwischen Verkäufer und Kunden ermöglicht.
+Hierbei hat der Nutzer einerseits die Möglichkeit, schnell und unkompliziert seine Produkte zu verkaufen und Dienstleistungen anzubieten, andererseits kann er auch schnell auf vorhandene Anzeigen reagieren und Artikel bzw. Dienstleistungen erwerben.
+Dadurch wird dem Nutzer ein bisher nicht gekanntes Kundenerlebnis vermittelt.
 Diese Innovation bietet deshalb auch die Möglichkeit der Erschließung neuer Märkte und der Rekrutierung bisher nicht erfasster User-Schichten.
 „Unsocial Selling App“ ist außerdem so konzipiert, dass die Bedienung für jedermann leicht verständlich und nachvollziehbar ist, was zur Folge hat, dass zum einen alle Bevölkerungsschichten erreicht werden und zum anderen auch Impulskäufe begünstigt werden. 
 
@@ -83,7 +83,10 @@ Der Benutzer muss:
 \subsection{Zielgruppe und Anwender}
 Die Software „Unsocial Selling App“ richtet sich an Menschen, die auf schnelle und unkomplizierte Weise Produkte und Dienstleistungen erwerben möchten.
 Bei bekannten Verkaufsplattformen im Internet ist das Stöbern oft sehr unübersichtlich.
-Die Software „Unsocial Selling App“ hingegen überzeugt durch ein besonders simples Bedienkonzept und ist somit für alle Personen, die gerne online einkaufen, geeignet.
+Die Software „Unsocial Selling App“ hingegen überzeugt durch ein besonders simples Bedienkonzept und ist somit für Personen geeignet, die Online-Kaufen auf eine neue, simplere Art erleben möchten.
+Es wird jedoch auch eine völlig neue Zielgruppe angesprochen.
+Personen, die bisher noch nicht vom Onlineshopping überzeugt werden konnten, da bereits vorhandene Verkaufsplattformen im Internet oft unübersichtlich sind, werden mit „Unsocial Selling App" eventuell ihre Meinung ändern.
+
 
 
 \subsection{IST-Prozesse}
@@ -118,7 +121,7 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 		\item Aufrufen der Detailansicht einer Anzeige
 		\item Ablehnen einer Anzeige, sodass eine neue angezeigt wird
 	\end{enumerate}
-	\item Premiumverkäufer, dessen Annoncen priorisiert behandelt werden
+	\item Premium-Verkäufer, dessen Anzeigen priorisiert behandelt werden
 \end{itemize}
 
 
@@ -129,13 +132,16 @@ Die Software muss folgende Funktionen zur Verfügung stellen:
 
 \subsubsection*{Anmerkung:}
 Einige Buttons können je nach Implementation für ein bestimmtes Betriebssystem wegfallen und durch Swipe-Gesten ersetzt werden.
-Die Funktionalität muss jedoch erhalten bleiben.
+Die Funktionalität muss jedoch erhalten bleiben. 
+Benutzereingaben müssen vom System kontrolliert werden.
+Bei einer falschen Eingabe muss von dem System ein entsprechender Hinweis in Form eines Pop-ups angezeigt werden, das der Benutzer bestätigen muss.
+Diese Kontrolle des Systems wurde aus Gründen der Übersichtlichkeit in den Aktivitätsdiagrammen nicht berücksichtigt, muss aber umgesetzt werden, sobald Benutzereingaben benötigt werden.
 
 
 \subsubsection{Aktivität u00 - Starten der Software}
 Während des Startvorgangs muss dem Benutzer eine Warteanzeige angezeigt werden.
 Sollte der Start nicht erfolgreich verlaufen, muss dem Benutzer eine Fehlermeldung angezeigt werden.
-Ist der Start hingegen erfolgreich, muss dem Benutzer die Hauptseite angezeigt werden.
+Ist der Start hingegen erfolgreich, muss dem Benutzer die Startseite mit einer Anzeige angezeigt werden.
 
 \begin{figure}[!htbp]
 \centering
@@ -149,10 +155,10 @@ Ist der Start hingegen erfolgreich, muss dem Benutzer die Hauptseite angezeigt w
 Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezeigt werden. 
 Auf der Startseite müssen folgende Informationen angezeigt werden:
 \begin{itemize}
-	\item Eine Annonce mit einem Namen, der aus maximal 100 Zeichen bestehen darf
+	\item Eine Anzeige mit einem Namen, der aus maximal 100 Zeichen bestehen darf
 	\item Ein Button, der ein Angebot ablehnt und somit Desinteresse zeigt
-	\item Ein Bild der Annonce, welches beim Drücken zur Detailansicht führt
-	\item Der Preis des Angebotes
+	\item Ein Bild der Anzeige, welches beim Drücken zur Detailansicht führt
+	\item Der Preis der Anzeige
 	\item Eine Navigationsleiste mit Button, welcher das Menü aufruft
 \end{itemize}
 Das Hauptmenü muss folgende Menüpunkte beinhalten:
@@ -161,21 +167,19 @@ Das Hauptmenü muss folgende Menüpunkte beinhalten:
 	\item zustandsabhängige Anzeige
 	\begin{itemize}
 		\item falls angemeldet: Ausloggen 
-		\item falls nicht angemeldet: Einloggen 
+		\item falls nicht angemeldet: Einloggen (beinhaltet einen Link zur Registrierung)
 	\end{itemize}
-	\item Registrieren
 	\item Einstellungen:
 	\begin{itemize}
 		\item Passwort des Benutzers ändern
 		\item Filterung
 	\end{itemize}
-	\item Annonce einstellen
+	\item Anzeige einstellen
 \end{itemize}
 
-Der Menübutton befindet sich oben rechts.
+Der Menübutton muss sich oben rechts befinden.
 Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button für die Detailansicht unten links.
-Es müssen Swipe-Gesten auf das Startbild der Anzeige möglich sein, um die aktuelle Anzeige zu verwerfen und die nächste Anzeige darzustellen.
-Entsprechende Buttons entfallen in diesem Fall.
+(Hier gilt obiger Hinweis bezüglich der Buttons)
 
 \begin{figure}[!htbp]
 \centering
@@ -190,15 +194,14 @@ In der Detailansicht eines Angebots müssen dem Benutzer folgende Details angeze
 \begin{itemize}
 	\item Preis
 	\item 0-10 Bilder des Angebots
-	\item (Modular designbare Elemente)
+	\item Modular designbare Elemente (Bild, Liste, Text)
 	\item Angebotsbeschreibung (bis zu [X] Zeichen)
 	\item Entfernung vom Standpunkt des Benutzers zum Angebot
 \end{itemize}
 Der Benutzer muss das Angebot ablehnen können oder dem Verkäufer sein Interesse melden können.
-Dies muss über zwei Buttons realisiert werden.
 Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
-Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-Up mit den Kontaktdaten des Verkäufers  erscheinen und es muss der Interessenliste hinzugefügt werden.
-Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
+Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-up mit den Kontaktdaten des Verkäufers erscheinen und die Anzeige muss der Interessenliste des Benutzers hinzugefügt werden.
+Das Pop-up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
 \begin{figure}[!htbp]
 \centering
@@ -213,8 +216,9 @@ Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wi
 Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss.
 Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können.
 Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet.
-Gibt der Benutzer bei einem Loginversuch eine falsche E-Mail-Adresse oder ein falsches Passwort zu einer korrekten E-Mail-Adresse ein, so muss ihm eine Fehlermeldung angezeigt werden.
+Gibt der Benutzer bei einem Login-Versuch eine falsche E-Mail-Adresse oder ein falsches Passwort zu einer korrekten E-Mail-Adresse ein, so muss ihm eine Fehlermeldung angezeigt werden.
 Hat der Benutzer seine Daten korrekt eingegeben und auf den Button „Einloggen“ geklickt, so muss er zurückgeleitet werden auf die Seite, von der aus er die Einloggen-Aktivität gestartet hat.
+Die Einloggen-Seite muss außerdem einen Link zur Registrieren-Seite enthalten.
 
 \begin{figure}[!htbp]
 \centering
@@ -225,12 +229,12 @@ Hat der Benutzer seine Daten korrekt eingegeben und auf den Button „Einloggen�
 
 
 \subsubsection{Aktivität u04 – Registrierung}
-Über den Menübutton muss der Benutzer die Möglichkeit haben, einen Eintrag „Registrieren“ auszuwählen.
+Über den Menübutton muss der Benutzer die Möglichkeit haben, über den Eintrag "Einloggen" zunächst auf die Einloggen-Seite und von dort zur Registrieren-Seite zu gelangen.
 Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss.
 Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss.
-Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist, dass es sich dabei um eine valide E-Mailadresse handelt und ob der Benutzer das Passwort zweimal identisch eingegeben hat.
-Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend wird der Registrierungsdialog geschlossen und der Benutzer befindet sich wieder auf der Seite, von der aus er die Einloggen-Aktivität gestartet hat.
-Außerdem muss der registrierte Benutzer nun auch eingeloggt sein.
+Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist, dass es sich dabei um eine theoretisch valide E-Mailadresse handelt und dass beide vom Benutzer eingegebenen Passwörter identisch sind.
+Ist die E-Mail noch nicht vorhanden und die Passwörter identisch, so müssen die neuen Benutzerdaten in der Datenbank gespeichert werden. Anschließend wird der Registrieren-Dialog geschlossen und der Benutzer befindet sich wieder auf der Seite, von der aus er die Einloggen-Aktivität gestartet hat.
+Außerdem muss der neu registrierte Benutzer nun auch eingeloggt sein.
 Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 \begin{itemize}
 	\item E-Mail-Adresse
@@ -263,7 +267,7 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 %	\item Entfernung vom Standpunkt des Benutzers zum Artikel
 %\end{itemize}
 %Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
-%Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine Email geschickt wurde. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
+%Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine E-Mail geschickt wurde. Das Pop-up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
 
 %\begin{figure}[!htbp]
 %\centering
@@ -274,10 +278,9 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 
 
 \subsubsection{Aktivität u06 – Interessen Liste}
-Der Benutzer muss die Möglichkeit haben, eine Liste der Angebote aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
-Die Interessen Liste muss der Benutzer über das Menü aufrufen können. 
-Sollte ein Verkäufer eine Annonce aus der Datenbank entfernen, so darf diese bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden.
-Der Benutzer muss ein Angebot aus der Liste auswählen können und das System muss ihm daraufhin erneut die Kontaktdaten des Verkäufers anzeigen.
+Der Benutzer muss die Möglichkeit haben, über das Menü eine Liste der Anzeigen aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
+Sollte ein Verkäufer eine Anzeige aus der Datenbank entfernen, so darf diese bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden.
+Der Benutzer muss ein Angebot aus der Liste auswählen können und das System muss ihm daraufhin erneut die Detailansicht der Anzeige anzeigen, von der aus der Benutzer erneut die Kontaktdaten des Verkäufers erhalten können muss.
 
 \begin{figure}[!htbp]
 \centering
@@ -288,12 +291,12 @@ Der Benutzer muss ein Angebot aus der Liste auswählen können und das System mu
 
 
 \subsubsection{Aktivität u07 – Einstellungen}
-Der Benutzer muss über das Menü die Seite „Settings“ aufrufen können.
+Der Benutzer muss über das Menü die Seite „Einstellungen“ aufrufen können.
 Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 \begin{itemize}
 	\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
 	\item Filterung der angezeigten Angebote (\hyperlink{u08}{Aktivität u08})
-	\item Radius indem sich Angebote befinden können.
+	\item Radius, indem sich Angebote befinden können
 \end{itemize}
 
 \begin{figure}[!htbp]
@@ -305,21 +308,21 @@ Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 
 
 \hypertarget{u08}{\subsubsection{Aktivität u08 – neue Anzeige einstellen}}
-Der Benutzer muss über den Menüpunkt „add item“ auf die Seite gelangen können, die es ihm ermöglicht, seine bisherigen Anzeigen einzusehen und eine neue Anzeige zu erstellen. 
+Der Benutzer muss über den Menüpunkt „Anzeigen verwalten“ auf die Seite gelangen können, die es ihm ermöglicht, seine bisherigen Anzeigen einzusehen und eine neue Anzeige zu erstellen. 
 Er muss eine neue Anzeige mit der zugehörigen Titelseite und Detailansicht erstellen können.
 Für die Titelseite muss der Benutzer ein Bild hochladen können und eine Artikelbezeichnung eingeben können. 
-Ein weiterer Button „edit details"  muss den Benutzer auf die nächste Seite leiten, auf der er die Detailansicht erstellen können muss. 
+Ein weiterer Button „Details editieren" muss den Benutzer auf die nächste Seite leiten, auf der er die Detailansicht erstellen können muss. 
 Die Detailansicht ist modular aufgebaut. Das bedeutet, der Benutzer muss aus einzelnen Modulen wählen können und diese der Detailansicht hinzufügen können.
 Bevor das Erstellen vollendet ist, muss der Benutzer auf der Detailseite einen Ort, Preis und Menge angeben.
-Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „add item“ zu gelangen.
-Nachdem der Benutzer eine Anzeige erstellt hat, muss die Anzeige in die Datenbank eingefügt werden.
-Anschließend muss der Benutzer zurück auf die Seite „add item“ gelangen. 
+Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „Anzeigen verwalten“ zu gelangen.
+Nachdem der Benutzer eine Anzeige erstellt hat, muss die Anzeige vom System in die Datenbank eingefügt werden.
+Anschließend muss der Benutzer zurück auf die Seite „Anzeigen verwalten“ gelangen. 
 Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer die folgenden Elementen frei kombinieren können:
 
 \begin{itemize}
-	\item Bildelemente, die das Hochladen von Bildern ermöglichen.
-	\item Textelemente, die das Eingeben einer Anzeigenbeschreibung ermöglichen.
-	\item Listenelemente, die das Anzeigen von Listen ermöglichen.
+	\item Bildelement, das das Hochladen eines Bildes ermöglicht
+	\item Textelement, das das Eingeben von Text ermöglicht
+	\item Listenelement, das das Erstellen einer Liste ermöglicht
 \end{itemize}
 Dabei muss der Benutzer zwischen 0 und 10 Elementen frei auswählen können.
 Ein nachträgliches Ändern oder Löschen der einzelnen Elemente muss während der Erstellung möglich sein.
@@ -329,7 +332,7 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u08}
-\caption{neue Annonce einstellen}
+\caption{neue Anzeige einstellen}
 \end{figure}
 \FloatBarrier
 
@@ -366,19 +369,19 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \subsubsection{Aktivität u10 – Menü}
 Der Benutzer muss über das Menü:
 \begin{enumerate}
-	\item „home“ aufrufen können. Das System muss den Benutzer auf die Start-Seite führen.
-	\item „settings“ aufrufen können. Das System muss den Benutzer auf die Settings-Seite führen.
+	\item „Startseite“ aufrufen können. Das System muss den Benutzer auf die Startseite führen.
+	\item „Einstellungen“ aufrufen können. Das System muss den Benutzer auf die Einstellungen-Seite führen.
 \end{enumerate}
-Der Benutzer muss , wenn er nicht eingeloggt ist, über das Menü :
+Der Benutzer muss, wenn er nicht eingeloggt ist, über das Menü:
 \begin{enumerate}
 	\item „Einloggen“ aufrufen können. Das System muss den Benutzer auf die Login-Seite führen.
-	\item wenn „interests“ oder „add item“ gedrückt wird, vom System auf die Loginseite geführt werden.
+	\item wenn „Interessenliste“ oder „Anzeigen verwalten“ gedrückt wird, vom System auf die Login-Seite geführt werden.
 \end{enumerate}
 Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
 \begin{enumerate}
-	\item „add item“ aufrufen können. Das System muss den Benutzer auf die add item-Liste führen.
-	\item „interests“ aufrufen können. Das System muss den Benutzer auf die Interessenliste führen
-	\item „logout“ aufrufen können. Das System muss den Benutzer daraufhin ausloggen. 
+	\item „Anzeigen verwalten“ aufrufen können. Das System muss den Benutzer auf die „Anzeigen Verwalten"-Seite führen.
+	\item „Interessenliste“ aufrufen können. Das System muss den Benutzer auf die Interessenliste führen.
+	\item „Ausloggen“ aufrufen können. Das System muss den Benutzer daraufhin ausloggen. 
 \end{enumerate}
 
 \begin{figure}[!htbp]
@@ -390,8 +393,8 @@ Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
 
 
 \subsection{Eingabe/Ausgabe detailliert}
-[Todo alle Popups fehlen noch]
 Die folgenden Wireframes sind grobe Beispiele und geben nicht das genaue Design der späteren Software wieder.
+Die Software wird alle Dialoge auf deutsch enthalten.
 
 \subsubsection*{Legende}
 Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, um den Verlauf der Bilder besser verfolgen zu können.
@@ -526,8 +529,9 @@ Anforderungen aufgrund des Mengengerüsts.
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
 Die Applikation wird in zwei Teile unterteilt.
 Ein Teil ist ein PHP-Server mit einer SQL Datenbank, der Andere, die Client Applikation die auf allen Endgeräten installiert wird.
-Der Prototyp muss für Android 5.0 entwickelt werden. 
-Da der Source Code auch mit ältere Android Versionen (ab 3.x) und andere OS (iOS und WinRT) kompatibel ist, kann der Prototyp, durch entsprechendes compilieren für die gewünschte Plattform, leicht portiert werden.
+Der Prototyp, der nachher an den Kunden ausgeliefert wird, muss für Android 5.0 entwickelt werden. 
+Da der Source Code auch mit älteren Android Versionen (ab 3.x) und anderen Betriebssystemen (iOS, WinRT und Windows) kompatibel ist, kann der Prototyp mit geringem Aufwand auf andere Plattformen portiert werden.
+Optimierung für genaue Modelle ist nicht gefordert.
 
 \subsubsection*{Server}
 Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
@@ -542,24 +546,7 @@ Der Server muss über folgende Ausstattungsmerkmale verfügen:
 
 \subsubsection*{Client}
 Der Client muss eine ständige Verbindung zum Internet besitzen.
-Die Client Applikation muss auf folgenden Plattformen laufen: 
-\begin{itemize}
-	\item Android Version 5.0
-%	\item Windows Phone Version 8.1
-	\item Windows Version 7
-%	\item iOS Version 8.0
-\end{itemize} 
-Optimierung für genaue Modelle ist nicht gefordert.
-
-Auf den folgenden Geräten muss die Software laufen:
-
-\textbf{Huawei P8}
-\begin{itemize}
-	\item 5.2 Zoll Display mit einer Auflösung von 1080 x 1920 Pixeln
-	\item Quad-core 2 GHz Cortex-A53 \& quad-core 1.5 GHz Cortex-A53
-	\item Android 5.0.1
-	\item 3GB RAM
-\end{itemize} 
+Die Client Applikation muss auf einem Android Smartphone mit Android 5.0 lauffähig sein.
 
 %\textbf{Galaxy Note 2}
 %\begin{itemize}
@@ -577,8 +564,6 @@ Auf den folgenden Geräten muss die Software laufen:
 %	\item 1GB RAM
 %\end{itemize} 
 
-Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
-
 
 
 
@@ -586,22 +571,22 @@ Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
 \hypertarget{s07}{\subsection{Performance}}
 Der Server muss innerhalb von 5 Sekunden nach Erhalt einer Anfrage der Clients auf diese antworten.
 Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. 
-Die RTT "`Round Trip Time"' zwischen Client Abfrage und Server Antwort darf nicht 10 Sekunden überschreiten.
-Ist die RTT größer als 10 Sekunden gilt die Abfrage als fehlgeschlagen.
-In diesem Falle muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden mit der Möglichkeit die Anfrage zu wiederhole. 
+Die RTT "`Round Trip Time"' zwischen Client Anfrage und Server Antwort darf 10 Sekunden nicht überschreiten.
+Ist die RTT größer als 10 Sekunden, gilt die Anfrage als fehlgeschlagen.
+In diesem Fall muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden, mit der Möglichkeit, die Anfrage zu wiederhole. 
 
 
 
 
 \section{Qualitätsanforderungen}
-Dieses Produkt ist ein reiner Prototyp für eine Konzeptprüfung und ist nicht für den realen Einsatz für den Endkunden gedacht.
+Die erstellte Software ist ein Prototyp für ein Konzept und nicht für den realen Einsatz gedacht.
 %Weder wird auf Datenschutzbestimmung Rücksicht genommen noch auf etwaige Schäden an Hard- und Software.
 %Für diese Haftet alleine der Benutzer.
-Alle Funktionen des Prototypen sind auf andere Plattformen, sofern technisch verfügbar, erhalten.
+Alle Funktionen des Prototypen sind auf andere Plattformen, sofern technisch möglich, verfügbar.
 
 
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
-Jeder Benutzer muss sich mit seiner Email-Adresse und seinem Passwort beim Server authentifizieren. 
+Jeder Benutzer muss sich mit seiner E-Mail-Adresse und seinem Passwort beim Server authentifizieren. 
 Im lokalen Cache der Client Applikation wird gespeichert, wenn sich ein Benutzer erfolgreich eingeloggt hat. 
 Bei erneutem Starten der Applikation wird dieser Benutzer automatisch wieder eingeloggt. 
 
@@ -618,29 +603,31 @@ Passwörter der Benutzer müssen als MD5-Hash abgespeichert werden.
 
 
 \subsubsection{Anforderungen an die Benutzbarkeit und des Speicherplatzes}
-Die Applikation sollte 50MB an Speicherplatz nicht überschreiten.
-Davon sollten 40MB für die Installation und 10MB für den Cache benötigt.
+Die Applikation sollte 50MB Speicherplatz auf dem Smartphone nicht überschreiten. 
+Davon werden etwa 10MB für lokale Cache Daten verwendet.
 Der Benutzer selbst ist dafür verantwortlich, dass der Applikation genug Speicherplatz zur Verfügung steht. 
 
 
 \subsubsection{Anforderungen an die Effizienz}
-Das Applikation muss in 5 Sekunden starten.
-Danach muss in 10 Sekunden eine Verbindung zum Server aufgebaut sein oder eine Fehlermeldung angezeigt werden.
+Das Applikation muss innerhalb von 5 Sekunden starten.
+Danach muss innerhalb von 10 Sekunden eine Verbindung zum Server aufgebaut sein oder eine Fehlermeldung angezeigt werden.
 Siehe \hyperlink{s07}{Kapitel 7.1}.
 
 
 \subsubsection{Anforderungen an die Änderbarkeit}
-Weder Änderungen an einzelnen Komponenten der Anwendung, noch am Server oder der Datenbank sollten Einschränkungen an die Benutzbarkeit habe.
-Noch dürfen sie die Integrität gefährden.
+Weder Änderungen an einzelnen Komponenten der Anwendung noch am Server oder der Datenbank sollten die gesamte Software beeinträchtigen.
+Auch die Integrität sollte nicht beeinträchtigt sein.
 
 
 \subsubsection{Anforderungen an den Schutz der Systemumgebung und an den Schutz des Systems}
-Jeder Benutzer des Systems muss sich bei der Anmeldung am Server über die Applikation mittels Email und Passwort authentifizieren.
-Der Server erstellt für die weitere Sitzung eine eindeutige ID, mit der sich die Client Applikation im weiteren Verlauf der Benutzung bei jeder Aktion am Server autorisiert.
-Diese ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
+Jeder Benutzer des Systems muss sich bei der Anmeldung am Server über die Applikation mittels E-Mail und Passwort authentifizieren.
+Der Server erstellt für die weiteren Sitzungen eine eindeutige ID, mit der sich die Client Applikation im weiteren Verlauf der Benutzung bei jeder Aktion am Server autorisiert.
+DIe ID ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
 Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
-Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern was mittels Autorisierung sichergestellt wird.
-Der System-Administrator hat Zugriff auf alle Daten dieser Datenbank, da der die Datenbank verwaltet. 
+Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern, was mittels Autorisierung sichergestellt wird.
+Der System-Administrator hat Zugriff auf alle Daten dieser Datenbank, da er die Datenbank verwaltet. 
+
+Die Software soll unter Einhaltung des BSI-Grundschutzes erfolgen. 
 
 
 
