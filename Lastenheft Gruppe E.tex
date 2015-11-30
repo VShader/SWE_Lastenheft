@@ -68,7 +68,7 @@ Der Benutzer muss:
 	\item sofern er eingeloggt ist: 
 	\begin{itemize}
 		\item dem Anbieter, via Detailansicht der Anzeige, sein Interesse bekunden können
-		\item eine Anzeige einstellen könne	
+		\item eine Anzeige einstellen können	
 	\end{itemize}
 \end{itemize}
 
@@ -246,31 +246,19 @@ Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
 
 
-\subsubsection{Aktivität u05 - [Platzhalter]}
 
+\subsubsection{Aktivität u05 - Benutzerverwaltung}
+Über den Menübutton muss der Benutzer (Admin) die Möglichkeit haben, über den Eintrag "Benutzerverwaltung" auf die Benutzerverwaltungs-Seite zu gelangen. 
+Dort muss jeder registrierte Benutzer in einer Liste angezeigt werden und der verwaltende Benutzer (Admin) die Möglichkeit haben, jeden einzelnen Benutzer löschen zu können, zu einem Premium-Benutzer zu gradieren, wenn dieser ein normaler Benutzer ist und zu einem normalen Benutzer zu degradieren, wenn dieser ein Premium-Benutzer ist. 
+Bei jeder dieser Aktionen muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Benutzer (Admin) bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
+Das System muss, je nach Auswahl des Benutzers (Admin), den zu verwaltenden Benutzer in der Datenbank ändern.
 
-%\subsubsection{Aktivität u05 – Artikel ablehnen}
-%Der Benutzer muss auf dem Startbildschirm und in der Detailansicht einen Artikel ablehnen können, der ihm nicht gefällt. Dieser Artikel darf dem Benutzer nicht wieder angezeigt werden.
-%Siehe \hyperlink{u01}{Aktivität u01} und \hyperlink{u05}{Aktivität u05}.
-%
-%\hypertarget{u05}{\subsubsection{Aktivität u05 – Detailansicht}}
-%In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
-%\begin{itemize}
-%	\item Artikelname (bis zu 100 Zeichen)
-%	\item Artikelpreis
-%	\item 1-3 Bilder des Artikels
-%	\item Artikelbeschreibung (bis zu [X] Zeichen)
-%	\item Entfernung vom Standpunkt des Benutzers zum Artikel
-%\end{itemize}
-%Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
-%Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-Up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine Email geschickt wurde. Das Pop-Up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
-
-%\begin{figure}[!htbp]
-%\centering
-%\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
-%\caption{Detailansicht eines Artikels}
-%\end{figure}
-%\FloatBarrier
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
+\caption{Benutzerverwaltung}
+\end{figure}
+\FloatBarrier
 
 
 \subsubsection{Aktivität u06 – Interessen Liste}
@@ -361,7 +349,18 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \end{figure}
 \FloatBarrier
 
-\subsubsection{Aktivität u09 - [Platzhalter]}
+\subsubsection{Aktivität u09 - Anzeigenverwaltung}
+Über den Menübutton muss der Benutzer (Admin) die Möglichkeit haben, über den Eintrag "Anzeigenverwaltung" auf die Anzeigenverwaltungs-Seite zu gelangen. 
+Dort muss jede eingestellte Anzeige in einer Liste angezeigt werden und der verwaltende Benutzer (Admin) die Möglichkeit haben, jede einzelne Anzeige löschen zu können. 
+Bei dieser Aktion muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Benutzer (Admin) bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
+Das System muss, die ausgewählte Anzeige aus der Datenbank löschen.
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u09}
+\caption{Anzeigenverwaltung}
+\end{figure}
+\FloatBarrier
 
 \subsubsection{Aktivität u10 – Menü}
 Der Benutzer muss über das Menü:
