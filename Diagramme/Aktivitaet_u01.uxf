@@ -290,9 +290,9 @@ lt=.</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>322</x>
+      <x>308</x>
       <y>210</y>
-      <w>196</w>
+      <w>224</w>
       <h>154</h>
     </coordinates>
     <panel_attributes>Benutzer befindet sich auf 
@@ -343,11 +343,11 @@ a0100</panel_attributes>
     <coordinates>
       <x>406</x>
       <y>350</y>
-      <w>154</w>
+      <w>196</w>
       <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-[klickt auf Anzeige]</panel_attributes>
+[reagiert auf Anzeige]</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

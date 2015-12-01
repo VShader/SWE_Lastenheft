@@ -71,7 +71,7 @@ a0300</panel_attributes>
       <h>649</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;570.0;10.0;570.0;10.0;30.0;110.0;30.0;110.0;10.0</additional_attributes>
+    <additional_attributes>30.0;570.0;10.0;570.0;10.0;30.0;110.0;30.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -83,7 +83,7 @@ a0300</panel_attributes>
     </coordinates>
     <panel_attributes>Eingabe von E-Mail-Adresse
 und Passwort.
-Drückt auf Button "einloggen"
+Drückt auf Button "Einloggen"
 a0306</panel_attributes>
     <additional_attributes/>
   </element>
@@ -114,7 +114,7 @@ a0306</panel_attributes>
     <coordinates>
       <x>583</x>
       <y>308</y>
-      <w>121</w>
+      <w>143</w>
       <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -139,7 +139,7 @@ a0303</panel_attributes>
     <coordinates>
       <x>605</x>
       <y>286</y>
-      <w>319</w>
+      <w>330</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -152,8 +152,8 @@ nicht korrekt]</panel_attributes>
     <coordinates>
       <x>803</x>
       <y>374</y>
-      <w>132</w>
-      <h>44</h>
+      <w>143</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Fehlermeldung anzeigen
 (Pop-Up Fenster)
@@ -266,7 +266,7 @@ a3200</panel_attributes>
     <coordinates>
       <x>638</x>
       <y>605</y>
-      <w>209</w>
+      <w>220</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -281,11 +281,11 @@ handen]</panel_attributes>
     <coordinates>
       <x>132</x>
       <y>88</y>
-      <w>176</w>
+      <w>154</w>
       <h>858</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>120.0;10.0;10.0;10.0;10.0;760.0;140.0;760.0</additional_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0;10.0;760.0;110.0;760.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -384,25 +384,25 @@ a0307</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>231</x>
+      <x>198</x>
       <y>825</y>
-      <w>187</w>
+      <w>242</w>
       <h>44</h>
     </coordinates>
-    <panel_attributes>klickt auf "kein Account"
+    <panel_attributes>klickt auf "Neuer Account? Registrierung"
 a301</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
+      <x>429</x>
       <y>836</y>
-      <w>187</w>
+      <w>165</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -491,7 +491,7 @@ a302</panel_attributes>
       <h>330</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;480.0;10.0;480.0;280.0;460.0;280.0</additional_attributes>
+    <additional_attributes>10.0;10.0;480.0;10.0;480.0;280.0;470.0;280.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -531,9 +531,9 @@ a3101</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>286</x>
+      <x>253</x>
       <y>891</y>
-      <w>88</w>
+      <w>121</w>
       <h>55</h>
     </coordinates>
     <panel_attributes>Klickt im Popup

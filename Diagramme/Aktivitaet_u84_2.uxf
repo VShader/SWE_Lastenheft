@@ -326,9 +326,9 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>570</x>
-      <y>470</y>
-      <w>120</w>
-      <h>50</h>
+      <y>460</y>
+      <w>130</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Dateiexplorer für
 Dateiauswahl wird
@@ -375,7 +375,7 @@ aXXXX</panel_attributes>
     <coordinates>
       <x>780</x>
       <y>390</y>
-      <w>120</w>
+      <w>140</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>Bild wird hochgeladen
@@ -424,7 +424,7 @@ zulässig</panel_attributes>
     <coordinates>
       <x>940</x>
       <y>320</y>
-      <w>150</w>
+      <w>160</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -435,9 +435,9 @@ zulässig</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>950</x>
+      <x>930</x>
       <y>390</y>
-      <w>120</w>
+      <w>140</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>Fehlermeldung erscheint
@@ -603,7 +603,7 @@ bg=red</panel_attributes>
       <w>290</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Befindet sich im "Detail Design" Dialog
+    <panel_attributes>Befindet sich im "Design Details" Dialog
 und wählt aus folgenden Aktionen
 a8400</panel_attributes>
     <additional_attributes/>

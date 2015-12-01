@@ -146,7 +146,8 @@ a0206</panel_attributes>
       <h>77</h>
     </coordinates>
     <panel_attributes>Zeigt dem Interessenten
-eine Kaufbestätigung an
+eine Kaufbestätigung mit
+Kontaktdaten des Verkäufers an
 (Pop-Up Fenster)
 a2100</panel_attributes>
     <additional_attributes/>
@@ -305,9 +306,9 @@ eingeloggt</panel_attributes>
       <w>209</w>
       <h>66</h>
     </coordinates>
-    <panel_attributes>Zeigt dem Interesseten die
+    <panel_attributes>Zeigt dem Interessenten die
 Login Seite an, die auch einen Link
-zur Registrierung besitzt
+zur Registrierung beinhaltet
 a0300</panel_attributes>
     <additional_attributes/>
   </element>
@@ -316,7 +317,7 @@ a0300</panel_attributes>
     <coordinates>
       <x>825</x>
       <y>330</y>
-      <w>220</w>
+      <w>231</w>
       <h>143</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
