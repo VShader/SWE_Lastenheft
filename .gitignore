@@ -6,3 +6,5 @@
 *.gz
 *.pdf_tex
 *.bat
+*.sh
+*.ps1
