@@ -518,9 +518,9 @@ a302</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>352</x>
+      <x>330</x>
       <y>77</y>
-      <w>88</w>
+      <w>110</w>
       <h>55</h>
     </coordinates>
     <panel_attributes>Klickt im Popup
@@ -557,10 +557,10 @@ a3201</panel_attributes>
     <coordinates>
       <x>297</x>
       <y>88</y>
-      <w>77</w>
+      <w>55</w>
       <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0</additional_attributes>
   </element>
 </diagram>

@@ -134,7 +134,7 @@ Einige Buttons können je nach Implementation für ein bestimmtes Betriebssystem
 Die Funktionalität muss jedoch erhalten bleiben. 
 Benutzereingaben müssen vom System kontrolliert werden.
 Bei einer falschen Eingabe muss von dem System ein entsprechender Hinweis in Form eines Pop-ups angezeigt werden, das der Benutzer bestätigen muss.
-Diese Kontrolle des Systems wurde aus Gründen der Übersichtlichkeit in den Aktivitätsdiagrammen nicht berücksichtigt, muss aber umgesetzt werden, sobald Benutzereingaben benötigt werden.
+Diese Kontrolle des Systems wurde aus Gründen der Übersichtlichkeit in den Aktivitätsdiagrammen nicht dargestellt, muss aber umgesetzt werden, sobald Eingaben vom Benutzer getätigt werden.
 
 
 \subsubsection{Aktivität u00 - Starten der Software}
@@ -155,7 +155,7 @@ Nach erfolgreichem Starten der Software muss dem Benutzer die Startseite angezei
 Auf der Startseite müssen folgende Informationen angezeigt werden:
 \begin{itemize}
 	\item Eine Anzeige mit einem Namen, der aus maximal 100 Zeichen bestehen darf
-	\item Ein Button, der ein Angebot ablehnt und somit Desinteresse zeigt
+	\item Ein Button, der eine Anzeige ablehnt und somit Desinteresse zeigt
 	\item Ein Bild der Anzeige, welches beim Drücken zur Detailansicht führt
 	\item Der Preis der Anzeige
 	\item Eine Navigationsleiste mit Button, welcher das Menü aufruft
@@ -180,9 +180,9 @@ In der Detailansicht eines Angebots müssen dem Benutzer folgende Details angeze
 	\item 0-10 Bilder des Angebots
 	\item Modular designbare Elemente (Bild, Liste, Text)
 	\item Angebotsbeschreibung (bis zu [X] Zeichen)
-	\item Entfernung vom Standpunkt des Benutzers zum Angebot
+	\item Entfernung vom Standpunkt des Benutzers zu der Anzeige
 \end{itemize}
-Der Benutzer muss das Angebot ablehnen können oder dem Verkäufer sein Interesse melden können.
+Der Benutzer muss die Anzeige ablehnen können oder dem Verkäufer sein Interesse melden können.
 Der Button zum Ablehnen eines Angebots muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
 Nachdem der Benutzer Interesse gemeldet hat, muss ein Pop-up mit den Kontaktdaten des Verkäufers erscheinen und die Anzeige muss der Interessenliste des Benutzers hinzugefügt werden.
 Das Pop-up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
@@ -249,26 +249,26 @@ Das System muss, je nach Auswahl des Administrator, den zu verwaltenden Benutzer
 \FloatBarrier
 
 
-\subsubsection{Aktivität u06 – Interessen Liste}
+\subsubsection{Aktivität u06 – Interessen verwalten}
 Der Benutzer muss die Möglichkeit haben, über das Menü eine Liste der Anzeigen aufzurufen, für die er Interesse gemeldet hat (\hyperlink{u02}{a0204}).
-Sollte ein Verkäufer eine Anzeige aus der Datenbank entfernen, so darf diese bei keinem Benutzer mehr in der Interessen Liste aufgelistet werden.
-Der Benutzer muss ein Angebot aus der Liste auswählen können und das System muss ihm daraufhin erneut die Detailansicht der Anzeige anzeigen, von der aus der Benutzer erneut die Kontaktdaten des Verkäufers erhalten können muss.
+Sollte ein Verkäufer eine Anzeige aus der Datenbank entfernen, so darf diese bei keinem Benutzer mehr in der Interessenliste aufgelistet werden.
+Der Benutzer muss eine Anzeige aus der Liste auswählen können und das System muss ihm daraufhin erneut die Detailansicht der Anzeige anzeigen, von der aus der Benutzer erneut die Kontaktdaten des Verkäufers erhalten können muss.
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u06}
-\caption{Interessen Liste}
+\caption{Interessen verwalten}
 \end{figure}
 \FloatBarrier
 
 
-\subsubsection{Aktivität u07 – Einstellungen}
+\subsubsection{Aktivität u07 – Einstellungen vornehmen}
 Der Benutzer muss über das Menü die Seite „Einstellungen“ aufrufen können.
 Auf dieser Seite muss der Benutzer folgende Einstellungen vornehmen können:
 \begin{itemize}
 	\item Ändern des Benutzerpasswortes (Durch zweimalige Eingabe als Kontrolle)
-	\item Filterung der angezeigten Angebote (\hyperlink{u08}{Aktivität u08})
-	\item Radius, indem sich Angebote befinden können
+	\item Filterung der angezeigten Angebote
+	\item Radius, in dem sich Angebote befinden können
 \end{itemize}
 
 \begin{figure}[!htbp]
@@ -285,10 +285,10 @@ Er muss eine neue Anzeige mit der zugehörigen Titelseite und Detailansicht erst
 Für die Titelseite muss der Benutzer ein Bild hochladen können und eine Artikelbezeichnung eingeben können. 
 Ein weiterer Button „Details editieren" muss den Benutzer auf die nächste Seite leiten, auf der er die Detailansicht erstellen können muss. 
 Die Detailansicht ist modular aufgebaut. Das bedeutet, der Benutzer muss aus einzelnen Modulen wählen können und diese der Detailansicht hinzufügen können.
-Bevor das Erstellen vollendet ist, muss der Benutzer auf der Detailseite einen Ort, Preis und Menge angeben.
+Bevor der Benutzer die Erstellung beenden kann, muss er auf der Detailseite einen Ort, Preis und Menge angeben.
 Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „Anzeigen verwalten“ zu gelangen.
 Nachdem der Benutzer eine Anzeige erstellt hat, muss die Anzeige vom System in die Datenbank eingefügt werden.
-Anschließend muss der Benutzer zurück auf die Seite „Anzeigen verwalten“ gelangen. 
+Anschließend muss der Benutzer zurück auf die Seite „Anzeigen verwalten“ geleitet werden. 
 Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer die folgenden Elemente frei kombinieren können:
 
 \begin{itemize}
@@ -493,11 +493,11 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
-\subsubsection{Dialog a0600 – Interessen Liste}
+\subsubsection{Dialog a0600 – Interessenliste}
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0600}
-\caption{Interessen Liste}
+\caption{Interessenliste}
 \end{figure}
 \FloatBarrier
 
@@ -626,17 +626,18 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \section{Produktdaten}
 \subsection{Mengengerüst}
 
-\subsubsection*{MENGE\_001 - Benutzeranzahl}
+\subsubsection*{Benutzeranzahl}
 \begin{itemize}
-	\item Mit der Software müssen mindestens 300 Personen gleichzeitig arbeiten können. 
-	\item Jedem Benutzer muss mindestens 100 MB Speicherplatz zur Verfügung gestellt werden. 
+	\item Mit der finalen Software müssen mindestens 300 Personen gleichzeitig arbeiten können. 
+	\item Für eine reale Benutzung muss jedem registrierten Benutzer mindestens 100 MB Speicherplatz zur Verfügung gestellt werden. 
 \end{itemize}
 
-\subsubsection*{MENGE\_002 - Anzahl der Vorgänge }
+\subsubsection*{Anzahl der Vorgänge}
 \begin{itemize}
-	\item Pro Tag müssen mindestens 25.000 Anzeigen erstellt werden können. 
-	\item Pro Tag müssen mindestens 2.500.000 Anzeigen angesehen werden können.
+	\item Pro Tag müssen mit der finalen Version der Software und geeignetem Server mindestens 25.000 Anzeigen erstellt werden können. 
+	\item Pro Tag müssen mit der finalen Version der Software und geeignetem Server mindestens 2.500.000 Anzeigen angesehen werden können.
 \end{itemize}
+Im Rahmen dieses Praktikums muss der Prototyp für die finale Software entwickelt werden.
 
 
 \subsection{Vorgaben für Hardware, Software, Schnittstellen}
@@ -647,7 +648,7 @@ Da der Quellcode auch mit älteren Android Versionen (ab 3.x) und anderen Betrie
 Optimierung für genaue Modelle ist nicht gefordert.
 
 \subsubsection*{Server}
-Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert.
+Auf dem Server werden die Benutzerdaten und Verkaufsdaten in einer Datenbank gespeichert und, soweit technisch möglich, vor Manipulation und Angriffen geschützt.
 Die Benutzerdaten werden nicht an Dritte weitergegeben.
 Der Server muss über folgende Ausstattungsmerkmale verfügen:
 \begin{itemize}
@@ -659,7 +660,7 @@ Der Server muss über folgende Ausstattungsmerkmale verfügen:
 
 \subsubsection*{Client}
 Der Client muss eine ständige Verbindung zum Internet besitzen.
-Die Client Applikation muss auf einem Android Smartphone mit Android 5.0 lauffähig sein.
+Die Client Applikation (Prototyp) muss auf einem Android Smartphone mit Android 5.0 lauffähig sein.
 
 %\textbf{Galaxy Note 2}
 %\begin{itemize}
@@ -686,7 +687,7 @@ Der Server muss innerhalb von 5 Sekunden nach Erhalt einer Anfrage der Clients a
 Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. 
 Die RTT "`Round Trip Time"' zwischen Client Anfrage und Server Antwort darf 10 Sekunden nicht überschreiten.
 Ist die RTT größer als 10 Sekunden, gilt die Anfrage als fehlgeschlagen.
-In diesem Fall muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden, mit der Möglichkeit, die Anfrage zu wiederholen. 
+In diesem Fall muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden, mit der Möglichkeit, die Anfrage zu wiederholen oder abzubrechen. 
 
 
 
@@ -695,7 +696,7 @@ In diesem Fall muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werd
 Die erstellte Software ist ein Prototyp für ein Konzept und nicht für den realen Einsatz gedacht.
 %Weder wird auf Datenschutzbestimmung Rücksicht genommen noch auf etwaige Schäden an Hard- und Software.
 %Für diese Haftet alleine der Benutzer.
-Alle Funktionen des Prototypen sind auf andere Plattformen, sofern technisch möglich, verfügbar.
+Alle Funktionen des Prototypen sind auf anderen Plattformen, sofern technisch möglich, verfügbar.
 
 
 \subsection{Bedienbarkeit, Zuverlässigkeit, Effizienz}
@@ -739,7 +740,6 @@ Die ID ist solange gültig, bis der Benutzer sich abmeldet oder der Server die S
 Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
 Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern, was mittels Autorisierung sichergestellt wird.
 Der System-Administratoristrator hat Zugriff auf alle Daten dieser Datenbank, da er die Datenbank verwaltet. 
-
 Die Software soll unter Einhaltung des BSI-Grundschutzes erstellt werden. 
 
 
