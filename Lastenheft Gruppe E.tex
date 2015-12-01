@@ -5,8 +5,7 @@
 \usepackage{graphicx}
 \usepackage[section]{placeins}
 
-
-\title{Gruppe E Lastenheft V0.5}
+\title{Gruppe E Lastenheft V0.6}
 
 \begin{document}
 \maketitle
@@ -68,7 +67,7 @@ Der Benutzer muss:
 	\item sofern er eingeloggt ist: 
 	\begin{itemize}
 		\item dem Anbieter, via Detailansicht der Anzeige, sein Interesse bekunden können
-		\item eine Anzeige einstellen könne	
+		\item eine Anzeige einstellen können	
 	\end{itemize}
 \end{itemize}
 
@@ -229,7 +228,7 @@ Die Einloggen-Seite muss außerdem einen Link zur Registrieren-Seite enthalten.
 
 
 \subsubsection{Aktivität u04 – Registrierung}
-Über den Menübutton muss der Benutzer die Möglichkeit haben, über den Eintrag "Einloggen" zunächst auf die Einloggen-Seite und von dort zur Registrieren-Seite zu gelangen.
+Über den Menübutton muss der Benutzer die Möglichkeit haben, über den Eintrag „Einloggen“ zunächst auf die Einloggen-Seite und von dort zur Registrieren-Seite zu gelangen.
 Anschließend muss dem Benutzer ein Formular zur Registrierung angezeigt werden, in das der Benutzer seine Daten eintragen können muss.
 Ein Button „Registrierung abschließen“ muss die Daten an das System leiten, welches die Korrektheit der Daten überprüfen muss.
 Das System muss prüfen, dass die E-Mail-Adresse noch nicht vorhanden ist, dass es sich dabei um eine theoretisch valide E-Mailadresse handelt und dass beide vom Benutzer eingegebenen Passwörter identisch sind.
@@ -250,31 +249,19 @@ Zur Registrierung müssen folgende Daten vom Benutzer eingegeben werden:
 Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrierung volljährig sein muss.
 
 
-\subsubsection{Aktivität u05 - [Platzhalter]}
 
+\subsubsection{Aktivität u05 - Benutzerverwaltung}
+Über den Menübutton muss der Admin die Möglichkeit haben, über den Eintrag „Benutzerverwaltung“ auf die Benutzerverwaltungs-Seite zu gelangen. 
+Dort muss jeder registrierte Benutzer in einer Liste angezeigt werden und der Admin die Möglichkeit haben, jeden einzelnen Benutzer löschen zu können, zu einem Premium-Benutzer aufzuwerten, wenn dieser ein normaler Benutzer ist und zu einem normalen Benutzer abzuwerten, wenn dieser ein Premium-Benutzer ist. 
+Bei jeder dieser Aktionen muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Admin bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
+Das System muss, je nach Auswahl des Admin, den zu verwaltenden Benutzer in der Datenbank ändern.
 
-%\subsubsection{Aktivität u05 – Artikel ablehnen}
-%Der Benutzer muss auf dem Startbildschirm und in der Detailansicht einen Artikel ablehnen können, der ihm nicht gefällt. Dieser Artikel darf dem Benutzer nicht wieder angezeigt werden.
-%Siehe \hyperlink{u01}{Aktivität u01} und \hyperlink{u05}{Aktivität u05}.
-%
-%\hypertarget{u05}{\subsubsection{Aktivität u05 – Detailansicht}}
-%In der Detailansicht eines Artikel müssen dem Benutzer folgende Details eines Artikels angezeigt werden:
-%\begin{itemize}
-%	\item Artikelname (bis zu 100 Zeichen)
-%	\item Artikelpreis
-%	\item 1-3 Bilder des Artikels
-%	\item Artikelbeschreibung (bis zu [X] Zeichen)
-%	\item Entfernung vom Standpunkt des Benutzers zum Artikel
-%\end{itemize}
-%Der Benutzer muss den Artikel ablehnen können oder dem Verkäufer sein Interesse melden können. Dies muss über zwei Buttons realisiert werden. Der Button zum Ablehnen eines Artikels muss sich unten rechts befinden und der Button, der Interesse bekundet, muss sich unten links befinden.
-%Nachdem der Benutzer Interesse gemeldet hat, muss ihn ein Pop-up darauf hinweisen, dass der Prozess erfolgreich war und dem Verkäufer eine E-Mail geschickt wurde. Das Pop-up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wieder auf die Startseite geleitet wird.
-
-%\begin{figure}[!htbp]
-%\centering
-%\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
-%\caption{Detailansicht eines Artikels}
-%\end{figure}
-%\FloatBarrier
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u05}
+\caption{Benutzerverwaltung}
+\end{figure}
+\FloatBarrier
 
 
 \subsubsection{Aktivität u06 – Interessen Liste}
@@ -317,7 +304,7 @@ Bevor das Erstellen vollendet ist, muss der Benutzer auf der Detailseite einen O
 Ebenso muss die Möglichkeit bestehen, den Vorgang des Erstellens zu unterbrechen und zurück auf die Seite „Anzeigen verwalten“ zu gelangen.
 Nachdem der Benutzer eine Anzeige erstellt hat, muss die Anzeige vom System in die Datenbank eingefügt werden.
 Anschließend muss der Benutzer zurück auf die Seite „Anzeigen verwalten“ gelangen. 
-Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer die folgenden Elementen frei kombinieren können:
+Bei der Erstellung der Detailansicht für eine neue Anzeige muss der Benutzer die folgenden Elemente frei kombinieren können:
 
 \begin{itemize}
 	\item Bildelement, das das Hochladen eines Bildes ermöglicht
@@ -332,28 +319,28 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u08}
-\caption{neue Anzeige einstellen}
+\caption{meine Anzeigen}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u81}
-\caption{Menü}
+\caption{neue Anzeige einstellen}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u84}
-\caption{Menü}
+\caption{Detaildesign 1}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u84_2}
-\caption{Menü}
+\caption{Detaildesign 2}
 \end{figure}
 \FloatBarrier
 
@@ -364,7 +351,18 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \end{figure}
 \FloatBarrier
 
-\subsubsection{Aktivität u09 - [Platzhalter]}
+\subsubsection{Aktivität u09 - Anzeigenverwaltung}
+Über den Menübutton muss der Admin die Möglichkeit haben, über den Eintrag „Anzeigenverwaltung“ auf die Anzeigenverwaltungs-Seite zu gelangen. 
+Dort muss jede eingestellte Anzeige in einer Liste angezeigt werden und der Admin die Möglichkeit haben, jede einzelne Anzeige löschen zu können. 
+Bei dieser Aktion muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Admin bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
+Das System muss, die ausgewählte Anzeige aus der Datenbank löschen.
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u09}
+\caption{Anzeigenverwaltung}
+\end{figure}
+\FloatBarrier
 
 \subsubsection{Aktivität u10 – Menü}
 Der Benutzer muss über das Menü:
@@ -391,6 +389,23 @@ Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Aktivität u11 – Admin Menü}
+Der Admin muss über das Menü:
+
+\begin{enumerate}
+	\item „Startseite“ aufrufen können. Das System muss den Admin auf die Startseite führen.
+	\item „Anzeigenverwaltung“ aufrufen können. Das System muss den Admin auf die Anzeigenverwaltung führen.
+	\item „Benutzerverwaltung“ aufrufen können. Das System muss den Admin auf die Benutzerverwaltung führen.
+	\item „Login/Logut“ aufrufen können. Das System muss den Amdin auf die Benutzerverwaltung einloggen/ausloggen.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Diagramme/Aktivitaet_u11}
+\caption{Menü}
+\end{figure}
+\FloatBarrier
+
 
 \subsection{Eingabe/Ausgabe detailliert}
 Die folgenden Wireframes sind grobe Beispiele und geben nicht das genaue Design der späteren Software wieder.
@@ -412,6 +427,15 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Pop-Up a0002}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0000p}
+\caption{Pop-Up a0002}
+\end{figure}
+\FloatBarrier
+
+
 \subsubsection{Dialog a0100 – Startseite}
 \begin{figure}[!htbp]
 \centering
@@ -428,6 +452,14 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Pop-Up a2100 – a2200}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0200p}
+\caption{Pop-Up a2100 – a2200}
+\end{figure}
+\FloatBarrier
+
 \subsubsection{Dialog a0300 – Einloggen}
 \begin{figure}[!htbp]
 \centering
@@ -436,11 +468,43 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Pop-Up a3100 – a3200}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0300p}
+\caption{Pop-Up a3100 – a3200}
+\end{figure}
+\FloatBarrier
+
 \subsubsection{Dialog a0400 – Registrieren}
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0400}
 \caption{Registrieren}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Pop-Up a4100}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0400p}
+\caption{Pop-Up a4100}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Dialog a0500 – Benutzer Verwaltung}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0500}
+\caption{Benutzer Verwaltung}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Pop-Up a5100 – a5300}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0500p}
+\caption{Pop-Up a5100 – a5300}
 \end{figure}
 \FloatBarrier
 
@@ -460,11 +524,27 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Pop-Up a7100 – a7200}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0700p}
+\caption{Pop-Up a7100 – a7200}
+\end{figure}
+\FloatBarrier
+
 \subsubsection{Dialog a0800 – eingestellte Anzeigen Liste}
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0800}
 \caption{eingestellte Anzeigen Liste}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Pop-Up a8900}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8900p}
+\caption{Pop-Up a8900}
 \end{figure}
 \FloatBarrier
 
@@ -476,11 +556,27 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Pop-Up a8600}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8100p}
+\caption{Pop-Up a8600}
+\end{figure}
+\FloatBarrier
+
 \subsubsection{Dialog a8300 – Detailansicht editieren}
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8300}
 \caption{Detailansicht editieren}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Pop-Up a8700}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8700p}
+\caption{Pop-Up a8700}
 \end{figure}
 \FloatBarrier
 
@@ -492,11 +588,35 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Pop-Up a8800}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8800p}
+\caption{Pop-Up a8800}
+\end{figure}
+\FloatBarrier
+
 \subsubsection{Dialog a8500 – „add Item“ Menü}
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a8500}
 \caption{„add Item“ Menü}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Dialog a0900 – Anzeigenverwaltung}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a0900}
+\caption{Anzeigenverwaltung}
+\end{figure}
+\FloatBarrier
+
+\subsubsection{Pop-Up a9100}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a9100}
+\caption{Pop-Up a9100}
 \end{figure}
 \FloatBarrier
 
@@ -508,10 +628,18 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
+\subsubsection{Dialog a1100 – Admin Menü}
+\begin{figure}[!htbp]
+\centering
+\noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a1100}
+\caption{Admin Menü}
+\end{figure}
+\FloatBarrier
+
+
 
 \section{Produktdaten}
 \subsection{Mengengerüst}
-Anforderungen aufgrund des Mengengerüsts. 
 
 \subsubsection*{MENGE\_001 - Benutzeranzahl}
 \begin{itemize}
@@ -573,7 +701,7 @@ Der Server muss innerhalb von 5 Sekunden nach Erhalt einer Anfrage der Clients a
 Dem Benutzer muss bei Wartezeiten eine Warteanzeige abhängig des jeweiligen Betriebssystems angezeigt werden. 
 Die RTT "`Round Trip Time"' zwischen Client Anfrage und Server Antwort darf 10 Sekunden nicht überschreiten.
 Ist die RTT größer als 10 Sekunden, gilt die Anfrage als fehlgeschlagen.
-In diesem Fall muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden, mit der Möglichkeit, die Anfrage zu wiederhole. 
+In diesem Fall muss dem Benutzer eine ausführliche Fehlermeldung angezeigt werden, mit der Möglichkeit, die Anfrage zu wiederholen. 
 
 
 
@@ -622,7 +750,7 @@ Auch die Integrität sollte nicht beeinträchtigt sein.
 \subsubsection{Anforderungen an den Schutz der Systemumgebung und an den Schutz des Systems}
 Jeder Benutzer des Systems muss sich bei der Anmeldung am Server über die Applikation mittels E-Mail und Passwort authentifizieren.
 Der Server erstellt für die weiteren Sitzungen eine eindeutige ID, mit der sich die Client Applikation im weiteren Verlauf der Benutzung bei jeder Aktion am Server autorisiert.
-DIe ID ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
+Die ID ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
 Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
 Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern, was mittels Autorisierung sichergestellt wird.
 Der System-Administrator hat Zugriff auf alle Daten dieser Datenbank, da er die Datenbank verwaltet. 

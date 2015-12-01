@@ -248,7 +248,7 @@ a0801</panel_attributes>
     </coordinates>
     <panel_attributes>"Sind Sie sicher?"
 (Pop-Up Fenster)
-a8501</panel_attributes>
+a8901</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -364,7 +364,7 @@ a8100</panel_attributes>
     <panel_attributes>bittet den Benutzer
 um eine Bestätigung
 (Pop-Up Fenster)
-a8500</panel_attributes>
+a8900</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
