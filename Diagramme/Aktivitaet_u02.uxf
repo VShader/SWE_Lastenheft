@@ -294,8 +294,8 @@ type=decision
       <h>143</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Benutzer ist nicht
-eingeloggt</panel_attributes>
+[Benutzer ist nicht
+eingeloggt]</panel_attributes>
     <additional_attributes>10.0;110.0;10.0;10.0;130.0;10.0</additional_attributes>
   </element>
   <element>
@@ -317,12 +317,12 @@ a0300</panel_attributes>
     <coordinates>
       <x>825</x>
       <y>330</y>
-      <w>231</w>
+      <w>220</w>
       <h>143</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-benutzer ist
-eingeloggt</panel_attributes>
+[Benutzer ist
+eingeloggt]</panel_attributes>
     <additional_attributes>130.0;110.0;130.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
