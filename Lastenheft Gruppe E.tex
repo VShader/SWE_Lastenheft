@@ -236,10 +236,10 @@ Es muss außerdem ein Hinweis angezeigt werden, dass der Benutzer zur Registrier
 
 
 \subsubsection{Aktivität u05 - Benutzerverwaltung}
-Über den Menübutton muss der Admin die Möglichkeit haben, über den Eintrag „Benutzerverwaltung“ auf die Benutzerverwaltungs-Seite zu gelangen. 
-Dort muss jeder registrierte Benutzer in einer Liste angezeigt werden und der Admin die Möglichkeit haben, jeden einzelnen Benutzer löschen zu können, zu einem Premium-Benutzer aufzuwerten, wenn dieser ein normaler Benutzer ist und zu einem normalen Benutzer abzuwerten, wenn dieser ein Premium-Benutzer ist. 
-Bei jeder dieser Aktionen muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Admin bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
-Das System muss, je nach Auswahl des Admin, den zu verwaltenden Benutzer in der Datenbank ändern.
+Über den Menübutton muss der Administrator die Möglichkeit haben, über den Eintrag „Benutzerverwaltung“ auf die Benutzerverwaltungs-Seite zu gelangen. 
+Dort muss jeder registrierte Benutzer in einer Liste angezeigt werden und der Administrator die Möglichkeit haben, jeden einzelnen Benutzer löschen zu können, zu einem Premium-Benutzer aufzuwerten, wenn dieser ein normaler Benutzer ist und zu einem normalen Benutzer abzuwerten, wenn dieser ein Premium-Benutzer ist. 
+Bei jeder dieser Aktionen muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Administrator bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
+Das System muss, je nach Auswahl des Administrator, den zu verwaltenden Benutzer in der Datenbank ändern.
 
 \begin{figure}[!htbp]
 \centering
@@ -337,9 +337,9 @@ Ein nachträgliches Löschen ist über einen X-Button möglich, der in der obere
 \FloatBarrier
 
 \subsubsection{Aktivität u09 - Anzeigenverwaltung}
-Über den Menübutton muss der Admin die Möglichkeit haben, über den Eintrag „Anzeigenverwaltung“ auf die Anzeigenverwaltungs-Seite zu gelangen. 
-Dort muss jede eingestellte Anzeige in einer Liste angezeigt werden und der Admin die Möglichkeit haben, jede einzelne Anzeige löschen zu können. 
-Bei dieser Aktion muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Admin bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
+Über den Menübutton muss der Administrator die Möglichkeit haben, über den Eintrag „Anzeigenverwaltung“ auf die Anzeigenverwaltungs-Seite zu gelangen. 
+Dort muss jede eingestellte Anzeige in einer Liste angezeigt werden und der Administrator die Möglichkeit haben, jede einzelne Anzeige löschen zu können. 
+Bei dieser Aktion muss ein Hinweis in Form eines Pop-Ups erscheinen, der vom Administrator bestätigt werden muss um den Vorgang an das System weiterzuleiten. 
 Das System muss, die ausgewählte Anzeige aus der Datenbank löschen.
 
 \begin{figure}[!htbp]
@@ -374,14 +374,14 @@ Der Benutzer muss, wenn er eingeloggt ist, über das Menü:
 \end{figure}
 \FloatBarrier
 
-\subsubsection{Aktivität u11 – Admin Menü}
-Der Admin muss über das Menü:
+\subsubsection{Aktivität u11 – Administrator Menü}
+Der Administrator muss über das Menü:
 
 \begin{enumerate}
-	\item „Startseite“ aufrufen können. Das System muss den Admin auf die Startseite führen.
-	\item „Anzeigenverwaltung“ aufrufen können. Das System muss den Admin auf die Anzeigenverwaltung führen.
-	\item „Benutzerverwaltung“ aufrufen können. Das System muss den Admin auf die Benutzerverwaltung führen.
-	\item „Login/Logut“ aufrufen können. Das System muss den Amdin auf die Benutzerverwaltung einloggen/ausloggen.
+	\item „Startseite“ aufrufen können. Das System muss den Administrator auf die Startseite führen.
+	\item „Anzeigenverwaltung“ aufrufen können. Das System muss den Administrator auf die Anzeigenverwaltung führen.
+	\item „Benutzerverwaltung“ aufrufen können. Das System muss den Administrator auf die Benutzerverwaltung führen.
+	\item „Login/Logout“ aufrufen können. Das System muss den Administrator auf die Benutzerverwaltung einloggen/ausloggen.
 \end{enumerate}
 
 \begin{figure}[!htbp]
@@ -613,11 +613,11 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 \end{figure}
 \FloatBarrier
 
-\subsubsection{Dialog a1100 – Admin Menü}
+\subsubsection{Dialog a1100 – Administrator Menü}
 \begin{figure}[!htbp]
 \centering
 \noindent\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{Dialoge/a1100}
-\caption{Admin Menü}
+\caption{Administrator Menü}
 \end{figure}
 \FloatBarrier
 
@@ -643,7 +643,7 @@ Im folgenden Verlauf werden häufiger Aktivitäten mit kleinen Icons versehen, u
 Die Applikation wird in zwei Teile unterteilt.
 Ein Teil ist ein PHP-Server mit einer SQL Datenbank, der Andere, die Client Applikation die auf allen Endgeräten installiert wird.
 Der Prototyp, der nachher an den Kunden ausgeliefert wird, muss für Android 5.0 entwickelt werden. 
-Da der Source Code auch mit älteren Android Versionen (ab 3.x) und anderen Betriebssystemen (iOS, WinRT und Windows) kompatibel ist, kann der Prototyp mit geringem Aufwand auf andere Plattformen portiert werden.
+Da der Quellcode auch mit älteren Android Versionen (ab 3.x) und anderen Betriebssystemen (iOS, WinRT und Windows) kompatibel ist, kann der Prototyp mit geringem Aufwand auf andere Plattformen portiert werden.
 Optimierung für genaue Modelle ist nicht gefordert.
 
 \subsubsection*{Server}
@@ -738,7 +738,7 @@ Der Server erstellt für die weiteren Sitzungen eine eindeutige ID, mit der sich
 Die ID ist solange gültig, bis der Benutzer sich abmeldet oder der Server die Sitzung beendet.
 Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
 Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern, was mittels Autorisierung sichergestellt wird.
-Der System-Administrator hat Zugriff auf alle Daten dieser Datenbank, da er die Datenbank verwaltet. 
+Der System-Administratoristrator hat Zugriff auf alle Daten dieser Datenbank, da er die Datenbank verwaltet. 
 
 Die Software soll unter Einhaltung des BSI-Grundschutzes erstellt werden. 
 
