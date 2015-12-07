@@ -288,7 +288,7 @@ a8110</panel_attributes>
     <coordinates>
       <x>649</x>
       <y>440</y>
-      <w>165</w>
+      <w>154</w>
       <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -301,7 +301,7 @@ sind erfüllt</panel_attributes>
     <coordinates>
       <x>781</x>
       <y>440</y>
-      <w>209</w>
+      <w>198</w>
       <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -388,7 +388,7 @@ a8101</panel_attributes>
     <coordinates>
       <x>682</x>
       <y>627</y>
-      <w>132</w>
+      <w>121</w>
       <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -401,7 +401,7 @@ die Anforderungen</panel_attributes>
     <coordinates>
       <x>814</x>
       <y>627</y>
-      <w>187</w>
+      <w>176</w>
       <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
