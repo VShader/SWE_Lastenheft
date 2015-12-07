@@ -531,7 +531,7 @@ a8400</panel_attributes>
       <x>90</x>
       <y>30</y>
       <w>460</w>
-      <h>910</h>
+      <h>620</h>
     </coordinates>
     <panel_attributes>Benutzer
 valign=top</panel_attributes>
@@ -543,7 +543,7 @@ valign=top</panel_attributes>
       <x>550</x>
       <y>30</y>
       <w>620</w>
-      <h>910</h>
+      <h>620</h>
     </coordinates>
     <panel_attributes>System
 valign=top</panel_attributes>
