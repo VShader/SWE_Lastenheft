@@ -23,7 +23,8 @@ Die Realisierung der Software übernimmt eine Gruppe von 8 Bachelor-Studenten au
 \section{Zeit- und Budgetrahmen}
 Die Webanwendung „Quick Deal“ wird im Rahmen der Lehrveranstaltung „Software Engineering“ im Fachsemester 5 Studiengang “Angewandte Informatik” an der Fachhochschule Aachen erstellt.
 Durch die vorgegebenen ECTS-Punkte für das Praktikum (3 ECTS-Punkte) ist bereits der zeitliche Rahmen vorgegeben.
-Daraus ergibt sich eine Arbeitszeit von 156 Stunden pro Person. Insgesamt werden 1248 Zeitstunden für das Projekt vorausgesetzt. 
+Daraus ergibt sich eine Arbeitszeit von 156 Stunden pro Person.
+Insgesamt werden 1248 Zeitstunden für das Projekt vorausgesetzt. 
 Davon werden wir 288 Stunden für die Vorbereitung, 480 Stunden für die Planung und 480 Stunden für die Implementierung veranschlagen. 
 Am 21.10.2015 fand das erste Gespräch mit dem Auftraggeber statt.
 Die erste Release-Version der Software soll am ??.01.2016 an den Kunden übergeben werden.
@@ -62,7 +63,6 @@ Diese Innovation bietet deshalb auch die Möglichkeit der Erschließung neuer M�
 \subsection{Anwendungsbereich}
 Der Benutzer muss:
 \begin{itemize}
-	\item die Webanwendung starten können
 	\item Nach dem Start die Startseite mit einer Anzeige, sowie deren Bild und Namen angezeigt werden 
 	\item auf der Startseite ein Menü auswählen können, über welches er sich einloggen oder registrieren kann 
 	\item die Möglichkeit haben, sein Passwort zurückzusetzen 
@@ -75,6 +75,12 @@ Der Benutzer muss:
 		\item dem Anbieter, via Detailansicht der Anzeige, sein Interesse bekunden können
 		\item eine Anzeige einstellen können	
 	\end{itemize}
+	
+	\item sofern er Administrator ist:
+	\begin{itemize}
+		\item die Benutzerverwaltung aufrufen können, um Benutzer zu editieren
+		\item die Anzeigenverwaltung aufrufen können, um Anzeigen zu entfernen
+ 	\end{itemize}
 \end{itemize}
 
 \begin{figure}[!htbp]
@@ -202,7 +208,7 @@ Das Pop-up-Fenster muss einen „OK“-Button enthalten, mit dem der Benutzer wi
 
 
 \subsubsection{Aktivität u03 – Einloggen}
-Über den Menübutton muss der Benutzer die Möglichkeit haben, auf einen Eintrag „Einloggen“ klicken zu können.
+Über den Menübutton muss der Benutzer die Möglichkeit haben, über den Eintrag „Einloggen“ zunächst auf die Einloggen-Seite und von dort zu der Registrieren-Seite zu gelangen.
 Anschließend muss dem Benutzer eine Seite angezeigt werden, auf der der Benutzer sich mit seiner E-Mail-Adresse und seinem Passwort einloggen können muss.
 Der Benutzer muss außerdem die Möglichkeit haben, auf eine Schaltfläche „Passwort vergessen“ klicken zu können. Mit dieser Schaltfläche muss der Benutzer sein Passwort zurücksetzen können.
 Ist eine korrekte E-Mail-Adresse im Login-Feld eingegeben, so muss an diese E-Mail-Adresse eine E-Mail geschickt werden, die ein neues Passwort des Benutzers beinhaltet.
