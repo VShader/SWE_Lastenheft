@@ -29,7 +29,7 @@ fontsize=10
     <id>UMLObject</id>
     <coordinates>
       <x>27</x>
-      <y>27</y>
+      <y>0</y>
       <w>486</w>
       <h>1134</h>
     </coordinates>
@@ -41,7 +41,7 @@ valign=top</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>513</x>
-      <y>27</y>
+      <y>0</y>
       <w>612</w>
       <h>1134</h>
     </coordinates>
@@ -53,7 +53,7 @@ valign=top</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>297</x>
-      <y>54</y>
+      <y>27</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -64,7 +64,7 @@ valign=top</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>189</x>
-      <y>144</y>
+      <y>117</y>
       <w>261</w>
       <h>54</h>
     </coordinates>
@@ -77,7 +77,7 @@ a8400</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>297</x>
-      <y>63</y>
+      <y>36</y>
       <w>27</w>
       <h>81</h>
     </coordinates>
@@ -88,19 +88,19 @@ a8400</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>351</x>
-      <y>216</y>
+      <y>189</y>
       <w>126</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>Drückt auf Button "zurück"
-aXXXX</panel_attributes>
+a0801</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>270</x>
-      <y>189</y>
+      <y>162</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -111,7 +111,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>468</x>
-      <y>153</y>
+      <y>126</y>
       <w>396</w>
       <h>99</h>
     </coordinates>
@@ -122,7 +122,7 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>846</x>
-      <y>126</y>
+      <y>99</y>
       <w>162</w>
       <h>63</h>
     </coordinates>
@@ -130,14 +130,14 @@ aXXXX</panel_attributes>
 "Neuen Artikel einstellen" 
 zurückgeleitet
 (Alle Eingaben bleiben erhalten)
-aXXXX</panel_attributes>
+a8100</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>909</x>
-      <y>207</y>
+      <y>180</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -148,7 +148,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>909</x>
-      <y>180</y>
+      <y>153</y>
       <w>27</w>
       <h>45</h>
     </coordinates>
@@ -159,20 +159,20 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>351</x>
-      <y>378</y>
+      <y>351</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Drückt auf Button
 "Neues Element"
-aXXXX</panel_attributes>
+a8501</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>297</x>
-      <y>216</y>
+      <y>189</y>
       <w>540</w>
       <h>81</h>
     </coordinates>
@@ -183,7 +183,7 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>810</x>
-      <y>405</y>
+      <y>378</y>
       <w>117</w>
       <h>54</h>
     </coordinates>
@@ -197,7 +197,7 @@ a8500</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>396</x>
-      <y>414</y>
+      <y>387</y>
       <w>432</w>
       <h>36</h>
     </coordinates>
@@ -208,33 +208,33 @@ a8500</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>351</x>
-      <y>450</y>
+      <y>423</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Wählt ein Element
 aus der Liste aus
-aXXXX</panel_attributes>
+a8508</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>810</x>
-      <y>477</y>
+      <y>450</y>
       <w>117</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>Element wird an der
 untersten Stelle erzeugt
-aXXXX</panel_attributes>
+a8422</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>801</x>
-      <y>279</y>
+      <y>252</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -245,7 +245,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>729</x>
-      <y>288</y>
+      <y>261</y>
       <w>90</w>
       <h>72</h>
     </coordinates>
@@ -258,8 +258,8 @@ verfügbar</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>288</y>
-      <w>144</w>
+      <y>261</y>
+      <w>135</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -271,33 +271,33 @@ Slots übrig</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>846</x>
-      <y>342</y>
+      <y>315</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Deaktiviere Button
 "Neues Element"
-aXXXX</panel_attributes>
+a8421</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>693</x>
-      <y>342</y>
+      <y>315</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Aktiviere Button
 "Neues Element"
-aXXXX</panel_attributes>
+a8420</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>333</x>
-      <y>99</y>
+      <y>72</y>
       <w>378</w>
       <h>279</h>
     </coordinates>
@@ -308,7 +308,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>945</x>
-      <y>333</y>
+      <y>306</y>
       <w>108</w>
       <h>54</h>
     </coordinates>
@@ -319,7 +319,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>396</x>
-      <y>351</y>
+      <y>324</y>
       <w>369</w>
       <h>72</h>
     </coordinates>
@@ -330,7 +330,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>450</x>
-      <y>450</y>
+      <y>423</y>
       <w>441</w>
       <h>36</h>
     </coordinates>
@@ -341,7 +341,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>396</x>
-      <y>486</y>
+      <y>459</y>
       <w>432</w>
       <h>36</h>
     </coordinates>
@@ -352,35 +352,35 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>261</x>
-      <y>936</y>
+      <y>909</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Drückt auf Button
 "Nach oben 
 verschieben"
-aXXXX</panel_attributes>
+a8410</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>261</x>
-      <y>792</y>
+      <y>765</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Drückt auf Button
 "Nach unten 
 verschieben"
-aXXXX</panel_attributes>
+a8411</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>306</x>
-      <y>279</y>
+      <y>252</y>
       <w>531</w>
       <h>468</h>
     </coordinates>
@@ -391,7 +391,7 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>639</x>
-      <y>801</y>
+      <y>774</y>
       <w>117</w>
       <h>99</h>
     </coordinates>
@@ -402,14 +402,14 @@ und Deaktiviere Button
 "Nach oben 
 verschieben"
 für dieses Element
-aXXXX</panel_attributes>
+a8424</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>801</x>
-      <y>729</y>
+      <y>702</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -420,7 +420,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>684</x>
-      <y>738</y>
+      <y>711</y>
       <w>135</w>
       <h>81</h>
     </coordinates>
@@ -433,7 +433,7 @@ ganz oben</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>738</y>
+      <y>711</y>
       <w>171</w>
       <h>81</h>
     </coordinates>
@@ -446,7 +446,7 @@ ganz unten</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>765</x>
-      <y>810</y>
+      <y>783</y>
       <w>108</w>
       <h>99</h>
     </coordinates>
@@ -457,14 +457,14 @@ und Aktiviere Button
 "Nach oben 
 verschieben"
 für dieses Element
-aXXXX</panel_attributes>
+a8425</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>810</x>
-      <y>756</y>
+      <y>729</y>
       <w>72</w>
       <h>72</h>
     </coordinates>
@@ -478,7 +478,7 @@ Elementen</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>882</x>
-      <y>801</y>
+      <y>774</y>
       <w>117</w>
       <h>99</h>
     </coordinates>
@@ -489,14 +489,14 @@ und Deaktiviere Button
 "Nach unten 
 verschieben"
 für dieses Element
-aXXXX</panel_attributes>
+a8426</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>945</y>
+      <y>918</y>
       <w>198</w>
       <h>27</h>
     </coordinates>
@@ -507,7 +507,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>801</y>
+      <y>774</y>
       <w>234</w>
       <h>72</h>
     </coordinates>
@@ -518,7 +518,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>531</x>
-      <y>891</y>
+      <y>864</y>
       <w>423</w>
       <h>90</h>
     </coordinates>
@@ -529,7 +529,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>531</x>
-      <y>927</y>
+      <y>900</y>
       <w>234</w>
       <h>27</h>
     </coordinates>
@@ -540,7 +540,7 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>657</x>
-      <y>1008</y>
+      <y>981</y>
       <w>135</w>
       <h>81</h>
     </coordinates>
@@ -548,14 +548,14 @@ aXXXX</panel_attributes>
 Element eins nach oben 
 und das darüberliegende
 Element eins nach unten
-aXXXX</panel_attributes>
+a8427</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>828</x>
-      <y>1008</y>
+      <y>981</y>
       <w>144</w>
       <h>81</h>
     </coordinates>
@@ -563,14 +563,14 @@ aXXXX</panel_attributes>
 Element eins nach unten 
 und das darüberliegende
 Element eins nach oben
-aXXXX</panel_attributes>
+a8428</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>918</x>
-      <y>333</y>
+      <y>306</y>
       <w>153</w>
       <h>189</h>
     </coordinates>
@@ -581,7 +581,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>162</x>
-      <y>801</y>
+      <y>774</y>
       <w>747</w>
       <h>351</h>
     </coordinates>
@@ -592,7 +592,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>189</x>
-      <y>945</y>
+      <y>918</y>
       <w>567</w>
       <h>189</h>
     </coordinates>
@@ -603,7 +603,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>783</x>
-      <y>981</y>
+      <y>954</y>
       <w>36</w>
       <h>81</h>
     </coordinates>
@@ -614,7 +614,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>810</x>
-      <y>981</y>
+      <y>954</y>
       <w>36</w>
       <h>81</h>
     </coordinates>
@@ -625,7 +625,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>90</x>
-      <y>450</y>
+      <y>423</y>
       <w>531</w>
       <h>423</h>
     </coordinates>
@@ -636,7 +636,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>306</x>
-      <y>117</y>
+      <y>90</y>
       <w>27</w>
       <h>45</h>
     </coordinates>
@@ -647,7 +647,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>945</x>
-      <y>864</y>
+      <y>837</y>
       <w>90</w>
       <h>81</h>
     </coordinates>
@@ -658,7 +658,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>603</x>
-      <y>846</y>
+      <y>819</y>
       <w>117</w>
       <h>81</h>
     </coordinates>
@@ -669,7 +669,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>576</x>
-      <y>846</y>
+      <y>819</y>
       <w>189</w>
       <h>90</h>
     </coordinates>
@@ -680,47 +680,47 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>126</x>
-      <y>306</y>
+      <y>279</y>
       <w>135</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>Drückt auf Textfeld "Preis"
 und gibt eine Zahl ein
-aXXXX</panel_attributes>
+a8401</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>126</x>
-      <y>351</y>
+      <y>324</y>
       <w>135</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>Drückt auf Textfeld "Menge"
 und gibt eine Zahl ein
-aXXXX</panel_attributes>
+a8402</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>126</x>
-      <y>396</y>
+      <y>369</y>
       <w>135</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>Drückt auf Textfeld "Ort"
 und gibt den Namen 
 eines Ortes ein
-aXXXX</panel_attributes>
+a8403</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>252</x>
-      <y>279</y>
+      <y>252</y>
       <w>45</w>
       <h>63</h>
     </coordinates>
@@ -731,7 +731,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>252</x>
-      <y>279</y>
+      <y>252</y>
       <w>54</w>
       <h>108</h>
     </coordinates>
@@ -742,7 +742,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>252</x>
-      <y>279</y>
+      <y>252</y>
       <w>63</w>
       <h>162</h>
     </coordinates>
@@ -753,7 +753,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>90</x>
-      <y>315</y>
+      <y>288</y>
       <w>54</w>
       <h>27</h>
     </coordinates>
@@ -764,7 +764,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>90</x>
-      <y>360</y>
+      <y>333</y>
       <w>54</w>
       <h>27</h>
     </coordinates>
@@ -775,7 +775,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>90</x>
-      <y>414</y>
+      <y>387</y>
       <w>54</w>
       <h>27</h>
     </coordinates>
@@ -786,7 +786,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>324</x>
-      <y>279</y>
+      <y>252</y>
       <w>45</w>
       <h>279</h>
     </coordinates>
@@ -797,33 +797,33 @@ aXXXX</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>351</x>
-      <y>522</y>
+      <y>495</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Drückt auf Button
 "Anzeige erstellen"
-aXXXX</panel_attributes>
+a8404</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>558</x>
-      <y>522</y>
+      <y>495</y>
       <w>126</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Alle Elemente und
 Eingaben werden geprüft
-aXXXX</panel_attributes>
+a8423</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>450</x>
-      <y>531</y>
+      <y>504</y>
       <w>126</w>
       <h>27</h>
     </coordinates>
@@ -834,7 +834,7 @@ aXXXX</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>801</x>
-      <y>558</y>
+      <y>531</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -845,7 +845,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>675</x>
-      <y>531</y>
+      <y>504</y>
       <w>162</w>
       <h>45</h>
     </coordinates>
@@ -856,7 +856,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>612</x>
-      <y>567</y>
+      <y>540</y>
       <w>207</w>
       <h>72</h>
     </coordinates>
@@ -869,7 +869,7 @@ sind erfüllt</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>549</x>
-      <y>621</y>
+      <y>594</y>
       <w>144</w>
       <h>72</h>
     </coordinates>
@@ -877,14 +877,14 @@ sind erfüllt</panel_attributes>
 in der Datenbank gespeichert.
 Der Benutzer wird auf die
 "add item" Seite geleitet
-aXXXX</panel_attributes>
+a8405</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>711</x>
-      <y>648</y>
+      <y>621</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -895,7 +895,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>684</x>
-      <y>648</y>
+      <y>621</y>
       <w>45</w>
       <h>27</h>
     </coordinates>
@@ -906,8 +906,8 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>567</y>
-      <w>207</w>
+      <y>540</y>
+      <w>198</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -919,21 +919,21 @@ sind erfüllt</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>837</x>
-      <y>621</y>
+      <y>594</y>
       <w>144</w>
       <h>72</h>
     </coordinates>
     <panel_attributes>Fehlermeldung mit Hinweisen
 auf die Fehlerquellen wird 
 ausgegeben
-aXXXX</panel_attributes>
+a8406</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>972</x>
-      <y>333</y>
+      <y>306</y>
       <w>117</w>
       <h>342</h>
     </coordinates>
@@ -944,7 +944,7 @@ aXXXX</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>261</x>
-      <y>117</y>
+      <y>90</y>
       <w>90</w>
       <h>18</h>
     </coordinates>
@@ -956,7 +956,7 @@ aXXXX</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>1026</x>
-      <y>333</y>
+      <y>306</y>
       <w>81</w>
       <h>18</h>
     </coordinates>
@@ -968,7 +968,7 @@ aXXXX</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>774</x>
-      <y>981</y>
+      <y>954</y>
       <w>72</w>
       <h>18</h>
     </coordinates>
@@ -980,7 +980,7 @@ aXXXX</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>801</x>
-      <y>864</y>
+      <y>837</y>
       <w>261</w>
       <h>144</h>
     </coordinates>
@@ -991,7 +991,7 @@ aXXXX</panel_attributes>
     <id>UMLSyncBarVertical</id>
     <coordinates>
       <x>90</x>
-      <y>306</y>
+      <y>279</y>
       <w>18</w>
       <h>198</h>
     </coordinates>
@@ -1004,7 +1004,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>63</x>
-      <y>81</y>
+      <y>54</y>
       <w>234</w>
       <h>333</h>
     </coordinates>
@@ -1015,7 +1015,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>315</x>
-      <y>81</y>
+      <y>54</y>
       <w>774</w>
       <h>279</h>
     </coordinates>
@@ -1026,7 +1026,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarVertical</id>
     <coordinates>
       <x>531</x>
-      <y>918</y>
+      <y>891</y>
       <w>18</w>
       <h>63</h>
     </coordinates>
@@ -1039,7 +1039,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>558</x>
-      <y>846</y>
+      <y>819</y>
       <w>72</w>
       <h>18</h>
     </coordinates>
@@ -1051,7 +1051,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>1008</x>
-      <y>864</y>
+      <y>837</y>
       <w>72</w>
       <h>18</h>
     </coordinates>
@@ -1063,7 +1063,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1035</x>
-      <y>333</y>
+      <y>306</y>
       <w>72</w>
       <h>558</h>
     </coordinates>
@@ -1074,7 +1074,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarVertical</id>
     <coordinates>
       <x>738</x>
-      <y>909</y>
+      <y>882</y>
       <w>18</w>
       <h>36</h>
     </coordinates>
@@ -1087,7 +1087,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>738</x>
-      <y>891</y>
+      <y>864</y>
       <w>99</w>
       <h>54</h>
     </coordinates>
@@ -1098,7 +1098,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>252</x>
-      <y>216</y>
+      <y>189</y>
       <w>72</w>
       <h>18</h>
     </coordinates>
@@ -1110,7 +1110,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>306</x>
-      <y>216</y>
+      <y>189</y>
       <w>63</w>
       <h>45</h>
     </coordinates>
@@ -1121,7 +1121,7 @@ bg=red</panel_attributes>
     <id>UMLSyncBarHorizontal</id>
     <coordinates>
       <x>243</x>
-      <y>279</y>
+      <y>252</y>
       <w>108</w>
       <h>18</h>
     </coordinates>
@@ -1133,7 +1133,7 @@ bg=red</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>279</x>
-      <y>216</y>
+      <y>189</y>
       <w>27</w>
       <h>90</h>
     </coordinates>
