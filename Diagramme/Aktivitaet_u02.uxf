@@ -142,16 +142,16 @@ a2100</panel_attributes>
       <x>319</x>
       <y>209</y>
       <w>77</w>
-      <h>528</h>
+      <h>308</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;460.0;10.0;10.0;50.0;10.0</additional_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0;50.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
       <x>253</x>
-      <y>715</y>
+      <y>495</y>
       <w>154</w>
       <h>55</h>
     </coordinates>
@@ -163,44 +163,18 @@ a0201</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>726</y>
-      <w>462</w>
-      <h>33</h>
+      <x>319</x>
+      <y>539</y>
+      <w>660</w>
+      <h>275</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>400.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>580.0;230.0;580.0;200.0;10.0;200.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>836</x>
-      <y>693</y>
-      <w>220</w>
-      <h>77</h>
-    </coordinates>
-    <panel_attributes>Entfernt die Anzeige
-aus der Liste der Anzeigen,
-die dem Benutzer auf der Startseite
-angezeigt werden können.
-a0202</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>935</x>
-      <y>759</y>
-      <w>33</w>
-      <h>55</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>869</x>
+      <x>880</x>
       <y>792</y>
       <w>154</w>
       <h>55</h>
@@ -239,11 +213,11 @@ a2101</panel_attributes>
     <coordinates>
       <x>440</x>
       <y>649</y>
-      <w>451</w>
-      <h>198</h>
+      <w>539</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>390.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
+    <additional_attributes>470.0;130.0;470.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
@@ -323,7 +297,7 @@ eingeloggt]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>935</x>
+      <x>946</x>
       <y>836</y>
       <w>33</w>
       <h>66</h>
@@ -334,7 +308,7 @@ eingeloggt]</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>935</x>
+      <x>946</x>
       <y>880</y>
       <w>22</w>
       <h>22</h>
