@@ -27,7 +27,7 @@ Daraus ergibt sich eine Arbeitszeit von 156 Stunden pro Person.
 Insgesamt werden 1248 Zeitstunden für das Projekt vorausgesetzt. 
 Davon werden wir 288 Stunden für die Vorbereitung, 480 Stunden für die Planung und 480 Stunden für die Implementierung veranschlagen. 
 Am 21.10.2015 fand das erste Gespräch mit dem Auftraggeber statt.
-Die erste Release-Version der Software soll am ??.01.2016 an den Kunden übergeben werden.
+Die erste Release-Version der Software soll am 13.01.2016 an den Kunden übergeben werden.
 Die finale Version muss am 21.01.2016 dem Kunden vorliegen und bereit sein für die Vorführung.
 
 
@@ -137,6 +137,11 @@ Die Webanwendung muss folgende Funktionen zur Verfügung stellen:
 		\item Ablehnen einer Anzeige, sodass eine neue angezeigt wird
 	\end{enumerate}
 	\item Premium-Verkäufer, dessen Anzeigen priorisiert behandelt werden
+	\item Verwaltung durch einen Administrator
+	\begin{enumerate}
+		\item Verwaltung der Anzeigen (Löschen einzelner)
+		\item Benutzerverwaltung (Löschen, Premiumbenutzer abwerten und normalen Benutzer aufwerten)
+	\end{enumerate}
 \end{itemize}
 
 
@@ -788,7 +793,7 @@ Die ID ist solange gültig, bis der Benutzer sich abmeldet oder der Server die S
 Der Server hebt die Gültigkeit einer ID auf, wenn der Benutzer 12 Stunden nicht mehr aktiv war.
 Der Benutzer darf nur seine eigenen Daten und Anzeigen verändern, was mittels Autorisierung sichergestellt wird.
 Der System-Administrator hat Zugriff auf alle Daten dieser Datenbank, da er die Datenbank verwaltet.
-Die gesamte Software soll unter Einhaltung des BSI-Grundschutzes erstellt werden.
+Der Betrieb der Software ist angelehnt an den BSI-Grundschutz.
 
 
 
